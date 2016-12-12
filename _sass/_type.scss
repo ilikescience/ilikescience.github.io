@@ -1,0 +1,71 @@
+$t--base-size: 16px;
+$t--base-leading: 1.6;
+
+$t--family-sans: -apple-system,
+    blinkmacsystemfont,
+    'Segoe UI',
+    'Roboto',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    arial,
+    sans-serif;
+$t--family-serif: 'Times New Roman', times, serif;
+$t--family-mono:
+    menlo,
+    monaco,
+    consolas,
+    'Liberation Mono',
+    'Courier New',
+    monospace;
+
+/* font weights */
+$t--weight-bold: 700;
+$t--weight-normal: 400;
+$t--weight-light: 300;
+
+/* font sizes */
+$t--size-xxl: 4rem;
+$t--size-xl: 3rem;
+$t--size-l: 2rem;
+$t--size-m: 1rem;
+$t--size-s: 0.75rem;
+
+body {
+    font-family: $t--family-sans;
+    font-feature-settings: 'kern';
+    font-kerning: normal;
+    font-size: $t--base-size;
+    line-height: $t--base-leading;
+    color: $c--black;
+}
+
+a {
+    color: $c--blue;
+    text-decoration: underline;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.t--family-sans { font-family: $t--family-sans; }
+.t--family-serif { font-family: $t--family-serif; }
+.t--family-mono { font-family: $t--family-mono; }
+
+.t--size-xxl { font-size: $t--size-xxl; }
+.t--size-xl { font-size: $t--size-xl; }
+.t--size-l { font-size: $t--size-l; }
+.t--size-m { font-size: $t--size-m; }
+.t--size-s { font-size: $t--size-s; }
+
+.t--weight-bold { font-weight: $t--weight-bold; }
+.t--weight-normal { font-weight: $t--weight-normal; }
+.t--weight-light { font-weight: $t--weight-light; }
+
+.t--align-left { text-align: left; }
+.t--align-center { text-align: center; }
+.t--align-right { text-align: right; }

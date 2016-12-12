@@ -1,0 +1,37 @@
+/* black and white */
+$c--black: hsl(0, 0%, 20%);
+$c--white: hsl(0, 0%, 100%);
+
+/* gray */
+$c--gray: hsl(210, 7%, 50%);
+
+/* colors */
+$c--blue: hsl(208, 80%, 50%);
+$c--green: hsl(131, 50%, 50%);
+$c--yellow: hsl(52, 100%, 50%);
+$c--orange: hsl(28, 100%, 50%);
+$c--red: hsl(0, 100%, 50%);
+$c--purple: hsl(276, 75%, 50%);
+
+/* variants: gray */
+$c--gray-lighter: color($c--gray l(90%));
+$c--gray-light: color($c--gray l(70%));
+$c--gray-dark: color($c--gray l(35%));
+$c--gray-darker: color($c--gray l(20%));
+
+/* color utilities */
+.c--black { color: $c--black; }
+.c--white { color: $c--white; }
+.c--gray { color: $c--gray; }
+.c--blue { color: $c--blue; }
+.c--green { color: $c--green; }
+.c--yellow { color: $c--yellow; }
+.c--orange { color: $c--orange; }
+.c--red { color: $c--red; }
+.c--purple { color: $c--purple; }
+
+/* color variant utilities: gray */
+.c--gray-lighter { color: $c--gray-lighter; }
+.c--gray-light { color: $c--gray-light; }
+.c--gray-dark { color: $c--gray-dark; }
+.c--gray-darker { color: $c--gray-darker; }
