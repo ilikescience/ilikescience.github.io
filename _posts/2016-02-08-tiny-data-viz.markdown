@@ -28,11 +28,19 @@ Emojis are one example of word-sized graphics that we use every day: these piece
 
 Let’s look at a data table that might benefit from sparklines.
 
+{% include image.html src="/images/tinydata-1.png" caption="A basic data table" %}
+
 This is a typographic table: just numbers and letters, spelling out the top 10 index funds over the past 4 years. We can add a small chart to each line with the historic trends for that fund.
+
+{% include image.html src="/images/tinydata-2.png" caption="A basic data table with added sparklines" %}
+
 
 This adds 120 more data points to each line, demonstrating the volatility of each fund, as well as demonstrating the forces of market cohesion and highlighting market-wide events.
 
 In fact, we can make this chart far more compact by eliminating the numbers on the right, replacing milestones with historic trends. Some audiences might not need to quantify the specific returns of the funds, and for them, we can add data and reduce complexity.
+
+{% include image.html src="/images/tinydata-3.png" caption="A basic data table with columns replaced by sparklines" %}
+
 
 For the right audience, this compact display of data is just as easy to parse as the original. It might be argued that it’s easier, in fact: the lines resonate aesthetically with our natural instinct to find patterns, using multiple mental modes to add additional dimensions to the data.
 
@@ -42,11 +50,17 @@ Simply taking normal-sized charts and sizing them down doesn’t accomplish the 
 
 That can look something like this:
 
+{% include image.html src="/images/tinydata-4.png" caption="A sparkline in practice" %}
+
 This is a proprietary platform that Planetary designed for The Daily Beast. It displays information about system-wide averages, local maximum and minimum, and current state into a small visualization that accompanies each report.
 
 This approach also applies to paragraph-level charts. This is an example of how we might take a story about market performance and integrate charts into it:
 
-<span class="figcaption_hack">Source: [http://www.nytimes.com/2016/01/05/business/international/stocks-asia-markets-china.html](http://www.nytimes.com/2016/01/05/business/international/stocks-asia-markets-china.html)</span>
+
+{% include image.html src="/images/tinydata-5.png" caption="Source: http://www.nytimes.com/2016/01/05/business/international/stocks-asia-markets-china.html" %}
+
+
+<span class="figcaption_hack"></span>
 
 These charts are designed with tininess in mind. They don’t include text or axes. They use very few colors or patterns. They focus on one piece of information and don’t try to draw correlations or associations. This simplicity allows them to add value without adding noise.
 
@@ -61,6 +75,8 @@ A developer named Tom Noda has written up a [great tutorial for rendering small 
 **2. FF Chartwell**
 
 While we don’t normally think of fonts as software, they are actually complex pieces of code, capable of really interesting applications.
+
+{% include image.html src="/images/tinydata-6.png" caption="FF Chartwell" %}
 
 [FF Chartwell](https://www.fontshop.com/families/ff-chartwell), a font originally published by FontFont, can parse numbers into a variety of different visualizations. It uses the inherent qualities of the text — color, style, and size — to style the charts and graphs. And because it’s a font, it can be embedded into web pages and rendered alongside other text; this takes advantage of the optimizations done by browsers when rendering text. It’s nothing short of black magic.
 
