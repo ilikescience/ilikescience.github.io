@@ -1,5 +1,5 @@
 /* Grid configuration */
-$l--grid-width: 50rem;
+$l--grid-width: 46rem;
 $l--gutter: 2%;
 
 /* Border radius */
@@ -30,7 +30,7 @@ $l--space-s: 1rem;
 
 @mixin container {
     width: 100%;
-    margin: 0 auto;
+    margin: 0 $l--space-l;
     max-width: $l--grid-width;
 }
 

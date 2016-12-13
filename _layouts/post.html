@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} || Matthew Ström: designer, developer, etc.</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+    <main class="l--container">
+        <header class="row l--mar-top-l">
+            <h1 class="t--size-l t--family-serif t--leading-small">
+                {{ page.title }}
+            </h1>
+            <p class="c--gray">Originally published {{ page.date | date: '%B %d, %Y'}}</p>
+        </header>
+        <div class="l--mar-top-m l--mar-btm-m">〰</div>
+        <article class="post row l--mar-bot-m">
+            {{ content }}
+        </article>
+    </main>
+</body>
+
+</html>
