@@ -28,9 +28,11 @@ ul {
     margin-top: 0;
 }
 
-main,
-li {
-    display: block;
+hr {
+    height: 0;
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 2em 0;
 }
 
 strong {

@@ -11,7 +11,7 @@ After being the bread and butter of the web for most of its early history, table
 
 For instance, there’s what I consider to be the mother of all tables: The United States’ “Harmonized Tariff Schedule,” a table that stretches over 3,550 pages and lists every single good that can be imported into the US, including such thrilling entries as “Men’s or boys’ overcoats, carcoats, capes, cloaks, anoraks (including ski-jackets), windbreakers and similar articles (including padded, sleeveless jackets).”
 
-![](https://cdn-images-1.medium.com/max/1600/1*NoYxEosGh6slPJUUPE1buw.png) What is a carcoat, anyway?
+{% include image.html src="/images/tables-1.png" caption="What is a carcoat, anyway?" %}
 
 The ire raised by data tables is due, no doubt, to just how awful they can look when they’re not well designed. The design of a table is its linchpin: if it’s done right, it makes complex data easy to scan and compare. If it’s done wrong, it can render information completelyincomprehensible.
 
@@ -23,13 +23,13 @@ Not all numbers were created equal. I’m not talking about π and ∞ (though I
 
 Here’s a quick illustration of the difference between *oldstyle* and *lining* figures.
 
-Oldstyle vs. lining figures
+{% include image.html src="/images/tables-2.png" caption="Oldstyle vs. lining figures" %}
 
 Oldstyle figures look nice in sentences, where they better match the size and spacing of lower-case letters; lining figures are more uniform, and reinforce the grid-like structure of the table.
 
 The difference between *proportional* and *tabular* figures is not quite so obvious:
 
-Proportional vs. tabular figures
+{% include image.html src="/images/tables-3.png" caption="Proportional vs. tabular figures" %}
 
 Proportional figures are designed to match the color — that is, the general sizing and spacing — of the typeface. Tabular figures, on the other hand, are all identically-sized, so that columns of numbers line up properly. While the difference may not seem great on the scale of one or two lines, using tabular figures makes scanning large tables significantly easier and less error-prone.
 
@@ -37,7 +37,7 @@ Proportional figures are designed to match the color — that is, the general si
 
 When designing, you’ll need to do a bit of work to ensure the numerals you’re using are the correct ones (tabular lining figures aren’t typically the default). Adobe Products have an “opentype” panel that can be used to set the figures properly, and CSS provides a [slightly-cryptic syntax ](https://css-tricks.com/almanac/properties/f/font-feature-settings/)for enabling this feature. Beyond that, some basic googling should lead you down the right path.
 
-But now for the bad news: not all typefaces have true tabular lining figures available. The [ones that do tend to be pretty expensive](https://www.myfonts.com/fonts/fontfont/ff-meta/). There are a few exceptions: The excellent[ ](https://fonts.google.com/specimen/Work+Sans)[Work Sans](https://fonts.google.com/specimen/Work+Sans) is a free typeface that has true tabular lining figures.
+But now for the bad news: not all typefaces have true tabular lining figures available. The [ones that do tend to be pretty expensive](https://www.myfonts.com/fonts/fontfont/ff-meta/). There are a few exceptions: The excellent [Work Sans](https://fonts.google.com/specimen/Work+Sans) is a free typeface that has true tabular lining figures.
 
 If you can’t find a suitable typeface that has tabular lining figures, a good fallback is monospace fonts— while they tend to have a more “source code” look, they’ll always be well-suited to displaying numbers in tables. Additionally, the new Apple system default typeface San Francisco has excellent tabular lining figures and looks great at small sizes.
 
@@ -45,11 +45,14 @@ If you can’t find a suitable typeface that has tabular lining figures, a good 
 
 3½ simple rules to follow:
 
-**1. Numerical data is right-aligned****2. Textual data is left-aligned****3. Headers are aligned with their data****3½. ****Don’t use center alignment.**
+**1. Numerical data is right-aligned**<br/>
+**2. Textual data is left-aligned**<br/>
+**3. Headers are aligned with their data**<br/>
+**3½. Don’t use center alignment.**
 
-List of U.S. states by historical population — [Wikipedia](https://en.wikipedia.org/wiki/List_of_U.S._states_by_historical_population)
+{% include image.html src="/images/tables-4.png" caption="List of U.S. states by historical population — Wikipedia" %}
 
-Numerical data is read right-to-left; that is, we compare numbers by first looking at their ones digit, then their tens, then their hundreds, and so on. This is also how most people learn arithmetic — start on the right and move left, carrying digits as you go**[1]**. Therefore, tables should keep numerical data right-aligned.
+Numerical data is read right-to-left; that is, we compare numbers by first looking at their ones digit, then their tens, then their hundreds, and so on. This is also how most people learn arithmetic — start on the right and move left, carrying digits as you go.[^1] Therefore, tables should keep numerical data right-aligned.
 
 Textual data is read (in English) from left-to-right. Comparing textual elements is typically done by sorting into alphabetical order: if two entries start with the same letter, the second letter is used, and so on. Trying to quickly scan text can be infuriating if it’s not left-aligned.
 
@@ -65,7 +68,7 @@ One easy way to keep your tables properly aligned is to keep the same number of 
 
 Providing labels to accompany your data is crucial. These pieces of accompanying context allow a data table to be read by a wider audience, in a broader set of circumstances.
 
-Mississippi River Flood Stage Forecast — [NOAA](http://www.srh.noaa.gov/lmrfc/?n=lmrfc-mississippiandohioriverforecast)
+{% include image.html src="/images/tables-5.png" caption="Mississippi River Flood Stage Forecast - NOAA" %}
 
 #### Title
 
@@ -83,7 +86,7 @@ Keep headers as short as possible; the design of the data table should be focuse
 
 When deciding how to style the graphic elements of a table, the goal should always be to reduce the table’s footprint without losing structural fidelity.One of the ways you can accomplish this is by using as little “ink” as possible — that is, whenever possible, choose not to style an element.
 
-2016 National League Batting Statistics — [BaseballReference](http://www.baseball-reference.com/leagues/NL/2016.shtml)
+{% include image.html src="/images/tables-6.png" caption="2016 National League Batting Statistics - BaseballReference" %}
 
 #### Rules
 
@@ -95,7 +98,7 @@ One unsubstantiated opinion I have about rules is that **zebra striping is bad**
 
 #### Backgrounds
 
-Backgrounds are most useful when indicating differences in the domain of data: switching between single values and sums or averages, for example.<br> Highlighting values, providing additional context to data, or indicating changes in values from previous periods can be done without backgrounds, using graphical elements like ✻, † (one of my faves), or ▵.
+Backgrounds are most useful when indicating differences in the domain of data: switching between single values and sums or averages, for example. Highlighting values, providing additional context to data, or indicating changes in values from previous periods can be done without backgrounds, using graphical elements like ✻, † (one of my faves), or ▵.
 
 Additionally, tables should be monochromatic. Using colors to provide organizational context or added meaning increases the likelihood of misinterpretation or error, and causes usability problems for those with impaired vision.
 
@@ -107,14 +110,12 @@ Tables might be [boring](https://medium.com/mission-log/well-designed-interfaces
 
 [FiveThirtyEight](http://fivethirtyeight.com/features/the-rise-and-rise-of-nneka-ogwumike/) has always been a great source of inspiration— they set their numerical data in a typeface called [Decima Mono](https://www.myfonts.com/fonts/tipografiaramis/decima-mono/), which is specifically designed to fit lots of data in a small space.
 
-[Butterick’s Practical Typography](http://practicaltypography.com/)** **is my go-to for all things typographical, and the kind of reference you keep multiple copies of — it’s so practical!
+[Butterick’s Practical Typography](http://practicaltypography.com/) is my go-to for all things typographical, and the kind of reference you keep multiple copies of — it’s so practical!
 
 Lastly, no article on data design would be complete without an [Edward Tufte](http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=00041I) shoutout. His insightful writing on design is indispensable.
 
-*****
-
-**[1]*** For other interesting approaches to arithmetic, check out how Japanese children use a *[Soroban](https://www.youtube.com/watch?v=Px_hvzYS3_Y)* or how *[lattice multiplication](https://www.khanacademy.org/math/arithmetic/multiplication-division/lattice-multiplication/v/lattice-multiplication)* works.*
-
-*****
+***
 
 Special thanks to [kontur](https://medium.com/u/40a07ef54f77), [Nathan D Huening](https://medium.com/u/98d7858573d), [Robin Rendle](https://medium.com/u/aae529a3f8b0), [Scott Dawson](https://medium.com/u/ed2d267a9408), [Karen Bachmann](https://medium.com/u/529ce6387b3b), and [Kelly Jepsen](https://medium.com/u/4e07ae4204f0) for catching errors in this story.
+
+[^1]: For other interesting approaches to arithmetic, check out how Japanese children use a [Soroban](https://www.youtube.com/watch?v=Px_hvzYS3_Y) or how [lattice multiplication](https://www.khanacademy.org/math/arithmetic/multiplication-division/lattice-multiplication/v/lattice-multiplication) works.

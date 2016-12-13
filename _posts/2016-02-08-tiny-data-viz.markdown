@@ -4,7 +4,7 @@ date:   2016-02-08
 categories: writing
 ---
 
-*This is a direct translation of a talk I gave at the NYC D3.js meetup in January of 2016. If you’d like to see a video of the talk, you can check it out on *[YouTube](https://www.youtube.com/watch?v=Gtlb8VIszrU)*.*
+*This is a direct translation of a talk I gave at the NYC D3.js meetup in January of 2016. If you’d like to see a video of the talk, you can check it out on [YouTube](https://www.youtube.com/watch?v=Gtlb8VIszrU)*.
 
 Have you seen [this comprehensive list of Donald Trump’s insults](http://www.nytimes.com/interactive/2016/01/28/upshot/donald-trump-twitter-insults.html)? Or maybe [this detailed rundown of the 2016 Primaries](http://projects.fivethirtyeight.com/election-2016/primary-forecast/new-hampshire-republican/)? Data is a big deal in the newsroom right now, and in 2016, we’ll likely see data take on an even bigger role in reporting feature stories.
 
@@ -14,19 +14,17 @@ The Upshot, FiveThirtyEight and Buzzfeed, all of these publications are treating
 
 So what does data look like when it’s used as part of the story itself? How can we treat it as we treat verbs and nouns, integrated into, instead of apart from, the story?
 
-**Enter Sparklines**
+## Enter Sparklines
 
-> A sparkline is a small intense, simple, word-sized graphic with typographic > resolution.
-
-> Sparklines mean that graphics are no longer cartoonish special occasions with > captions and boxes, but rather sparkline graphics can be everywhere a word or number can be: embedded in a sentence, table, headline, map, spreadsheet, graphic. Data graphics should have the resolution of typography.
-
+> A sparkline is a small intense, simple, word-sized graphic with typographic resolution.<br/><br/>
+>  Sparklines mean that graphics are no longer cartoonish special occasions with captions and boxes, but rather sparkline graphics can be everywhere a word or number can be: embedded in a sentence, table, headline, map, spreadsheet, graphic. Data graphics should have the resolution of typography.<br/><br/>
 > – Edward Tufte, Beautiful Evidence, 46–63
 
 Edward Tufte describes sparklines in his book *Beautiful Evidence* as being word-sized graphics. “Typographic Resolution” is his key identifier of a sparkline, and he goes back to this distinction repeatedly without quite defining it. So what does “Typographic Resolution” mean?
 
 Emojis are one example of word-sized graphics that we use every day: these pieces of design have typographic resolution, as they sit directly with the text to add meaning or change context. Emojis can turn “thanks 😀” into “thanks 😕”; a lot of meaning is imparted with a very small symbol.
 
-**Sparklines in practice**
+## Sparklines in practice
 
 Let’s look at a data table that might benefit from sparklines.
 
@@ -38,7 +36,7 @@ In fact, we can make this chart far more compact by eliminating the numbers on t
 
 For the right audience, this compact display of data is just as easy to parse as the original. It might be argued that it’s easier, in fact: the lines resonate aesthetically with our natural instinct to find patterns, using multiple mental modes to add additional dimensions to the data.
 
-**Designing Charts to be Tiny**
+## Designing Charts to be Tiny
 
 Simply taking normal-sized charts and sizing them down doesn’t accomplish the kind of efficiency of space we’re looking for with our new visualizations. In order to succeed, charts have to be designed with their size in mind.
 
@@ -52,7 +50,7 @@ This approach also applies to paragraph-level charts. This is an example of how 
 
 These charts are designed with tininess in mind. They don’t include text or axes. They use very few colors or patterns. They focus on one piece of information and don’t try to draw correlations or associations. This simplicity allows them to add value without adding noise.
 
-**Tools to make tiny charts**
+## Tools to make tiny charts
 
 There are a number of tools available to designers and developers that make it easy to embed tiny charts into paragraphs of text:
 
