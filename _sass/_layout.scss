@@ -23,23 +23,23 @@ $l--space-s: 1rem;
     position: absolute;
     top: auto;
     left: -10000px;
+    overflow: hidden;
     width: 1px;
     height: 1px;
-    overflow: hidden;
 }
 
 @mixin container {
-    width: 100%;
     margin: 0 $l--space-l;
     max-width: $l--grid-width;
+    width: 100%;
 }
 
 @mixin row {
-    padding: 0 $l--gutter / 2;
     display: flex;
     flex-flow: row;
     align-items: stretch;
     justify-content: center;
+    padding: 0 $l--gutter / 2;
 }
 
 @mixin column-fixed($span) {

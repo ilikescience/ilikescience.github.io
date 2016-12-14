@@ -55,12 +55,12 @@ $t--size-m: 1rem;
 $t--size-s: 0.75rem;
 
 body {
+    color: $c--black;
+    font-size: $t--base-size;
     font-family: $t--family-sans;
+    line-height: $t--base-leading;
     font-feature-settings: 'kern';
     font-kerning: normal;
-    font-size: $t--base-size;
-    line-height: $t--base-leading;
-    color: $c--black;
 }
 
 a {
@@ -98,60 +98,51 @@ p {
 /* post-specific styles :( */
 
 .post {
-
     p + h1,
     p + h2,
     p + h3,
     p + h4 {
         margin-top: 1em;
     }
-
     h1 + p,
     h2 + p,
     h3 + p,
     h4 + p {
         margin-top: 0.5em;
     }
-    
     h1 {
         font-size: $t--size-xxl
     }
-
     h2 {
         font-size: $t--size-xl
     }
-
     h3 {
         font-size: $t--size-l
     }
-
     h4 {
-        font-size: $t--size-m;
         font-weight: $t--weight-bold;
+        font-size: $t--size-m;
     }
-
     blockquote {
-        font-family: $t--family-serif;
-        font-size: $t--size-l;
-        line-height: $t--leading-small;
         margin: 2em 0;
+        font-size: $t--size-l;
+        font-family: $t--family-serif;
+        line-height: $t--leading-small;
     }
 }
 
  .footnotes {
-     color: $c--gray;
-      margin: 5rem 0;
+    margin: 5rem 0;
+    color: $c--gray;
 
      &::before {
          display: block;
          margin-bottom: 1em;
          content: "Footnotes:"
      }
-
      ol {
          padding: 0;
      }
-
      li {
          list-style: decimal;
      }

@@ -17,10 +17,10 @@ h4,
 p,
 blockquote,
 figure {
-    font-size: 1em;
-    font-weight: normal;
     margin: 0;
     padding: 0;
+    font-weight: normal;
+    font-size: 1em;
 }
 
 ol,
@@ -29,10 +29,10 @@ ul {
 }
 
 hr {
+    margin: 2em 0;
     height: 0;
     border: 0;
     border-top: 1px solid #eee;
-    margin: 2em 0;
 }
 
 strong {
@@ -51,11 +51,11 @@ a {
 button {
     overflow: visible;
     border: 0;
-    font: inherit;
-    -webkit-font-smoothing: inherit;
-    letter-spacing: inherit;
     background: none;
+    letter-spacing: inherit;
+    font: inherit;
     cursor: pointer;
+    -webkit-font-smoothing: inherit;
 }
 
 [type='radio'],
@@ -79,6 +79,6 @@ img {
 }
 
 table {
-    table-layout: fixed;
     border-collapse: collapse;
+    table-layout: fixed;
 }
