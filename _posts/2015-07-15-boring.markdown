@@ -12,11 +12,14 @@ Well, in many ways, it’s gotten boring.
 
 In 1990, a group of researches concluded that “[Absorptive Capacity](http://web.iaincirebon.ac.id/ebook/indrya/bandura/inovasi/CohenLevinthalASQ.pdf)” — “the ability … to recognize the value of new, external information, assimilate it, and apply it to commercial ends” — would become one of the most important factors in a company’s success. Their paper has since been cited by 26,347 others, and 25 years later, the [$890B IT services industry](http://www.bloomberg.com/visual-data/industries/detail/it-services) is fitting proof of this prediction’s accuracy. But our brains change at a pace much slower than the rate at which technology [advances](https://www.youtube.com/watch?v=MRG8eq7miUE). So how do we use new technology to even our odds? Let’s look at one of the most commercially successful business interfaces of the last 25 years: the Bloomberg Terminal.
 
-![](https://cdn-images-1.medium.com/max/2000/1*m3JJzCZJnG8f8ejCn8n-Vw.jpeg)
+{% include image.html src="/images/boring-1.jpeg" caption="The Bloomberg Terminal" %}
 
 This monstrous pile of letters and numbers nets Bloomberg roughly [6.3 billion dollars a year](https://en.wikipedia.org/wiki/Bloomberg_Terminal). Friends who have used it rave about its ability to quickly visualize a vast amount of information; a [specialized keyboard](http://www.onlineeconomy.org/wp-content/uploads/2012/11/niehaus.png) allows users to command financial data with speed and accuracy. It is ugly as can be, but it is brilliantly *designed*: There is a deliberate hierarchy, an accurate color scheme, concise and useful charts, and clearly-labeled tools throughout.
 
 Perhaps more importantly, it’s *boring*. There’s no thinking “outside the box.” No Jony-Ive-slinging-superlatives-in-a-black-t-shirt materials. No cleverly branded names, no breath-taking or game-changing, and certainly nothing even close to “intuitive.” Just data. This aspect — the lack of design-award aspiration — means that there’s little between the user and the information they’re assimilating. These terminals often span [4 or more crowded screens](https://upload.wikimedia.org/wikipedia/commons/c/c7/2012_Bloomberg_Terminal_by_jm3_-_Creative_Commons_licensed.jpg): no whitespace means more information. Despite its steep learning curve (or, perhaps, because of it), its charts and graphs are *lingua franca *of the financial industry. Its closest competitor, Reuter’s Eikon system, is only marginally less ugly, maintaining the same density and resistance to interface metaphors.
+
+{% include image.html src="/images/boring-2.png" caption="Eikon Explorer, a competitor to the Bloomberg Terminal" %}
+
 
 #### Autonomous cars look boring, too
 
@@ -26,10 +29,10 @@ There is a rich history of “interface design” for the [complex information o
 
 As an interface designer, I’m *disappointed*. Growing up, I watched countless movies and TV shows that portrayed interfaces as beautiful holograms spinning in the air, manipulated in space by flicks and swishes, surrounded by rainbow-splashed screens full of shapes and numbers. But as we see new technology accomplishing wonderfully complicated things beyond our imagination, like [air-lifting goods directly to our doorstep](http://www.amazon.com/b?node=8037720011) and [storing, tagging, and organizing all of our photos forever](http://lifehacker.com/how-the-new-google-photos-makes-your-picture-library-aw-1708189976), we’re having to come to terms with [fantasy](http://payload145.cargocollective.com/1/0/2995/5219578/oblivion_1080p_rip_137_905.JPG) vs. [reality](http://cdn.slashgear.com/wp-content/uploads/2014/09/apple-watch-hands-on-sg22-600x312.jpg).
 
-#### Let go of shinythings
+#### Let go of shiny things
 
 Computers are starting to outpace the computational abilities of our brains, and fine-grained controls in interfaces are becoming overwhelming. The more we can do with a tool, the more the interface has to get out of the way. Sometimes, we can do so much with a tool, that we [need the help of artificial intelligence to unlock its full potential](http://www.ibm.com/smarterplanet/us/en/ibmwatson/what-is-watson.html). This isn’t just a *simplification* of interface; it’s a complete shift in how we design our digital tools.
 
 The trend in interface design — away from the [shiny and complex](http://cdn.ubergizmo.com/photos/razrv3x.jpg), towards the [simple and boring](https://9to5mac.files.wordpress.com/2014/03/messages.png) — is only beginning.In my experience, it’s inevitable. **Boring works****.**In the past year, I’ve started countless projects with richly detailed interfaces, only to have users tell me they prefer simpler and more functional versions. In the world of product design, the user is always right. As the next 3 billion internet users come online, the interfaces that are the least noticeable will be the most widely adopted — even if that means there’s no noticeable interface at all. For the interface designer, that means we’ll ultimately have to take the Futurama-coined adage to heart: [“When you do things right, people won’t be sure you’ve done anything at all.”](https://www.youtube.com/watch?v=edCqF_NtpOQ)
 
-*Special thanks to *[Josh Petersel](http://joshpetersel.com/)* for looking at drafts of this piece. Thanks Josh!*
+*Special thanks to [Josh Petersel](http://joshpetersel.com/) for looking at drafts of this piece. Thanks Josh!*

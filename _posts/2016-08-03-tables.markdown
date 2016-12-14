@@ -7,6 +7,8 @@ categories: writing
 
 **Poor tables.** Where did they go wrong?
 
+{% include image.html src="/images/tables-0.png" caption="Table tetris" %}
+
 After being the bread and butter of the web for most of its early history, tables were cast aside by many designers for newer, trendier layouts. But while they might be making fewer appearances on the web these days, data tables still collect and organize much of the information we interact with on a day-to-day basis.
 
 For instance, there’s what I consider to be the mother of all tables: The United States’ “Harmonized Tariff Schedule,” a table that stretches over 3,550 pages and lists every single good that can be imported into the US, including such thrilling entries as “Men’s or boys’ overcoats, carcoats, capes, cloaks, anoraks (including ski-jackets), windbreakers and similar articles (including padded, sleeveless jackets).”

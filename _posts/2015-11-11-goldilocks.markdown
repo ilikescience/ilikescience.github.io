@@ -8,7 +8,9 @@ Data visualization is everywhere. From analytics platforms to infographics, acro
 
 With such a high demand, there are (inevitably) a great number of approaches being employed; some to great success, others to embarrassing failure. It’s possible, then, to learn from these approaches to create data visualizations that are good-looking **and** informative.
 
-1. **Label everything in plain english.** By “plain english,” I mean “words that you speak out loud regularly.” Depending on where you work, you might say phrases like “regular spectral density potential” regularly — so instead think of words your *audience* speaks out loud regularly. 1. **Show highs and lows, let the viewer fill in the rest.** Most graphs fall victim to “too many axes” syndrome: lots and lots of grid lines dividing up the space, ostensibly to give the viewer a hand in judging the data. However, humans are pretty good at spatial estimation, so only plot the maximum and minimum on each axis. 1. **Give your graph a title.** For such a seemingly obvious component, the title is often forgotten. What do you want your viewer to get out of a graph? If you answer this question in a title above the graph, you’ll provide the viewer with vital context and a good sense of what they’re looking at.
+1. **Label everything in plain english.** By “plain english,” I mean “words that you speak out loud regularly.” Depending on where you work, you might say phrases like “regular spectral density potential” regularly — so instead think of words your *audience* speaks out loud regularly. 
+2. **Show highs and lows, let the viewer fill in the rest.** Most graphs fall victim to “too many axes” syndrome: lots and lots of grid lines dividing up the space, ostensibly to give the viewer a hand in judging the data. However, humans are pretty good at spatial estimation, so only plot the maximum and minimum on each axis. 
+3. **Give your graph a title.** For such a seemingly obvious component, the title is often forgotten. What do you want your viewer to get out of a graph? If you answer this question in a title above the graph, you’ll provide the viewer with vital context and a good sense of what they’re looking at.
 
 Let’s say I’m preparing a graph for a client who makes pizzas. They’re interested to see how their pizza production rates have fluctuated over the last four months. Here are a few examples of how these three guidelines can be applied (or not).
 
@@ -16,7 +18,7 @@ Let’s say I’m preparing a graph for a client who makes pizzas. They’re int
 
 In every board room in the world, there’s a laser pointer landing on a graph that looks like this:
 
-![](https://cdn-images-1.medium.com/max/1600/1*C3xNXOkW1ayE07SNZ4L8cQ.png)
+{% include image.html src="/images/goldilocks-1.png" caption="A graph with too much ink" %}
 
 This graph has everything: big numbers, lots of lines, overly redundant labeling. There’s no way you could misinterpret this!
 
@@ -30,6 +32,8 @@ This graph has everything: big numbers, lots of lines, overly redundant labeling
 
 If you look at the front page of [Dribbble](http://dribbble.com/), chances are there’s some sort of data visualization being done. And more often than not, it looks something like this:
 
+{% include image.html src="/images/goldilocks-2.png" caption="A graph with too much style" %}
+
 Of course, there are good examples of data viz on Dribbble and other showcase sites, but in many cases, the design is being done from a strictly aesthetic point.
 
 **Is everything labeled in plain english?** Nope. Nothing is labeled.
@@ -41,6 +45,8 @@ Of course, there are good examples of data viz on Dribbble and other showcase si
 ### Just right: the goldilocks approach
 
 Let’s split the difference between these two. We’ll show what’s necessary to preserve the aesthetic qualities, but label clearly and simply to ensure accuracy:
+
+{% include image.html src="/images/goldilocks-3.png" caption="A graph with the right balance between style and information" %}
 
 Much better.
 

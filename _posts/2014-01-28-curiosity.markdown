@@ -4,6 +4,8 @@ date:   2014-01-28
 categories: writing
 ---
 
+{% include image.html src="/images/curious-1.jpg" caption="This mural was somewhere on Houston in Manhattan — I took the picture out of sheer curiosity." %}
+
 A lot can (and has been) said about [Aaron Swartz](http://en.wikipedia.org/wiki/Aaron_Swartz), and if you haven’t heard any of it I suggest you take a second and familiarize yourself. I recently read a quote of his, and if only one thing endures of Aaron Swartz’ legacy, I hope it’s this:
 
 > “Be curious. Read widely. Try new things. I think a lot of what people call intelligence just boils down to curiosity.”

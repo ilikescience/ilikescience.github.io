@@ -4,6 +4,8 @@ date:   2013-12-02
 categories: writing
 ---
 
+{% include image.html src="/images/website-1.jpg" caption="Most of this site was built at my favorite coffee shop of late, Sump." %}
+
 I make a living designing and developing, among many many other things, websites. So, for the past few years, I’ve had the embarrassing task of explaining something to all my clients and — worse, if you can believe it — my friends: I didn’t have a website of my own. The cobbler’s children had no shoes; the barber’s hair was long and shaggy. [Such shame.](http://i3.kym-cdn.com/photos/images/newsfeed/000/581/296/c09.jpg)
 
 Tired of making excuses, I finally did something about it! I grabbed hold of my bootstraps, and pulled like hell. Here I am. Internet, hear me roar.

@@ -4,6 +4,9 @@ date:   2014-01-18
 categories: writing
 ---
 
+{% include image.html src="/images/working-1.jpg" caption="Despite the fact that I build websites for a living, I do a significant amount of work in my notebooks." %}
+
+
 Quick quiz: what does a web developer do for a living? If you said ‘make websites, duh,’ you’re _technically_ correct ([the best kind of correct](https://www.youtube.com/watch?v=hou0lU8WMgo)). And you’re in good company; I’d wager 99% of the people I meet at bars and coffee shops have that in mind when I tell them I’m a web developer. But my answer to the question — and, by extension, the question “yeah, but what do you _actually_ do,” — has very little to do with making websites. Making websites often seems like an afterthought in my field. This may seem surprising, so let me offer a quote from one of my heroes, Carl Sagan:
 
 > “If you wish to make an apple pie from scratch, you must first invent the universe.”
