@@ -21,6 +21,13 @@ Companies I've started:
 
 〰
 
+Side projects I work on:
+
+<a href="http://asongaday.co">A Song A Day</a>, an email with a new song every day.<br/>
+<a href="http://datumipsum.com">Datum Ipsum</a>, a placeholder data generator.<br/>
+
+〰
+
 Things I've written:
 
 <span class="c--gray l--mar-right-s">08/03/16</span> [Design Better Data Tables](/writing/tables)<br/>
