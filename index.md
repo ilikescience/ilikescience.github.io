@@ -7,7 +7,7 @@
         Hi, my name is Matthew Ström.
     </h1>
     <h2>
-        I'm a designer &amp; developer (&amp;c) living in Brooklyn, NY.
+I'm a designer &amp; developer (&amp;c) living in Brooklyn, NY.
     </h2>
 </header>
 
