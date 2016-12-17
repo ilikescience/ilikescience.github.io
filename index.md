@@ -4,7 +4,7 @@
 
 <header class="l--mar-btm-m">
     <h1 class="t--size-l t--family-serif t--leading-small t--tracking-tight t--weight-bold">
-        Hi, my name is Matthew Ström.
+        Hi, my name is Josh Petersel.
     </h1>
     <h2>
         I'm a designer &amp; developer (&amp;c) living in Brooklyn, NY.
