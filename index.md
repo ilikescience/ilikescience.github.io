@@ -4,10 +4,10 @@
 
 <header class="l--mar-btm-m">
     <h1 class="t--size-l t--family-serif t--leading-small t--tracking-tight t--weight-bold">
-        Hi, my name is Matthew Ström.
+        Hi, my name is Matthew Ström.
     </h1>
     <h2>
-        I'm a designer &amp; developer (&amp;c) living in Brooklyn, NY.
+I'm a designer &amp; developer (&amp;c) living in Brooklyn, NY.
     </h2>
 </header>
 
