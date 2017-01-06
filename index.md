@@ -16,7 +16,7 @@ I'm a designer &amp; developer (&amp;c) living in Brooklyn, NY.
 Companies I've started:
 
 [Eleven](/companies/eleven), a free monthly music magazine.<br/>
-**CTY,** a civic technology company.<br/>
+[CTY](/companies/cty), a civic technology company.<br/>
 **Planetary,** a digital product development agency.<br/>
 
 〰

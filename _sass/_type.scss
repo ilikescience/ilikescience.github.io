@@ -66,6 +66,9 @@ body {
 a {
     color: $c--blue;
     text-decoration: underline;
+    &:hover {
+        color: lighten($c--blue, 20%);
+    }
 }
 
 p {
