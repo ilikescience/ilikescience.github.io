@@ -10,10 +10,13 @@
 <body>
     <main class="l--container">
         <header class="row l--mar-top-l">
-            <h1 class="t--size-l t--family-serif t--leading-small t--tracking-tight t--weight-bold">
+            <p>
+                <a href="/">&larr; Back</a>
+            </p>
+            <h1 class="t--size-xl t--family-serif t--leading-small t--tracking-tight t--weight-bold">
                 {{ page.title }}
             </h1>
-            {% if page.categories == 'writing' %}
+            {% if page.categories contains 'writing' %}
                 <p class="c--gray">Originally published {{ page.date | date: '%B %d, %Y'}}</p>
             {% endif %}
         </header>
