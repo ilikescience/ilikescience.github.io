@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="/css/main.css">
 </head>
 
+{% assign path = page.id | split: '/' %}
+
 <body>
     <main class="l--container">
         <header class="row l--mar-top-l">
@@ -19,6 +21,26 @@
             {% if page.categories contains 'writing' %}
                 <p class="c--gray">Originally published {{ page.date | date: '%B %d, %Y'}}</p>
             {% endif %}
+            {% if page.translations %}
+                <p class="c--gray">Translations for this page:&nbsp;
+                {% for translation in page.translations %}
+                    {% if page.categories contains 'translations' %}
+                        {% assign title = path[3] | split: '-' %}
+                        <span class="l--mar-r-sm">
+                            {% if translation == 'en' %}
+                                <a href="/{{path[1]}}/{{title[0]}}">{{translation}}</a>&nbsp;
+                            {% else %}
+                                <a href="/{{path[1]}}/translations/{{title[0]}}-{{translation}}">{{translation}}</a>&nbsp;
+                            {% endif %}
+                        </span>
+                    {% else %}
+                        <span>
+                            <a href="/{{path[1]}}/translations/{{path[2]}}-{{translation}}">{{translation}}</a>&nbsp;
+                        </span>
+                    {% endif %}
+                {% endfor %}
+                </p>
+            {% endif %} 
         </header>
         <div class="l--mar-top-m l--mar-btm-m">〰</div>
         <article class="post row l--mar-btm-l">

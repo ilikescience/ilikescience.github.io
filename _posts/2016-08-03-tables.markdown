@@ -3,6 +3,10 @@ layout: post
 title:  "Design Better Data Tables"
 date:   2016-08-03
 categories: writing
+translations: 
+    - ru
+    - zh-cn
+    - zh-hk
 ---
 
 **Poor tables.** Where did they go wrong?

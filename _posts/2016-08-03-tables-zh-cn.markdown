@@ -3,6 +3,11 @@ layout: post
 title:  "这样做才能设计出更好的数据表"
 date:   2016-08-03
 categories: writing translations
+language: chinese (simplified)
+translations: 
+    - ru
+    - en
+    - zh-hk
 ---
 
 **差强人意的表格。**他们哪里没有做对？

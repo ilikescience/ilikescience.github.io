@@ -2,6 +2,11 @@
 title:  "Создавайте хорошие таблицы"
 date:   2016-08-03
 categories: writing translations
+language: russian
+translations: 
+    - en
+    - zh-cn
+    - zh-hk
 ---
 
 **Бедные таблицы.** Ну что с ними не так?

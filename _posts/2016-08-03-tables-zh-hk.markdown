@@ -3,6 +3,11 @@ layout: post
 title:  "設計更好的資料表格"
 date:   2016-08-03
 categories: writing translations
+language: chinese (traditional)
+translations: 
+    - ru
+    - zh-cn
+    - en
 ---
 
 **可憐的表格。**它們做錯了什麼？
