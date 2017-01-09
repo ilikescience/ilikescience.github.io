@@ -7,7 +7,7 @@
 Hi, my name is Matthew Ström.
     </h1>
     <h2>
-I'm a designer &amp; developer (&amp;c) living in Brooklyn, NY.
+I'm a designer &amp; developer living in Brooklyn, NY.
     </h2>
 </header>
 
@@ -17,11 +17,18 @@ Companies I've started:
 
 [Eleven](/companies/eleven), a free monthly music magazine.<br/>
 [CTY](/companies/cty), a civic technology company.<br/>
-**Planetary,** a digital product development agency.<br/>
+[Planetary](https://planetary.io), a digital product development agency.<br/>
 
 〰
 
-Side projects I work on:
+Projects I've worked on:
+
+[Argos](/projects/argos), a content marketing analytics platform.<br/>
+[The Architect's Newspaper](/projects/archpaper), a redesign and rearchitecture of an online publication.
+
+〰
+
+Side projects I maintain:
 
 <a href="http://asongaday.co">A Song A Day</a>, an email with a new song every day.<br/>
 <a href="http://datumipsum.com">Datum Ipsum</a>, a placeholder data generator.<br/>

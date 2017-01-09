@@ -1,0 +1,25 @@
+---
+title:  "Argos"
+categories: projects
+---
+
+Argos is a content marketing analytics platform, concieved by The Daily Beast, and designed, developed, and maintained by the Planetary team.
+
+{% include image.html src="/images/argos-1.png" caption="The campaign overview page" %}
+
+The advantage of Argos over other content metric platforms is the proprietary **content score**. Creating the scoring algroithm was challenging, but presenting it in a simple manner proved to be the best way to communicate its statistical underpinnings.
+
+{% include image.html src="/images/argos-2.png" caption="The content score module" %}
+
+Designing Argos occured in a number of phases over the course of 2015.
+
+{% include image.html src="/images/argos-3.png" caption="The first design mockup of Argos." %}
+
+Initial layout concepts centered around a simple 1-column layout that could hold a number of components in a rigid hierarchy, maintaining a consistent time-scale on the horizontal axis. This would later become a core design concept for [Spacetime](/projects/spacetime).
+
+{% include image.html src="/images/argos-4.png" caption="An iteration on the initial design concept." %}
+
+Later, the complexity of the components necessitated a more traditional dashboard layout, spanning multiple columns and allowing for more flexible hierarchy.
+
+{% include image.html src="/images/argos-5.png" caption="A more dashboard-centric concept. This approach was the one implemented in the first production release of Argos." %}
+
