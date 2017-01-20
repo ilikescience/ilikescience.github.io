@@ -31,7 +31,7 @@ Projects I've worked on:
 Side projects I maintain:
 
 [A Song A Day](http://asongaday.co), an email with a new song every day.<br/>
-[[Datum Ipsum](http://datumipsum.com), a placeholder data generator.<br/>
+[Datum Ipsum](http://datumipsum.com), a placeholder data generator.<br/>
 
 〰
 
