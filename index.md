@@ -13,16 +13,9 @@ I'm a designer &amp; developer living in Brooklyn, NY.
 
 〰
 
-Companies I've started:
-
-[Eleven](/companies/eleven), a free monthly music magazine.<br/>
-[CTY](/companies/cty), a civic technology company.<br/>
-[Planetary](https://planetary.io), a digital product development agency.<br/>
-
-〰
-
 Projects I've worked on:
 
+[Spacetime](/projects/spacetime), an app for remote teams.<br/>
 [Argos](/projects/argos), a content marketing analytics platform.<br/>
 [The Architect's Newspaper](/projects/archpaper), a redesign and rearchitecture of an online publication.
 
@@ -32,6 +25,14 @@ Side projects I maintain:
 
 [A Song A Day](http://asongaday.co), an email with a new song every day.<br/>
 [Datum Ipsum](http://datumipsum.com), a placeholder data generator.<br/>
+
+〰
+
+Companies I've started:
+
+[Eleven](/companies/eleven), a free monthly music magazine.<br/>
+[CTY](/companies/cty), a civic technology company.<br/>
+[Planetary](https://planetary.io), a digital product development agency.<br/>
 
 〰
 
@@ -66,4 +67,3 @@ Talks I've given:
 |<span class="c--gray l--mar-right-s">07/21/16</span> | Brooklyn.JS: WebVR with aframe.js |
 |<span class="c--gray l--mar-right-s">01/25/16</span> | D3.js NYC: Tiny Data visualizations [(video)](https://www.youtube.com/watch?v=Gtlb8VIszrU) |
 |<span class="c--gray l--mar-right-s">04/18/13</span> | Pecha Kucha: The Creatives Must Be Crazy [(video)](https://www.youtube.com/watch?v=xpb_0Tadu6g) |
-

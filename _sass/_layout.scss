@@ -112,3 +112,20 @@ $l--space-s: 1rem;
 .l--mar-left-l { margin-left: $l--space-l; }
 .l--mar-left-m { margin-left: $l--space-m; }
 .l--mar-left-s { margin-left: $l--space-s; }
+
+@media (max-width: 1024px) {
+    .l--container {
+        max-width: 100%;
+        margin: 0;
+        padding: 0 2rem; 
+    }
+
+    table {
+        width: 100%;
+    }
+
+    td {
+        display: table-row;
+        text-overflow: wrap;
+    }
+}

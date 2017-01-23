@@ -23,3 +23,21 @@ Later, the complexity of the components necessitated a more traditional dashboar
 
 {% include image.html src="/images/argos-5.png" caption="A more dashboard-centric concept. This approach was the one implemented in the first production release of Argos." %}
 
+After 6 months of use, we had an opportunity to improve the design. We interviewed users and studied analytics data, and came to a few conclusions:
+
+1. The process of setting up a campaign was confusing and led to errors
+2. Users found the raw numbers valuable, but wanted more context and insight. The question came up over and over again: "What does this mean?"
+
+Seperately, I saw an opportunity to address a usability concern I had:
+
+- Users with visual impairmnet would have trouble with the color-coded interface.
+
+To tackle these three challenges, I led a refinement of the visual language.
+
+{% include image.html src="/images/argos-6.png" caption="Reducing the importance of color in the interface, and highlighting insights and context." %}
+
+This redesign relied on one major guiding principal: **When using color to encode meaning, always include a distinct secondary visual cue like an icon.**
+
+{% include image.html src="/images/argos-7.png" caption="Relying less on color had another advantage in that it made mobile views easier to parse." %}
+
+{% include image.html src="/images/argos-8.png" caption="The final icon system for Argos." %}
