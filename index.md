@@ -69,5 +69,3 @@ Talks I've given:
 |<span class="c--gray l--mar-right-s">04/18/13</span> | Pecha Kucha: The Creatives Must Be Crazy [(video)](https://www.youtube.com/watch?v=xpb_0Tadu6g) |
 
 〰
-
-My reddit username is [mhstrom](https://www.reddit.com/user/mhstrom/)
