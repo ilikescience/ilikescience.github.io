@@ -67,3 +67,7 @@ Talks I've given:
 |<span class="c--gray l--mar-right-s">07/21/16</span> | Brooklyn.JS: WebVR with aframe.js |
 |<span class="c--gray l--mar-right-s">01/25/16</span> | D3.js NYC: Tiny Data visualizations [(video)](https://www.youtube.com/watch?v=Gtlb8VIszrU) |
 |<span class="c--gray l--mar-right-s">04/18/13</span> | Pecha Kucha: The Creatives Must Be Crazy [(video)](https://www.youtube.com/watch?v=xpb_0Tadu6g) |
+
+〰
+
+My reddit username is [mhstrom](https://www.reddit.com/user/mhstrom/)
