@@ -3,9 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }} || Matthew Ström: designer &amp; developer</title>
     <link rel="stylesheet" href="/css/main.css">
+    <script src="https://use.typekit.net/tkr0tkw.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 
 {% assign path = page.id | split: '/' %}
@@ -16,7 +18,7 @@
             <p>
                 <a href="/">&larr; Back</a>
             </p>
-            <h1 class="t--size-xl t--family-serif t--leading-small t--tracking-tight t--weight-bold">
+            <h1 class="t--size-xxl c--blue t--family-serif t--leading-small t--tracking-tight t--weight-bold">
                 {{ page.title }}
             </h1>
             {% if page.categories contains 'writing' %}
@@ -41,7 +43,7 @@
                     {% endif %}
                 {% endfor %}
                 </p>
-            {% endif %} 
+            {% endif %}
         </header>
         <div class="l--mar-top-m l--mar-btm-m">〰</div>
         <article class="post row l--mar-btm-l">
