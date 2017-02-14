@@ -113,11 +113,16 @@ $l--space-s: 1rem;
 .l--mar-left-m { margin-left: $l--space-m; }
 .l--mar-left-s { margin-left: $l--space-s; }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 @media (max-width: 1024px) {
     .l--container {
         max-width: 100%;
         margin: 0;
-        padding: 0 1rem; 
+        padding: 0 1rem;
     }
 
     table {

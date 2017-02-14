@@ -9,11 +9,21 @@ Hi, my name is Matthew Ström.
     <h2>
 I'm a designer &amp; developer living in Brooklyn, NY.
     </h2>
+
+<div class="l--mar-top-s">
+    <a href="https://twitter.com/ilikescience" target="_blank">Twitter</a>
+    <span>&nbsp;·&nbsp;</span>
+    <a href="https://github.com/ilikescience" target="_blank">Github</a>
+    <span>&nbsp;·&nbsp;</span>
+    <a href="https://instagram.com/ilikescience" target="_blank">Instagram</a>
+    <span>&nbsp;·&nbsp;</span>
+    <a href="https://medium.com/@ilikescience" target="_blank">Medium</a>
+</div>
 </header>
 
 〰
 
-Projects I've worked on:
+**Projects I've worked on:**
 
 [Spacetime](/projects/spacetime), an app for remote teams.<br/>
 [Argos](/projects/argos), a content marketing analytics platform.<br/>
@@ -21,14 +31,14 @@ Projects I've worked on:
 
 〰
 
-Side projects I maintain:
+**Side projects I maintain:**
 
-[A Song A Day](http://asongaday.co), an email with a new song every day.<br/>
 [Datum Ipsum](http://datumipsum.com), a placeholder data generator.<br/>
+[Airframe](https://planetary.github.io/airframe), a frontend prototyping kit.<br/>
 
 〰
 
-Companies I've started:
+**Companies I've started:**
 
 [Eleven](/companies/eleven), a free monthly music magazine.<br/>
 [CTY](/companies/cty), a civic technology company.<br/>
@@ -36,7 +46,7 @@ Companies I've started:
 
 〰
 
-Things I've written:
+**Things I've written:**
 
 |-|-|
 |<span class="c--gray l--mar-right-s">08/03/16</span> | [Design Better Data Tables](/writing/tables) |
@@ -59,7 +69,7 @@ Things I've written:
 
 〰
 
-Talks I've given:
+**Talks I've given:**
 
 |-|-|
 |<span class="c--gray l--mar-right-s">11/02/16</span> | Graphical Web 2016: Tiny Data Visualizations [(slides)](slides.com/matthewstrom/tinycharts) |
