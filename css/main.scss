@@ -6,3 +6,24 @@
 @import "color";
 @import "type";
 @import "layout";
+
+.art canvas {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30vw;
+    height: 100vh;
+
+    @media (max-width: 1024px) {
+        display: none;
+    }
+}
+
+.art--caption {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    background: $c--white;
+    padding: 0.5rem;
+}

@@ -27,6 +27,7 @@ I'm a designer &amp; developer living in Brooklyn, NY.
 
 [Spacetime](/projects/spacetime), an app for remote teams.<br/>
 [Argos](/projects/argos), a content marketing analytics platform.<br/>
+[SAP Fiori](/projects/sap), software powering large-scale commercial operations.<br/>
 [The Architect's Newspaper](/projects/archpaper), a redesign and rearchitecture of an online publication.
 
 〰
