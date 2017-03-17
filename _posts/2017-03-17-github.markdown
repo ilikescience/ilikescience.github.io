@@ -1,0 +1,81 @@
+---
+title:  "Case Study: Github Pull Request"
+categories: projects
+---
+
+For a developer working with git and GitHub, pull requests are big moments. Each one represents the culmination of a developer’s work, the moment where code goes from being ‘mine’ to ‘ours’. If it’s a developer’s first pull request to an open-source project, it can feel scary. If it’s a long-time contributor’s 12th pull request of the day, it can feel tedious. No matter what, pressing the green “Create Pull Request” button feels momentous.
+
+## Defining success
+
+As one of the critical moments in the GitHub workflow, it’s important to identify what a successful pull request is. In my experience as a developer, two mark a successful pull request:
+
+1. **Confidence**
+When drafting a pull request, my first thought is, “Did I do everything right?” There’s a mental checklist I run through: am I merging from the right branch? Am I merging to the right branch? Did I get the right commits? Will I mess up anyone else’s work by making this merge? Successful pull requests are ones where I’m confident I’ve answered all these questions, and haven’t forgotten anything.
+2. **Speed**  
+When submitting a pull request against a bug, or making a small change, I want to fly through the process as quickly as possible. I know firsthand how far developers will go to maximize their efficiency (I still struggle with exiting VIM), so I imagine that many users value speed even more than I do.
+
+These qualities are tied together: confidence breeds speed, and faster pull requests lead to more productive and more confident users.
+
+## Measuring success
+
+Improving the pull request process involves measuring confidence and speed; first, to understand the baseline of these metrics, and later, to see how changes impact use. Fortunately, there are a few questions we can ask to determine how confident users are when making pull requests, and how quickly they are able to submit them.
+
+1. **Confidence**  
+	- What percentage of Pull Requests are abandoned after partial completion?
+	- What percentage of Pull Requests are deleted by their submitter immediately after creation?
+2. **Speed**  
+	- What is the median time for a user to submit a pull request?
+	- How do these times break down according to input method (keyboard vs. mouse)?
+
+These metrics don’t give us a _complete_ understanding of confidence and speed, but provide a solid baseline for our work on the process.
+
+## Suggestions for improvement
+
+### Confidence
+
+After initiating a pull request, a user sees the following:
+
+{% include image.html src="/images/github-1.png" caption="The pull request creation screen" %}
+
+As an experienced user of GitHub, I know that the green check mark (“✓ Able to merge”) is not a guarantee that everything is OK. In fact, one of the biggest indicators of a mistake — “Commits” and “Files Changed” — is currently at the bottom of the user’s screen. In my example, though I have a nice green check mark, one look at the files changed tells me that something is wrong.
+
+{% include image.html src="/images/github-2.png" caption="I definitely messed something up here" %}
+
+The following wireframe comprises three suggestion for increasing the confidence of a user making a Pull Request (with the existing layout for comparison):
+
+{% include image.html src="/images/github-3.png" caption="Existing hierarchy" %}
+
+{% include image.html src="/images/github-4.png" caption="Suggested hierarchy" %}
+
+
+1. **More “Am I good?”**
+Putting more information about the impact of the Pull Request — file changes, additions and deletions — at the top of the visual hierarchy increases the likelihood of the Pull Requester
+spotting problems. Likewise, if everything is ok, seeing details that match the user’s expectations is reassuring.
+2. **Less framing**  
+Reducing the relative importance of the page’s header (“Open a Pull Request”) gives us more space for moment-critical information
+3. **Clearer wording**  
+“Able to merge” is vague. I suggest using the wording that exists on the Pull Request _after_ it’s submitted: “✓ This branch has no conflicts with the base branch.”
+
+### Speed
+
+Currently, navigating the page using the “tab” key involves 7 keypresses to focus the “Create Pull Request” button. This is only because the Pull Request’s name input is focused on page load; if a user’s device focuses the page differently (as some screen readers do), many more inputs are required to submit a pull request.
+
+To make it much faster for users to submit a pull request, I recommend adding a keyboard shortcut for “Create Pull Request.”
+
+{% include image.html src="/images/github-5.png" caption="Keyboard shortcuts increase speed" %}
+
+Additionally, users who interact primarily via mouse are currently moving around 450 pixels between starting a pull request and submitting the pull request. Aligning the buttons that begin the pull request process with the button that submits a pull request would increase efficiency even further.
+
+{% include image.html src="/images/github-6.png" caption="Button distance between initiating and completing a pull request" %}
+
+## Conclusion
+
+By identifying the key qualities of a successful pull request, finding quantitative metrics by which to measure improvement, and implementing small but meaningful changes to a few elements in the workflow, I believe a critical piece of the GitHub workflow can become even more efficient and error-free.
+
+In the future, it would be interesting to explore more automation in the pull request process. The presence of third-party integrations (continuous integration, linting, etc) in the code review process has significantly improved code quality in my own use, and I have a feeling that the same would apply to the pull request workflow.
+
+Thank you for taking the time to read this analysis. Please let me know if you have any feedback or questions!
+
+Matthew Ström  
+matthew.h.strom@gmail.com  
+573.380.6453
