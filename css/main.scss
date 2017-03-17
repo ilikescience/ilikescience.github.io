@@ -29,5 +29,9 @@
 }
 
 .image-large img{
-    max-width: 1024px;
+    max-width: calc(1024px - 5rem);
+
+    @media (max-width: 1024px) {
+        max-width: 100%;
+    }
 }
