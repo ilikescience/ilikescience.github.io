@@ -7,10 +7,10 @@ For a developer working with git and GitHub, pull requests are big moments. Each
 
 ## Defining success
 
-As one of the critical moments in the GitHub workflow, it’s important to identify what a successful pull request is. In my experience as a developer, two mark a successful pull request:
+As one of the critical moments in the GitHub workflow, it’s important to identify what a successful pull request is. In my experience as a developer, two qualities mark a successful pull request:
 
-1. **Confidence**
-When drafting a pull request, my first thought is, “Did I do everything right?” There’s a mental checklist I run through: am I merging from the right branch? Am I merging to the right branch? Did I get the right commits? Will I mess up anyone else’s work by making this merge? Successful pull requests are ones where I’m confident I’ve answered all these questions, and haven’t forgotten anything.
+1. **Confidence**  
+When drafting a pull request, my first thought is, “Did I do everything right?” There’s a mental checklist I run through: Am I merging from the right branch? Am I merging to the right branch? Did I get the right commits? Will I mess up anyone else’s work by making this merge? Successful pull requests are ones where I’m confident I’ve answered all these questions, and haven’t forgotten anything.
 2. **Speed**  
 When submitting a pull request against a bug, or making a small change, I want to fly through the process as quickly as possible. I know firsthand how far developers will go to maximize their efficiency (I still struggle with exiting VIM), so I imagine that many users value speed even more than I do.
 
@@ -43,12 +43,9 @@ As an experienced user of GitHub, I know that the green check mark (“✓ Able 
 
 The following wireframe comprises three suggestion for increasing the confidence of a user making a Pull Request (with the existing layout for comparison):
 
-{% include image.html src="/images/github-3.png" caption="Existing hierarchy" %}
+{% include image.html src="/images/github-3.png" caption="Suggested improvements" size="image-large" %}
 
-{% include image.html src="/images/github-4.png" caption="Suggested hierarchy" %}
-
-
-1. **More “Am I good?”**
+1. **More “Am I good?”**  
 Putting more information about the impact of the Pull Request — file changes, additions and deletions — at the top of the visual hierarchy increases the likelihood of the Pull Requester
 spotting problems. Likewise, if everything is ok, seeing details that match the user’s expectations is reassuring.
 2. **Less framing**  
