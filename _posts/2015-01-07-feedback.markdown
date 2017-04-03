@@ -1,5 +1,5 @@
 ---
-title:  "Towarsds Better Creative Feedback"
+title:  "Towards Better Creative Feedback"
 date:   2015-01-07
 categories: writing
 ---
