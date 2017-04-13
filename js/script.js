@@ -1,8 +1,8 @@
-const drawArt = (canvas) => {
+const drawArt = canvas => {
   let dpr = window.devicePixelRatio || 1;
   canvas.width = canvas.offsetWidth * dpr;
   canvas.height = canvas.offsetHeight * dpr;
-  var ctx = canvas.getContext("2d");
+  var ctx = canvas.getContext('2d');
   ctx.scale(dpr, dpr);
 
   // set up coords
@@ -42,7 +42,7 @@ const drawArt = (canvas) => {
   let pointAge = 0;
 
   // create a position vector for that point
-  let pos = [ x, y ];
+  let pos = [x, y];
 
   // push that vector into the grid
   grid[i + j * cols] = pos;
@@ -55,9 +55,7 @@ const drawArt = (canvas) => {
     let found = false;
 
     // pick a random active point
-    const randIndex = Math.floor(
-      Math.random() * active.length
-    );
+    const randIndex = Math.floor(Math.random() * active.length);
     // get that random point's position
     const activePos = active[randIndex];
 
@@ -71,7 +69,7 @@ const drawArt = (canvas) => {
       const sample = [
         Math.cos(a) * m + activePos[0],
         Math.sin(a) * m + activePos[1],
-        pointAge
+        pointAge,
       ];
 
       // check which column and row that new vector is in
@@ -80,9 +78,11 @@ const drawArt = (canvas) => {
 
       // if the new vector is on the grid, and the grid doesn't already have a point defined ...
       if (
-        thisCol > -1 && thisRow > -1 && thisCol < cols &&
-          thisRow < rows &&
-          grid[thisCol + thisRow * cols] === -1
+        thisCol > -1 &&
+        thisRow > -1 &&
+        thisCol < cols &&
+        thisRow < rows &&
+        grid[thisCol + thisRow * cols] === -1
       ) {
         // we're ok to put a new point on the grid!
         let ok = true;
@@ -91,8 +91,7 @@ const drawArt = (canvas) => {
         for (let i = -1; i <= 1; i++) {
           for (let j = -1; j <= 1; j++) {
             // get the grid coordinates of the neighbor we're on
-            const index = thisCol + i +
-              (thisRow + j) * cols;
+            const index = thisCol + i + (thisRow + j) * cols;
             const neighbor = grid[index];
 
             // if the neighbor is on the grid ...
@@ -100,7 +99,7 @@ const drawArt = (canvas) => {
               // find the distance between the neighbor and the sample vector.
               const d = Math.sqrt(
                 Math.pow(sample[0] - neighbor[0], 2) +
-                  Math.pow(sample[1] - neighbor[1], 2)
+                  Math.pow(sample[1] - neighbor[1], 2),
               );
 
               // if the distance is smaller than the allowed minimum ...
@@ -109,7 +108,6 @@ const drawArt = (canvas) => {
                 ok = false;
               }
             }
-
           }
         }
         // if we've passed the minimum distance check,
@@ -120,7 +118,7 @@ const drawArt = (canvas) => {
           grid[thisCol + thisRow * cols] = sample;
           // and add it as a point we can use to search.
           active.push(sample);
-          pointAge ++;
+          pointAge++;
         }
       }
     }
@@ -134,24 +132,17 @@ const drawArt = (canvas) => {
 
   for (let i = 0; i < grid.length; i++) {
     if (grid[i] != -1) {
-      ctx.fillStyle = `hsl(${200 + (grid[i][2] / 40) % 180}, 100%, 50%)`;
+      ctx.fillStyle = `hsl(${200 + grid[i][2] / 40 % 180}, 100%, 50%)`;
       ctx.beginPath();
-      ctx.arc(
-        grid[i][0],
-        grid[i][1],
-        1,
-        0,
-        2 * Math.PI,
-        true
-      );
+      ctx.arc(grid[i][0], grid[i][1], 1, 0, 2 * Math.PI, true);
       ctx.fill();
     }
   }
-}
+};
 
-window.addEventListener("load", function() {
+window.addEventListener('load', function() {
   // set up canvas
-  const canvas = document.querySelector("canvas");
+  const canvas = document.querySelector('canvas');
   if (canvas) {
     drawArt(canvas);
   }
