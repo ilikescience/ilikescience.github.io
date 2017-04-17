@@ -99,7 +99,7 @@ const drawArt = canvas => {
               // find the distance between the neighbor and the sample vector.
               const d = Math.sqrt(
                 Math.pow(sample[0] - neighbor[0], 2) +
-                  Math.pow(sample[1] - neighbor[1], 2),
+                  Math.pow(sample[1] - neighbor[1], 2)
               );
 
               // if the distance is smaller than the allowed minimum ...
