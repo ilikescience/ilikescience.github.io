@@ -7,7 +7,7 @@
 Hi, my name is Matthew Ström.
     </h1>
     <h2>
-I'm a designer &amp; developer living in Brooklyn, NY.
+I'm a <span class="ghover">desiigner<div class="ghover--popup"><img src="https://68.media.tumblr.com/3d02434f7fe39fd0167ed5699fb2031d/tumblr_o9epuczuaA1s3y9slo1_500.gif"/></div></span> &amp; developer living in Brooklyn, NY.
     </h2>
 
 <div class="l--mar-top-s">
@@ -23,12 +23,12 @@ I'm a designer &amp; developer living in Brooklyn, NY.
 
 〰
 
-**Projects I've worked on:**
-
-[Spacetime](/projects/spacetime), an app for remote teams.<br/>
-[Argos](/projects/argos), a content marketing analytics platform.<br/>
-[SAP Fiori](/projects/sap), software powering large-scale commercial operations.<br/>
-[The Architect's Newspaper](/projects/archpaper), a redesign and rearchitecture of an online publication.
+**Projects I've worked on:**  
+[SoundCloud Go](https://soundcloud.com/go), SoundCloud's premium subscription offering.  
+[Spacetime](/projects/spacetime), an app for remote teams.  
+[Argos](/projects/argos), a content marketing analytics platform.  
+[SAP Fiori](/projects/sap), software powering large-scale commercial operations.  
+[The Architect's Newspaper](/projects/archpaper), a redesign and rearchitecture of an online publication.  
 
 〰
 

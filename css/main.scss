@@ -35,3 +35,26 @@
         max-width: 100%;
     }
 }
+
+.ghover {
+    position: relative;
+    text-decoration: underline;
+}
+
+.ghover:hover {
+    cursor: help;
+}
+
+.ghover--popup {
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: -12rem;
+    width: 20rem;
+    height: 11.25rem;
+    border: 0.25rem solid blue;
+}
+
+.ghover:hover .ghover--popup {
+    display: block;
+}
