@@ -55,6 +55,10 @@ $t--size-l: 1.6rem;
 $t--size-m: 1rem;
 $t--size-s: 0.75rem;
 
+html {
+    font-size: $t--base-size;
+}
+
 body {
     color: $c--black;
     font-size: $t--base-size;
