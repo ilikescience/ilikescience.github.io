@@ -3,7 +3,7 @@
 ---
 
 <header class="l--mar-btm-m">
-    <h1 class="t--size-xxl c--blue t--family-serif t--leading-small t--tracking-tight t--weight-bold">
+    <h1 class="t--size-xxl c--blue t--family-display t--leading-small t--tracking-tight t--weight-bold">
 Hi, my name is Matthew Ström.
     </h1>
     <h2>

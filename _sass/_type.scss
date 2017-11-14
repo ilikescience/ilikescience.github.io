@@ -16,6 +16,26 @@ $t--family-sans: -apple-system,
     arial,
     sans-serif;
 $t--family-serif:
+    'bagatela',
+    'Palatino Linotype',
+    Palatino,
+    Palladio,
+    'URW Palladio L',
+    'Book Antiqua',
+    Baskerville,
+    'Bookman Old Style',
+    'Bitstream Charter',
+    'Nimbus Roman No9 L',
+    Garamond,
+    'Apple Garamond',
+    'ITC Garamond Narrow',
+    'New Century Schoolbook',
+    'Century Schoolbook',
+    'Century Schoolbook L',
+    Georgia,
+    serif;
+
+$t--family-display:
     'jaf-lapture-display',
     'Palatino Linotype',
     Palatino,
@@ -81,6 +101,7 @@ p {
 
 .t--family-sans { font-family: $t--family-sans; }
 .t--family-serif { font-family: $t--family-serif; }
+.t--family-display { font-family: $t--family-display; }
 .t--family-mono { font-family: $t--family-mono; }
 
 .t--size-xxl { font-size: $t--size-xxl; }
@@ -112,11 +133,17 @@ p {
 /* post-specific styles :( */
 
 .post {
+    p,
+    ol,
+    ul {
+        font-size: 1.2rem;
+        font-family: $t--family-serif;
+    }
     p + h1,
     p + h2,
     p + h3,
     p + h4 {
-        margin-top: 1em;
+        margin-top: 1.5em;
     }
     h1 + p,
     h2 + p,
@@ -124,6 +151,14 @@ p {
     h4 + p {
         margin-top: 0.5em;
     }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        line-height: 1.1em;
+    }
+
     h1 {
         font-size: $t--size-xxl
     }
