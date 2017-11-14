@@ -50,6 +50,7 @@ I'm a <span class="ghover">desiigner<div class="ghover--popup"><img src="https:/
 **Things I've written:**
 
 |-|-|
+|<span class="c--gray l--mar-right-s">11/14/17</span> | [What makes a good design principle?](/writing/principles) |
 |<span class="c--gray l--mar-right-s">04/12/17</span> | [How To Get the Best Design Feedback From Your Team](/writing/feedback-revisited) |
 |<span class="c--gray l--mar-right-s">08/03/16</span> | [Design Better Data Tables](/writing/tables) |
 |<span class="c--gray l--mar-right-s">07/27/16</span> | [Datum Ipsum](/writing/datum-ipsum) |

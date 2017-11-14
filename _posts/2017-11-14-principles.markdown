@@ -1,5 +1,5 @@
 ---
-title:  "Writing good design principles"
+title:  "What makes a good design principle?"
 categories: writing
 ---
 
