@@ -174,9 +174,10 @@ p {
     }
     blockquote {
         margin: 2em 0;
-        font-size: $t--size-l;
-        font-family: $t--family-serif;
-        line-height: $t--leading-small;
+        p {
+            font-size: $t--size-l;
+            font-family: $t--family-serif;
+        }
     }
 }
 

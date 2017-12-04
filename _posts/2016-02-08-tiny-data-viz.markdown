@@ -16,8 +16,12 @@ So what does data look like when it’s used as part of the story itself? How ca
 
 ## Enter Sparklines
 
-> A sparkline is a small intense, simple, word-sized graphic with typographic resolution.<br/><br/>
->  Sparklines mean that graphics are no longer cartoonish special occasions with captions and boxes, but rather sparkline graphics can be everywhere a word or number can be: embedded in a sentence, table, headline, map, spreadsheet, graphic. Data graphics should have the resolution of typography.<br/><br/>
+> A sparkline is a small intense, simple, word-sized graphic with typographic resolution.  
+
+
+>  Sparklines mean that graphics are no longer cartoonish special occasions with captions and boxes, but rather sparkline graphics can be everywhere a word or number can be: embedded in a sentence, table, headline, map, spreadsheet, graphic. Data graphics should have the resolution of typography.  
+
+
 > – Edward Tufte, Beautiful Evidence, 46–63
 
 Edward Tufte describes sparklines in his book *Beautiful Evidence* as being word-sized graphics. “Typographic Resolution” is his key identifier of a sparkline, and he goes back to this distinction repeatedly without quite defining it. So what does “Typographic Resolution” mean?
@@ -82,4 +86,4 @@ While we don’t normally think of fonts as software, they are actually complex 
 
 **In Conclusion**
 
-We see the value of data visualization more and more each day, as large and interactive charts are published alongside stories in major publications. Newsrooms that explore the realm of word-sized charts, making data a central and essential component to stories, will stand apart; the next frontier of data is integration with the text of our stories. 
+We see the value of data visualization more and more each day, as large and interactive charts are published alongside stories in major publications. Newsrooms that explore the realm of word-sized charts, making data a central and essential component to stories, will stand apart; the next frontier of data is integration with the text of our stories.
