@@ -138,6 +138,10 @@ p {
     ul {
         font-size: 1.2rem;
         font-family: $t--family-serif;
+
+        @media (max-width: 1024px) {
+            font-size: 1rem;
+        }
     }
     p + h1,
     p + h2,
@@ -160,13 +164,14 @@ p {
     }
 
     h1 {
-        font-size: $t--size-xxl
+        font-size: $t--size-xxl;
     }
+    
     h2 {
-        font-size: $t--size-xl
+        font-size: $t--size-xl;
     }
     h3 {
-        font-size: $t--size-l
+        font-size: $t--size-l;
     }
     h4 {
         font-weight: $t--weight-bold;
