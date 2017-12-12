@@ -96,6 +96,6 @@ Program Manager **Tania Feliz** and Product Managers **Marta Jakubanis, Delia Ca
 
 The graphics team, **Shazna Nessa, Dov Friedman, Elliot Bentley, Gabriel Gianordoli, Laura Holder, Tonia Cowan, Tyler Paige, and Tynan Debold,** worked on our data visualization and graphics language to make the shift together with the product team.
 
-Engineering leads **Morgan Vo, Ryan Yun, and Christian Sherland,** along with the entire engineering team, worked with such supreme grace under pressure — I'm fortunate to work with such a collaborative and patient group.
+Engineering leads **Vishaal Patil, Morgan Vo, Ryan Yun, and Christian Sherland,** along with the entire engineering team, worked with such supreme grace under pressure — I'm fortunate to work with such a collaborative and patient group.
 
 Finally, many more people contributed to this feat, all of who I hope I have properly thanked in the many internal emails and slack messages that we've exchanged over the past few months.
