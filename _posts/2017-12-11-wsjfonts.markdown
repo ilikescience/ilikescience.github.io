@@ -31,7 +31,7 @@ Designed by Tobias Frere-Jones in 2000. Retina takes clarity to the extreme. It 
 
 {% include image.html src="/images/wsjfonts-3.png" caption="Retina" %}
 
-While these typefaces are central to the brand of the Journal, digital channels are a significantly more complicated environment. Legal and technical hurdles meant that, until recently, we lacked the ability to use these typefaces on our web and mobile apps.
+While these typefaces are central to the brand of the Journal, digital channels are a significantly more complicated environment. Legal and technical hurdles meant that, until recently, we lacked the ability to use these typefaces on the web.
 
 It took the time, patience, passion, attention, hard work, and cooperation of many, many people throughout the organization, and as of December 11, 2017, most of wsj.com is rendered in Escrow, Exchange, and Retina.
 
