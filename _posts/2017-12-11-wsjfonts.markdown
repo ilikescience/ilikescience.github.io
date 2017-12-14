@@ -43,7 +43,7 @@ Here's some things I've learned in the process:
 
 The hardware and software that renders wsj.com is fascinating. My back-of-the-envelope calculation says that in the time you've been reading this essay, more than 10,000 people will have visited our site; each of them expects a nice-looking page to load quickly and work perfectly.
 
-Depending on what page it serves, our web platform might rely any number of separate applications, all of which are continuously deployed and deeply intertwined.
+Depending on what page it serves, our web platform might rely on any number of separate applications, all of which are continuously deployed and deeply intertwined.
 
 Editors and contributors are publishing and updating stories every minute, of every day, of every month of the year.
 
