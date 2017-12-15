@@ -94,7 +94,7 @@ Product Designers **Brian Feeney, Cory Etzkorn, Lee Yon, Adele Morgan** and Stud
 
 Program Manager **Tania Feliz** and Product Managers **Marta Jakubanis, Delia Casa, Neesha Patel, Tyler Chance, and Sarah Pesin** managed the chaos of such a complicated project, facilitating communication and ultimately guaranteeing our success.
 
-The graphics team, **Shazna Nessa, Dov Friedman, Elliot Bentley, Gabriel Gianordoli, Laura Holder, Tonia Cowan, Tyler Paige, and Tynan Debold,** worked on our data visualization and graphics language to make the shift together with the product team.
+The graphics team, **Shazna Nessa, Dov Friedman, Elliot Bentley, Gabriel Gianordoli, Laura Holder, Tonia Cowan, Tyler Paige, Eric Brynildsen, and Tynan Debold,** worked on our data visualization and graphics language to make the shift together with the product team.
 
 Engineering leads **Vishaal Patil, Morgan Vo, Ryan Yun, and Christian Sherland,** along with the entire engineering team, worked with such supreme grace under pressure — I'm fortunate to work with such a collaborative and patient group.
 
