@@ -7,7 +7,7 @@
 Hi, my name is Matthew Ström.
     </h1>
     <h2>
-I'm a <span class="ghover">desiigner<div class="ghover--popup"><img src="https://68.media.tumblr.com/3d02434f7fe39fd0167ed5699fb2031d/tumblr_o9epuczuaA1s3y9slo1_500.gif"/></div></span> &amp; developer living in Brooklyn, NY.
+I'm a designer &amp; developer living in Brooklyn, NY.
     </h2>
 
 <div class="l--mar-top-s">
@@ -48,28 +48,24 @@ I'm a <span class="ghover">desiigner<div class="ghover--popup"><img src="https:/
 〰
 
 **Things I've written:**
+{% assign posts = site.posts | where: "categories", "writing" %}
 
-|-|-|
-|<span class="c--gray l--mar-right-s">12/11/17</span> | [Changing all the fonts on WSJ.com](/writing/wsjfonts) |
-|<span class="c--gray l--mar-right-s">11/14/17</span> | [What makes a good design principle?](/writing/principles) |
-|<span class="c--gray l--mar-right-s">04/12/17</span> | [How To Get the Best Design Feedback From Your Team](/writing/feedback-revisited) |
-|<span class="c--gray l--mar-right-s">08/03/16</span> | [Design Better Data Tables](/writing/tables) |
-|<span class="c--gray l--mar-right-s">07/27/16</span> | [Datum Ipsum](/writing/datum-ipsum) |
-|<span class="c--gray l--mar-right-s">02/08/16</span> | [Tiny Data Visualizations](/writing/tiny-data-viz) |
-|<span class="c--gray l--mar-right-s">12/15/15</span> | [Mind The Gap: Designing graphs with missing data](/writing/gap) |
-|<span class="c--gray l--mar-right-s">11/15/15</span> | [Goldilocks Your graphs](/writing/goldilocks) |
-|<span class="c--gray l--mar-right-s">07/15/15</span> | [Well-Designed Interfaces Look Boring](/writing/boring) |
-|<span class="c--gray l--mar-right-s">01/07/15</span> | [Towards Better Creative Feedback](/writing/feedback) |
-|<span class="c--gray l--mar-right-s">05/15/14</span> | [Asymetrical Symmetry](/writing/go) |
-|<span class="c--gray l--mar-right-s">05/15/14</span> | [Make It 'til You Make it](/writing/make-it) |
-|<span class="c--gray l--mar-right-s">05/13/14</span> | [Better Problem Solving: Unask the Question](/writing/unask) |
-|<span class="c--gray l--mar-right-s">05/08/14</span> | [Taking Credit for Success](/writing/success) |
-|<span class="c--gray l--mar-right-s">05/06/14</span> | [What Happens When Things Go Wrong](/writing/wrong) |
-|<span class="c--gray l--mar-right-s">02/09/14</span> | [Practice Makes Perfect](/writing/practice) |
-|<span class="c--gray l--mar-right-s">01/28/14</span> | [Be Curious](/writing/curiosity) |
-|<span class="c--gray l--mar-right-s">01/18/14</span> | [Working to Work](/writing/working) |
-|<span class="c--gray l--mar-right-s">12/02/13</span> | [A Website To Call My Own](/writing/website) |
+<table>
+    {% for post in posts %}
+        {% if post.categories contains "translations" %}
+        {% else if %}
+            <tr>
+                <td>
+                    <span class="c--gray l--mar-right-s">{{ post.date | date: "%d/%m/%y" }}</span>
+                </td>
+                <td>
+                    <a href="{{ post.url }}"> {{ post.title }} </a>
 
+                </td>
+            </tr>
+        {% endif %}
+    {% endfor %}
+</table>
 
 〰
 
