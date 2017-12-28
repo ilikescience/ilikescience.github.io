@@ -23,7 +23,7 @@ I'm a designer &amp; developer living in Brooklyn, NY.
 
 〰
 
-**Projects I've worked on:**  
+**Products I've worked on:**  
 [SoundCloud Go](https://soundcloud.com/go), SoundCloud's premium subscription offering.  
 [Spacetime](/projects/spacetime), an app for remote teams.  
 [Argos](/projects/argos), a content marketing analytics platform.  
@@ -56,7 +56,7 @@ I'm a designer &amp; developer living in Brooklyn, NY.
         {% else if %}
             <tr>
                 <td>
-                    <span class="c--gray l--mar-right-s">{{ post.date | date: "%d/%m/%y" }}</span>
+                    <span class="c--gray l--mar-right-s">{{ post.date | date: "%m/%d/%y" }}</span>
                 </td>
                 <td>
                     <a href="{{ post.url }}"> {{ post.title }} </a>
