@@ -6,7 +6,7 @@ categories: writing
 
 I like job interviews.
 
-I participated in a lot of job interviews in 2017.  I interviewed before starting at SoundCloud, and then again on my way to my current position at The Wall Street Journal.
+I participated in a lot of job interviews in 2017.  I interviewed extensively before starting at SoundCloud, and then again on my way to my current position at The Wall Street Journal.
 
 As a candidate, interviews are full of fascinating cultural signals about the organization.
 
