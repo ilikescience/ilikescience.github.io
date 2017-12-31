@@ -69,8 +69,8 @@ $t--weight-normal: 400;
 $t--weight-light: 300;
 
 /* font sizes */
-$t--size-xxl: 5rem;
-$t--size-xl: 2.2rem;
+$t--size-xxl: 4rem;
+$t--size-xl: 2rem;
 $t--size-l: 1.6rem;
 $t--size-m: 1rem;
 $t--size-s: 0.75rem;
@@ -147,13 +147,13 @@ p {
     p + h2,
     p + h3,
     p + h4 {
-        margin-top: 1.5em;
+        margin-top: 2em;
     }
     h1 + p,
     h2 + p,
     h3 + p,
     h4 + p {
-        margin-top: 0.5em;
+        margin-top: 1em;
     }
 
     h1,
@@ -168,14 +168,15 @@ p {
     }
     
     h2 {
-        font-size: $t--size-xl;
-    }
-    h3 {
         font-size: $t--size-l;
     }
-    h4 {
+    h3 {
         font-weight: $t--weight-bold;
         font-size: $t--size-m;
+    }
+    h4 {
+        font-size: $t--size-m;
+        color: $c--gray;
     }
     blockquote {
         margin: 2em 0;
