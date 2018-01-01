@@ -123,6 +123,8 @@ p {
 .t--align-center { text-align: center; }
 .t--align-right { text-align: right; }
 
+.t--decoration-none { text-decoration: none; }
+
 @media (max-width: 1024px) {
     .t--size-xxl { font-size: $t--size-xxl * 0.75; }
     .t--size-xl { font-size: $t--size-xl * 0.75; }
