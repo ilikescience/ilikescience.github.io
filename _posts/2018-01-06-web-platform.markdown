@@ -14,7 +14,7 @@ Given the numbers, it's not surprising that many veterans of the web platform ha
 > Websites are just services, and what you see in a browser tab is merely one possible interface to that service. The best possible interface to that service is often, if not usually, going to be a native app, not a web app.  
 > -- _John Gruber, 2013_[^4]
 
-Things were admittedly looking grim for the web platform in 2013. But the web did what the web does: it grew. Looking ahead, it's clear to me that the web is, and will continue to be, the platform of record. The web will win.
+To Mr. Gruber's credit, things were looking pretty grim for the web platform in 2013. But the web did what the web does: it grew. Looking ahead, it's clear to me that the web is, and will continue to be, the platform of record. The web will win.
 
 ---
 
@@ -22,9 +22,9 @@ Things were admittedly looking grim for the web platform in 2013. But the web di
 
 The web is designed to be open-source, and therefore it is designed to last.
 
-Other platforms have come and gone. Blackberry once controlled 50% of the smartphone market — now, it has just 0.048%.[^5] Windows Mobile accounted for 23% of smartphone sales in 2004. In 2017, it had dropped to 0.3%.[^6]
+Other platforms have come and gone. Blackberry once controlled 50% of the smartphone market — now, it has just 0.048%.[^5] Windows Mobile accounted for 23% of smartphone sales in 2004. By 2017, it had dropped to 0.3%.[^6]
 
-The web platform as we know it today — HTML, JavaScript, and CSS — has existed since 1996, with the release of Internet Explorer 3. In the 22 years since, Facebook, Google, Amazon[^7], and Alibaba all launched first on the web platform. As newer platforms arrived, each company continued their investment in the web alongside their participation in the emerging markets. These juggernauts depend on the web platform. 
+The web platform as we know it today — HTML, JavaScript, and CSS — has existed since 1996 and the release of Internet Explorer 3. In the 22 years since, Facebook, Google, Amazon[^7], and Alibaba all launched first on the web platform. As newer platforms arrived, each company continued their investment in the web alongside their participation in the emerging markets. These juggernauts depend on the web platform. 
 
 This level of investment is only possible because of the web’s open-source nature. In many ways, the reason why the web is what it is today is because of the collaboration between these companies:
 
@@ -39,7 +39,7 @@ All of these frameworks are open source. Hundreds of thousands of developers, fr
 
 In 2015, there were 3 billion internet users. In 2020, that number is projected to reach 4.1 billion.[^10] Each of those 1.1 billion people will have access to the web platform, not matter what device or operating system they use.
 
-Google and Facebook are putting massive resources into connecting new users to the web. Facebook alone claims to have put 40 million new users on the web in the last 5 years, through their Internet.org initiative.[^11] Google’s Project goes further, putting flocks of balloons into the stratosphere to broadcast the internet anywhere on earth. While initially dismissed as mad science, Project Loon recently proved itself a viable technology by providing internet access to 100,000 Puerto Ricans after Hurricane Maria destroyed the island’s data infrastructure.[^12]
+Google and Facebook are putting massive resources into connecting new users to the web. Facebook alone claims to have put 40 million new users on the web in the last 5 years, through their Internet.org initiative.[^11] Google’s Project Loon goes further, putting flocks of balloons into the stratosphere to broadcast the internet anywhere on earth. While initially dismissed as mad science, Project Loon recently proved itself a viable technology by providing internet access to 100,000 Puerto Ricans after Hurricane Maria destroyed the island’s data infrastructure.[^12]
 
 Providing rich experiences to new internet users through the web platform has proven valuable to the world’s largest companies:
 
