@@ -53,7 +53,7 @@ For these companies, optimizing for new internet users by building on the web pl
 
 Back to John Gruber’s argument: “The best possible interface [is] going to be a native app.” In 2013, that might have been true; in 2018, it’s questionable. The web platform has quietly evolved the capability to match, if not surpass, the capabilities of native apps.
 
-**Progressive Web Apps** are one of the most exciting developments of the web platform in the last 10 years.[^16] PWAs work with low internet connectivity, or no internet connectivity at all. They have access to device hardware, like the camera and accelerometer, enabling native functionality. Some platforms — notably Android — make no distinction between native apps and PWAs.
+**Progressive Web Apps** are one of the most exciting developments of the web platform in the last 10 years.[^16] PWAs work with low internet connectivity, or no internet connectivity at all. They have access to device hardware like the camera and accelerometer, enabling native functionality. Some platforms — notably Android — make no distinction between native apps and PWAs.
 
 **WebGL** is a web API that allows developers to render 2d and 3d graphics without any additional plugins. With WebGL 1.0 implemented in every major browser, web apps can use the same hardware as native apps to create rich visual experiences. Autodesk recently ported all of their flagship applications to web apps using WebGL, including industry standard AutoCAD.[^17] Figma, a new design application, runs entirely in the browser. It performs equally to or better than its competitors, Sketch, Illustrator, and Adobe XD.
 
@@ -70,7 +70,7 @@ Back to John Gruber’s argument: “The best possible interface [is] going to b
 
 The first 22 years of the web platform were revolutionary. The open, accessible, and feature-rich applications that exist on the platform continue to drive the global economy. The next 5 years look like they’ll be filled with more innovation and growth than ever.
 
-The web will be the platform of the Next Big Thing. Not just as athe distribution network many see it as today; the web platform will deliver the most innovative experiences. They’ll be innovative not just for how they use new technology, but also because of how easy it will be for new users to experience.
+The web will be the platform of the Next Big Thing. Not just as the distribution network many see it as today; the web platform will deliver the most innovative experiences. They’ll be innovative not just for how they use new technology, but also because of how easy it will be for new users to experience.
 
 The web is alive, and better than ever.
 
