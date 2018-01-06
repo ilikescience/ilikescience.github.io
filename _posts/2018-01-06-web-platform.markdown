@@ -82,7 +82,7 @@ The web is alive, and better than ever.
 
 [^4]: <https://daringfireball.net/2013/04/web_apps_native_apps>
 
-[^5]: ,http://nymag.com/selectall/2017/02/blackberrys-global-market-share-is-now-0-0.html>
+[^5]: <http://nymag.com/selectall/2017/02/blackberrys-global-market-share-is-now-0-0.html>
 
 [^6]: <https://adtmag.com/articles/2017/02/16/windows-mobile.aspx>
 
@@ -100,7 +100,7 @@ The web is alive, and better than ever.
 
 [^13]: <https://developers.google.com/web/showcase/2016/alibaba>
 
-[^14]: <ttps://developers.google.com/web/showcase/2017/bookmyshow>
+[^14]: <https://developers.google.com/web/showcase/2017/bookmyshow>
 
 [^15]: <https://developers.google.com/web/showcase/2017/twitter>
 
