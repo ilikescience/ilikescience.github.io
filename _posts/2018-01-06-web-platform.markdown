@@ -18,7 +18,7 @@ To Mr. Gruber's credit, things were looking pretty grim for the web platform in 
 
 ---
 
-## The Web Has Already Won
+## The web has already won
 
 The web is designed to be open-source, and therefore it is designed to last.
 
