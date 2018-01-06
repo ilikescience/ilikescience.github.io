@@ -1,0 +1,115 @@
+---
+title:  "Why the Web Will Win"
+date:   2018-01-06
+categories: writing
+---
+
+197 billion apps were downloaded in 2017[^1]: that's almost 26 per human being on the planet Earth. 6 apps per second. In the 10 years since Apple opened the App Store, app downloads have doubled, on average, every two years.[^2]
+
+Given the numbers, it's not surprising that many veterans of the web platform have declared it as second-rate:
+
+> I feel it’s time to revisit the web vs. native debate, and concede defeat — or, at least, concede that the web cannot, and should not, compete with native when it comes to complex, app-like structures.  
+> -- _Peter-Paul Koch, 2015_[^3]
+
+> Websites are just services, and what you see in a browser tab is merely one possible interface to that service. The best possible interface to that service is often, if not usually, going to be a native app, not a web app.  
+> -- _John Gruber, 2013_[^4]
+
+Things were admittedly looking grim for the web platform in 2013. But the web did what the web does: it grew. Looking ahead, it's clear to me that the web is, and will continue to be, the platform of record. The web will win.
+
+---
+
+## The Web Has Already Won
+
+The web is designed to be open-source, and therefore it is designed to last.
+
+Other platforms have come and gone. Blackberry once controlled 50% of the smartphone market — now, it has just 0.048%.[^5] Windows Mobile accounted for 23% of smartphone sales in 2004. In 2017, it had dropped to 0.3%.[^6]
+
+The web platform as we know it today — HTML, JavaScript, and CSS — has existed since 1996, with the release of Internet Explorer 3. In the 22 years since, Facebook, Google, Amazon[^7], and Alibaba all launched first on the web platform. As newer platforms arrived, each company continued their investment in the web alongside their participation in the emerging markets. These juggernauts depend on the web platform. 
+
+This level of investment is only possible because of the web’s open-source nature. In many ways, the reason why the web is what it is today is because of the collaboration between these companies:
+
+- Google and Apple are the two largest contributors to **WebKit**, the foundation of Safari.[^8]
+- Google Chrome is built on **Blink**, itself an offshoot of WebKit. 
+- **V8**, Chrome’s JavaScript rendering engine, also powers **Node.js**, which is quickly becoming lingua franca for server-side applications.
+- **React**, Facebook’s JavaScript interface builder, has contributors and users at Airbnb, Uber, Netflix, Twitter, Pinterest, Reddit, and more.[^9]
+
+All of these frameworks are open source. Hundreds of thousands of developers, from thousands of companies, collaborate on and contribute to the ongoing development of the bedrock of the web platform.
+
+## The next billion users
+
+In 2015, there were 3 billion internet users. In 2020, that number is projected to reach 4.1 billion.[^10] Each of those 1.1 billion people will have access to the web platform, not matter what device or operating system they use.
+
+Google and Facebook are putting massive resources into connecting new users to the web. Facebook alone claims to have put 40 million new users on the web in the last 5 years, through their Internet.org initiative.[^11] Google’s Project goes further, putting flocks of balloons into the stratosphere to broadcast the internet anywhere on earth. While initially dismissed as mad science, Project Loon recently proved itself a viable technology by providing internet access to 100,000 Puerto Ricans after Hurricane Maria destroyed the island’s data infrastructure.[^12]
+
+Providing rich experiences to new internet users through the web platform has proven valuable to the world’s largest companies:
+
+-  Alibaba **increased conversions from web 76%** by building a web app. Their monthly active users subsequently increased 14% on iOS and 30% on Android.[^13]
+-  BookMyShow, India’s largest ticketing firm, increased conversions 80% by launching a web app. It boasts a load time of just **4 seconds on a 2G network.**[^14]
+-  Twitter now sends all of its mobile web traffic through a web app called Twitter Lite. Twitter Lite weighs in at **600KB**, compared to the 23MB load of the native Android app. Its introduction came with a **65% increase in pages-per-session**, along with a **75% increase in tweets sent.**[^15]
+
+For these companies, optimizing for new internet users by building on the web platform has paid significant dividends.
+
+## The next big platform
+
+Back to John Gruber’s argument: “The best possible interface [is] going to be a native app.” In 2013, that might have been true; in 2018, it’s questionable. The web platform has quietly evolved the capability to match, if not surpass, the capabilities of native apps.
+
+**Progressive Web Apps** are one of the most exciting developments of the web platform in the last 10 years.[^16] PWAs work with low internet connectivity, or no internet connectivity at all. They have access to device hardware, like the camera and accelerometer, enabling native functionality. Some platforms — notably Android — make no distinction between native apps and PWAs.
+
+**WebGL** is a web API that allows developers to render 2d and 3d graphics without any additional plugins. With WebGL 1.0 implemented in every major browser, web apps can use the same hardware as native apps to create rich visual experiences. Autodesk recently ported all of their flagship applications to web apps using WebGL, including industry standard AutoCAD.[^17] Figma, a new design application, runs entirely in the browser. It performs equally to or better than its competitors, Sketch, Illustrator, and Adobe XD.
+
+**WebAssembly** is a relatively new concept, but it promises to revolutionize how web applications are built. In a nutshell, WebAssembly allows developers to run code in an extremely high-performance and high-security environment, all inside a browser[^18]. Additionally, code written in C++ can be efficiently and automatically translated into WebAssembly; apps written for native platforms can be easily converted and distributed on the web platform.[^19]
+
+**React Native and Electron** are two examples of  how web platform technology is invading other platforms:
+
+- React Native is an extension of Facebook’s React library. It allows developers to write a single code base (in Javascript), and compile to other native platforms (like Objective C and Java).
+- Electron, on the other hand, runs web platform code _inside_ desktop platforms, hooking into low-level functionality to run efficiently.[^20]
+
+---
+
+## The web is dead, long live the web
+
+The first 22 years of the web platform were revolutionary. The open, accessible, and feature-rich applications that exist on the platform continue to drive the global economy. The next 5 years look like they’ll be filled with more innovation and growth than ever.
+
+The web will be the platform of the Next Big Thing. Not just as athe distribution network many see it as today; the web platform will deliver the most innovative experiences. They’ll be innovative not just for how they use new technology, but also because of how easy it will be for new users to experience.
+
+The web is alive, and better than ever.
+
+[^1]: <https://www.statista.com/statistics/271644/worldwide-free-and-paid-mobile-app-store-downloads/>
+
+[^2]: <https://www.statista.com/statistics/263794/number-of-downloads-from-the-apple-app-store/>
+
+[^3]: <https://www.quirksmode.org/blog/archives/2015/05/web_vs_native_l.html>
+
+[^4]: <https://daringfireball.net/2013/04/web_apps_native_apps>
+
+[^5]: ,http://nymag.com/selectall/2017/02/blackberrys-global-market-share-is-now-0-0.html>
+
+[^6]: <https://adtmag.com/articles/2017/02/16/windows-mobile.aspx>
+
+[^7]: Amazon, in fact, existed before CSS (but not Javascript).
+
+[^8]: <http://appleinsider.com/articles/13/02/11/apple-google-nearly-tied-as-top-contributors-to-webkit-as-adoption-expands>
+
+[^9]: <https://github.com/facebook/react/wiki/Sites-Using-React>
+
+[^10]: <https://www.huffingtonpost.com/john-garrity/internet-user-growth-over_b_10603196.html>
+
+[^11]: <https://techcrunch.com/2016/11/02/omnipresent/>
+
+[^12]: <https://www.engadget.com/2017/11/09/project-loon-delivers-internet-100-000-people-puerto-rico/>
+
+[^13]: <https://developers.google.com/web/showcase/2016/alibaba>
+
+[^14]: <ttps://developers.google.com/web/showcase/2017/bookmyshow>
+
+[^15]: <https://developers.google.com/web/showcase/2017/twitter>
+
+[^16]: To learn more about progressive web apps, Check out this [excellent Smashing Magazine essay](https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-apps/).
+
+[^17]: <https://www.3dcadworld.com/autodesk-fusion-360-the-future-of-cad-part-1/>
+
+[^18]: A great intro to WebAssembly is [this post by Mozilla](https://blog.mozilla.org/blog/2017/11/13/webassembly-in-browsers/), which coincidentally marks a big milestone in the technology’s development.
+
+[^19]: Figma switched to WebAssembly to compile their C++ code, resulting in a [3x performance improvement](https://blog.figma.com/webassembly-cut-figmas-load-time-by-3x-76f3f2395164).
+
+[^20]: In fact, modern code editors — the tools developers are using to write all other applications — are being built on the web platform. See [Atom](https://atom.io/) and [VS Code](https://code.visualstudio.com/).

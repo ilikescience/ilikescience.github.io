@@ -148,7 +148,15 @@ p {
     p + h1,
     p + h2,
     p + h3,
-    p + h4 {
+    p + h4,
+    ul + h1,
+    ul + h2,
+    ul + h3,
+    ul + h4,
+    li + h1,
+    li + h2,
+    li + h3,
+    li + h4 {
         margin-top: 2em;
     }
     h1 + p,
@@ -182,16 +190,29 @@ p {
     }
     blockquote {
         margin: 2em 0;
-        p {
-            font-size: $t--size-l;
-            font-family: $t--family-serif;
-        }
+        padding-left: 1em;
+        border-left: 1px solid lighten($c--gray, 40%);
     }
 }
 
- .footnotes {
+.footnote {
+    font-size: $t--size-s;
+    padding: 0 0.125rem;
+    text-decoration: none;
+    font-family: $t--family-sans;
+    color: $c--blue;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+.footnotes {
     margin: 5rem 0;
     color: $c--gray;
+
+    p {
+        font-size: $t--size-m;
+        font-family: $t--family-sans;
+    }
 
      &::before {
          display: block;
@@ -203,5 +224,11 @@ p {
      }
      li {
          list-style: decimal;
+         font-family: $t--family-sans;
+         font-size: $t--size-m;
+
+         &:target {
+             background-color: lighten($c--yellow, 45%);
+         }
      }
 }
