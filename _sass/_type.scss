@@ -193,6 +193,9 @@ p {
         padding-left: 1em;
         border-left: 1px solid lighten($c--gray, 40%);
     }
+    sup {
+        line-height: 1;
+    }
 }
 
 .footnote {
