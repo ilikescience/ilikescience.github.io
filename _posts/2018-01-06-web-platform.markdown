@@ -39,7 +39,7 @@ All of these frameworks are open source. Hundreds of thousands of developers, fr
 
 ## The next billion users
 
-In 2015, there were 3 billion internet users. In 2020, that number is projected to reach 4.1 billion.[^11] Each of those 1.1 billion people will have access to the web platform, not matter what device or operating system they use.
+In 2015, there were 3 billion internet users. In 2020, that number is projected to reach 4.1 billion.[^11] Each of those 1.1 billion people will have access to the web platform, no matter what device or operating system they use.
 
 Google and Facebook pour resources into connecting new users to the web. Facebook alone claims to have put 40 million new users on the web in the last 5 years, through their Internet.org initiative.[^12] Google’s Project Loon goes further, putting flocks of balloons into the stratosphere to broadcast the internet anywhere on earth. While initially dismissed as mad science, Project Loon recently proved itself a viable technology by providing internet access to 100,000 Puerto Ricans after Hurricane Maria destroyed the island’s data infrastructure.[^13]
 
