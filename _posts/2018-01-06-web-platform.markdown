@@ -46,8 +46,9 @@ Google and Facebook pour resources into connecting new users to the web. Faceboo
 Providing rich experiences to new internet users through the web platform has proven valuable to the world’s largest companies:
 
 -  Alibaba **increased conversions from web 76%** by building a web app. Their monthly active users subsequently increased 14% on iOS and 30% on Android.[^14]
--  BookMyShow, India’s largest ticketing firm, increased conversions 80% by launching a web app. It boasts a load time of just **4 seconds on a 2G network.**[^15]
 -  Twitter now sends all of its mobile web traffic through a web app called Twitter Lite. Twitter Lite weighs in at **600KB**, compared to the 23MB load of the native Android app. Its introduction came with a **65% increase in pages-per-session**, along with a **75% increase in tweets sent.**[^16]
+-  Uber launched m.uber, a fully-featured progressive web app, in 2017. It allows a user to book a ride, regardless of location, network speed, or device. The initial app load is just **50kb,** making it significantly smaller and faster than the native equivalents.[^17]
+- Starbucks launched a web app to enable mobile ordering on any device. Users can now find local stores, create and customize food and drink orders, and complete the checkout process from the web platform. The progressive web app uses **99.84% less data** — 233kb, compared to the 148mb iOS app[^18].
 
 For these companies, optimizing for new internet users by building on the web platform has paid significant dividends.
 
@@ -55,16 +56,18 @@ For these companies, optimizing for new internet users by building on the web pl
 
 Back to John Gruber’s argument: “The best possible interface [is] going to be a native app.” In 2013, that might have been true; in 2018, it’s questionable. The web platform has quietly evolved to match, if not surpass, the capabilities of native apps.
 
-**Progressive Web Apps** are one of the most exciting developments of the web platform in the last 10 years.[^17] PWAs work with low internet connectivity, or no internet connectivity at all. They have access to device hardware like the camera and accelerometer, enabling native functionality. Some platforms — notably Android — make no distinction between native apps and PWAs.
+**Progressive Web Apps** are one of the most exciting developments of the web platform in the last 10 years.[^19] PWAs work with low internet connectivity, or no internet connectivity at all. They have access to device hardware like the camera and accelerometer, enabling native functionality. Some platforms — notably Android — make no distinction between native apps and PWAs.
 
-**WebGL** is a web API that allows developers to render 2d and 3d graphics without any additional plugins. With WebGL 1.0 implemented in every major browser, web apps can use the same hardware as native apps to create rich visual experiences. Autodesk recently ported all of their flagship applications to web apps using WebGL, including industry standard AutoCAD.[^18] Figma, a new design application, runs entirely in the browser. It performs equally to or better than its competitors, Sketch, Illustrator, and Adobe XD.
+**WebGL** is a web API that allows developers to render 2d and 3d graphics without any additional plugins. With WebGL 1.0 implemented in every major browser, web apps can use the same hardware as native apps to create rich visual experiences. Autodesk recently ported all of their flagship applications to web apps using WebGL, including industry standard AutoCAD.[^20] Figma, a new design application, runs entirely in the browser. It performs equally to or better than its competitors, Sketch, Illustrator, and Adobe XD.
 
-**WebAssembly** is a relatively new concept, but it promises to revolutionize how web applications are built. In a nutshell, WebAssembly allows developers to run code in an extremely high-performance and high-security environment, all inside a browser[^19]. Additionally, code written in C++ can be efficiently and automatically translated into WebAssembly; apps written for native platforms can be easily converted and distributed on the web platform.[^20]
+**WebAssembly** is a relatively new concept, but it promises to revolutionize how web applications are built. In a nutshell, WebAssembly allows developers to run code in an extremely high-performance and high-security environment, all inside a browser[^21]. Additionally, code written in C++ can be efficiently and automatically translated into WebAssembly; apps written for native platforms can be easily converted and distributed on the web platform.[^22]
+
+**Payment Request API** is a new specification with a bold mission: _eliminate checkout forms[^23]._ The Payment Request API hooks into platform payment systems — think Apple Pay and Google Wallet/Android Pay — and securely handles the exchange of credentials.
 
 **React Native and Electron** are two examples of  how web platform technology is invading other platforms:
 
-- React Native is an extension of Facebook’s React library. It allows developers to write a single code base (in Javascript), and compile to other native platforms (like Objective C and Java).
-- Electron, on the other hand, runs web platform code _inside_ desktop platforms, hooking into low-level functionality to run efficiently.[^21]
+- React Native is an extension of Facebook’s React library. It allows developers to write a single code base (in Javascript), and compile to other native platforms (like Objective C and Java).[^24] In addition to making it easy to write the same code for both iOS and Android, the newer React Native Web library introduces the idea of a single code base for _every_ platform, including the web[^25].
+- Electron, on the other hand, runs web platform code _inside_ desktop platforms, hooking into low-level functionality to run efficiently.[^26]
 
 ---
 
@@ -108,12 +111,22 @@ The web is alive, and better than ever.
 
 [^16]: <https://developers.google.com/web/showcase/2017/twitter>
 
-[^17]: To learn more about progressive web apps, Check out this [excellent Smashing Magazine essay](https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-apps/).
+[^17]: <https://eng.uber.com/m-uber/>
 
-[^18]: <https://www.3dcadworld.com/autodesk-fusion-360-the-future-of-cad-part-1/>
+[^18]: <https://formidable.com/work/starbucks-progressive-web-app/>
 
-[^19]: A great intro to WebAssembly is [this post by Mozilla](https://blog.mozilla.org/blog/2017/11/13/webassembly-in-browsers/), which coincidentally marks a big milestone in the technology’s development.
+[^19]: To learn more about progressive web apps, Check out this [excellent Smashing Magazine essay](https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-apps/).
 
-[^20]: Figma switched to WebAssembly to compile their C++ code, resulting in a [3x performance improvement](https://blog.figma.com/webassembly-cut-figmas-load-time-by-3x-76f3f2395164).
+[^20]: <https://www.3dcadworld.com/autodesk-fusion-360-the-future-of-cad-part-1/>
 
-[^21]: In fact, modern code editors — the tools developers are using to write all other applications — are being built on the web platform. See [Atom](https://atom.io/) and [VS Code](https://code.visualstudio.com/).
+[^21]: A great intro to WebAssembly is [this post by Mozilla](https://blog.mozilla.org/blog/2017/11/13/webassembly-in-browsers/), which coincidentally marks a big milestone in the technology’s development.
+
+[^22]: Figma switched to WebAssembly to compile their C++ code, resulting in a [3x performance improvement](https://blog.figma.com/webassembly-cut-figmas-load-time-by-3x-76f3f2395164).
+
+[^23]: <https://developers.google.com/web/fundamentals/payments/>
+
+[^24]: <https://facebook.github.io/react-native/>
+
+[^25]: <https://github.com/necolas/react-native-web>
+
+[^26]: In fact, modern code editors — the tools developers are using to write all other applications — are being built on the web platform. See [Atom](https://atom.io/) and [VS Code](https://code.visualstudio.com/).
