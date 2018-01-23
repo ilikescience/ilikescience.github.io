@@ -71,8 +71,6 @@ By identifying the key qualities of a successful pull request, finding quantitat
 
 In the future, it would be interesting to explore more automation in the pull request process. The presence of third-party integrations (continuous integration, linting, etc) in the code review process has significantly improved code quality in my own use, and I have a feeling that the same would apply to the pull request workflow.
 
-Thank you for taking the time to read this analysis. Please let me know if you have any feedback or questions!
+---
 
-Matthew Ström  
-matthew.h.strom@gmail.com  
-573.380.6453
+**Quick note:** This case study was prepared in early 2017 for GitHub as part of the job interview process. I didn't get the job :)
