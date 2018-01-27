@@ -15,9 +15,9 @@ $c--purple: hsl(276, 75%, 50%);
 
 /* variants: gray */
 $c--gray-lighter: lighten($c--gray, 45%);
-$c--gray-light: color($c--gray l(70%));
-$c--gray-dark: color($c--gray l(35%));
-$c--gray-darker: color($c--gray l(20%));
+$c--gray-light: lighten($c--gray, 30%);
+$c--gray-dark: darken($c--gray, 35%);
+$c--gray-darker: darken($c--gray, 20%);
 
 /* color utilities */
 .c--black { color: $c--black; }

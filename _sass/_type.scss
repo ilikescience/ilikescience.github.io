@@ -182,19 +182,41 @@ p {
     }
     h3 {
         font-weight: $t--weight-bold;
-        font-size: $t--size-m;
+        font-size: 1.25em;
     }
     h4 {
-        font-size: $t--size-m;
+        font-size: 1.25em;
         color: $c--gray;
     }
     blockquote {
         margin: 2em 0;
         padding-left: 1em;
-        border-left: 1px solid lighten($c--gray, 40%);
+
+        p {
+            font-size: 1.4em;
+            font-weight: $t--weight-bold;
+            line-height: 1.3em;
+        }
     }
     sup {
         line-height: 1;
+    }
+    table {
+        width: 100%;
+        table-layout: auto;
+        margin: 1.5em 0;
+    }
+    thead {
+        border-bottom: 1px solid $c--gray-light;
+    }
+    th {
+        font-weight: $t--weight-normal;
+        color: $c--gray;
+        text-align: left;
+    }
+    td,
+    th {
+        padding: 0;
     }
 }
 
