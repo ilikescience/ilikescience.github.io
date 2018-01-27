@@ -70,8 +70,8 @@ $t--weight-light: 300;
 
 /* font sizes */
 $t--size-xxl: 4rem;
-$t--size-xl: 2rem;
-$t--size-l: 1.6rem;
+$t--size-xl: 1.8rem;
+$t--size-l: 1.4rem;
 $t--size-m: 1rem;
 $t--size-s: 0.75rem;
 
@@ -157,28 +157,29 @@ p {
     li + h2,
     li + h3,
     li + h4 {
-        margin-top: 2em;
+        margin-top: 1.5em;
     }
     h1 + p,
     h2 + p,
     h3 + p,
     h4 + p {
-        margin-top: 1em;
+        margin-top: 0.5em;
     }
 
     h1,
     h2,
     h3,
     h4 {
+        margin-top: 0.5em;
         line-height: 1.1em;
     }
 
     h1 {
         font-size: $t--size-xxl;
     }
-    
+
     h2 {
-        font-size: $t--size-l;
+        font-size: $t--size-xl;
     }
     h3 {
         font-weight: $t--weight-bold;
