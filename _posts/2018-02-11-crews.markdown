@@ -3,7 +3,7 @@ title:  "Flight Crews Don't Decide Where To Fly"
 categories: writing
 ---
 
-When the Airbus A320, takes off, there are there are typically 10 people who are operating it. Between the pilots and cabin crew, their responsibilities include:
+When the Airbus A320 takes off there are there are typically 10 people who are operating it. Between the pilots and cabin crew, their responsibilities include:
 
 - Understanding how the plane works
 - Monitoring the flight's progress
@@ -16,7 +16,7 @@ When the Airbus A320, takes off, there are there are typically 10 people who are
 - Resolving conflicts
 - Responding to changes in schedule
 
-On most flights, this crew is working together for the first time. A given flight's crew usually didn't train together. Often, They don't see the exact plane they need to operate until they step aboard.
+On most flights, this crew is working together for the first time. A given flight's crew usually didn't train together. Often, they don't see the exact plane they need to operate until they step aboard.
 
 In 2017, there were **37,000,000** commercial flights. That year, there were only **151** safety incidents, none of them fatal. That's a **99.9996%** percent safety record.
 
