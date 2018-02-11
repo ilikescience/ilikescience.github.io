@@ -20,11 +20,11 @@ The qualities that make a job difficult to automate — creativity, originality
 
 Can we make a list of all the things that will be automated?
 
-This was the subject of a letter John Nash sent to the National Security Agency in 1965.[^2] In it, Nash speculated that there may be mathematical processes that are impossible to automate. If these hypotheses were correct, the NSA could theoretically encrypt a message in a way that is impossible to break.
+This was the subject of a letter John Nash sent to the National Security Agency in 1965.[^2] In it, Nash speculated that there may be mathematical processes that are impossible to automate. If his hypothesis was correct, the NSA could encrypt a message in a way that is impossible to break.
 
-Aa similar idea was explored in 1966 by Kurt Gödel to John von Neumann. In a letter, Gödel wondered if mathematical proofs be solved automatically. If so, how long would it take a machine to solve a given problem? Would mathematicians be out of a job soon?[^3]
+Similar ideas were explored in 1966 by mathematician Kurt Gödel. In a letter to John von Neumann, Gödel wondered if mathematical proofs be solved automatically. If so, how long would it take a machine to solve a given problem? Would mathematicians be out of a job soon?[^3]
 
-These letters kicked off a line of inquiry would lead to the most important questions in all of mathematics, referred to today as **P vs. NP.** Understanding P v.s NP is the key to understanding what will and will not be automated by computers — including graphic design.
+These letters begin a process that eventually leads to the most important questions in all of mathematics, referred to today as **P vs. NP.** Understanding P v.s NP is the key to understanding what will and will not be automated by computers — including graphic design.
 
 ## The Millennium Prize
 
@@ -38,23 +38,25 @@ In 2000, the Clay Institute of Mathematics laid out a set of seven problems call
 6. [Poincaré Conjecture](https://en.wikipedia.org/wiki/Poincar%C3%A9_conjecture)[^4]
 7. [Birch and Swinnerton-Dyer Conjecture](https://en.wikipedia.org/wiki/Birch_and_Swinnerton-Dyer_conjecture)
 
-In addition to being the most consequetial, _P vs. NP_  is one of the easiest to explain. Here’s _P vs. NP_ in a nutshell:
+In addition to being the most consequetial, P vs. NP  is one of the easiest to state:
 
 > Can every problem whose answer can be quickly _checked_ by a computer also be quickly _solved_ by a computer?
 
-P and NP are the two types of problems here: P problems are fast for computers to solve. NP problems are fast for a computer to check[^5].
+P and NP are the two categories of problems here: P problems are fast for computers to solve. NP problems are fast for a computer to check[^5].
 
 ## An example of P vs. NP
 
 Alice runs a second-hand board game store. She has lots of dominoes, but they’re all mixed up from different sets. She suspects there's a way to distribute the tiles into new boxes and sell them.
 
-Randomly packing boxes won't do: some boxes will end up with lots of 2x6 dominoes, while some have too many blank tiles. If each box is going to be fair, Alice needs to **divide up the dominoes so that each box has the exact same number of spots.**
+Randomly putting tiles into boxes won't do: some boxes will end up with lots of 🂓 dominoes, while some have too many 🁣 tiles. If each box is going to be fair, Alice needs to **divide up the dominoes so that each box has the exact same number of spots.**
 
-To make the job a less tedious, Alice gets creative. She employs an automatic shuffler to sort the tiles into sets, then uses a smartphone app to instantly counts the spots[^6]. The whole process takes a matter of seconds. This means the domino-sorting problem is **NP,** which is just another way of saying that a computer can easily check the solution.
+Alice gets to work. She first uses an automatic shuffler to sort the tiles into piles, then a smartphone app to instantly counts the spots[^6]. The whole process takes a matter of seconds. This means the domino-sorting problem is **in NP,** which is just another way of saying that a computer can easily check the solution.
 
 How long it will take to get the right distribution just by guessing and checking? If she has 100 dominoes and 5 boxes, how many combinations are there?
 
 The answer: an astounding <span style="font-variant-numeric: lining-nums;">65,&#8203;738,&#8203;408,&#8203;701,&#8203;461,&#8203;898,&#8203;606,&#8203;895,&#8203;733,&#8203;752,&#8203;711,&#8203;432,&#8203;902,&#8203;699,&#8203;495,&#8203;364,&#8203;788,&#8203;241,&#8203;645,&#8203;840,&#8203;659,&#8203;777,&#8203;500</span> possible combinations[^6].
+
+Is there a clever way to get the right combination without guessing and checking? If so, the problem would also be **in P,** which is to say that a computer could quickly solve the problem.
 
 [^1]: <https://www.oxfordmartin.ox.ac.uk/downloads/academic/The_Future_of_Employment.pdf>
 
