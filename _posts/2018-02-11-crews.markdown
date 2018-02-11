@@ -35,7 +35,7 @@ The crew has made a bold bet on the future of aviation, but has failed to actual
 
 ## Work on teams like crews fly planes
 
-When you work on a team, whether it's Agile or Scrum, in a Holocracy or Teal Org, or none of the above, your responsibilities include:
+When you work on a team, whether it's Agile or Scrum, in a [Holocracy](https://en.wikipedia.org/wiki/Holacracy) or [Teal Org](https://www.strategy-business.com/article/00344), or none of the above, your responsibilities include:
 
 - Understanding how the team works
 - Monitoring the team's progress
@@ -50,4 +50,8 @@ When you work on a team, whether it's Agile or Scrum, in a Holocracy or Teal Org
 
 To work productively, make sure you don't have to decide where to go. Work with stakeholders to set missions, KPIs, OKRs, milestones, or just plain old goals _before_ the team steps foot onto the proverbial plane. In-flight, try to avoid re-evaluating the goal. Land the plane safely with a solid report-out and retrospective, before asking where to go next. Try to make switching teams between projects seamless.
 
-The above advice works for big initiatives and 30-minute meetings. Try it, and let me know what you think.
+The above advice works for big initiatives, 2-week sprints, and 30-minute meetings — **especially** 30-minute meetings.
+
+---
+
+This idea was brought up by my friends [Derrick](https://twitter.com/dbbradle) and [Dara](https://twitter.com/thisisdara) in a recent conversation on teamwork. Thanks, friends, for the inspiration.
