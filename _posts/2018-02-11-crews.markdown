@@ -3,7 +3,9 @@ title:  "Flight Crews Don't Decide Where To Fly"
 categories: writing
 ---
 
-When the Airbus A320 takes off there are there are typically 10 people who are operating it. Between the pilots and cabin crew, their responsibilities include:
+{% include image.html src="/images/crews-1.jpg" caption="Airbus A320 - Photo from Wikimedia" %}
+
+When an Airbus A320 takes off, there are there are typically 10 people who are operating it. Between the pilots and cabin crew, their responsibilities include:
 
 - Understanding how the plane works
 - Monitoring the flight's progress
