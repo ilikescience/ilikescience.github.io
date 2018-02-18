@@ -49,6 +49,23 @@
         <article class="post row l--mar-btm-l">
             {{ content }}
         </article>
+        <aside class="l--mar-btm-l">
+            <div class="l--mar-btm-s">Still reading?</div>
+            {% assign maxRelated = 1 %}
+            {% assign maxRelatedCounter = 0 %}
+            {% for post in site.posts %}
+                {% unless post.title == page.title %}
+                    <h2 class="t--size-xl c--blue t--family-display t--leading-small t--tracking-tight t--weight-bold">
+                        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                    </h2>
+                    <div class="c--gray">Published {{ post.date | date: "%m/%d/%y" }}</div>
+                    {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+                    {% if maxRelatedCounter >= maxRelated %}
+                        {% break %}
+                    {% endif %}
+                {% endunless %}
+            {% endfor %}
+        </aside>
     </main>
 </body>
 
