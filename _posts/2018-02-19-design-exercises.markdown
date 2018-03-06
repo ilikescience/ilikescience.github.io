@@ -20,7 +20,7 @@ As we at the Wall Street Journal kick off a new round of hiring[^1], I'm reminde
 The Exercise is one step in most organizations' design hiring process. It happens somewhere between interviews and a hiring decision. It usually comes in one of three flavors:
 
 - **"Fix our product"** - A designer asks the candidate to do their work for them.
-- **"Fix someone else's product"** - The candidate is asked to redesign a portion of an existing product. Since it's someone else's product, The candidate has no context or insight into why the product works the way it does. [Alex Barashkov](https://twitter.com/alex_barashkov) provided [a strongly-worded send up](https://medium.com/pixelpoint/why-i-hate-your-fake-redesign-177a626d7f95) on the shortcomings of such redesigns.
+- **"Fix someone else's product"** - The candidate is asked to redesign a portion of an existing product. Since it's someone else's product, the candidate has no context or insight into why the product works the way it does. [Alex Barashkov](https://twitter.com/alex_barashkov) provided [a strongly-worded send up](https://medium.com/pixelpoint/why-i-hate-your-fake-redesign-177a626d7f95) on the shortcomings of such redesigns.
 - **"Design an imaginary product"** - The candidate is given a hypothetical brief, and designs a product from scratch. This has been my preferred Exercise in the past, but it has some major shortcomings.
 
 Exercises can have a few different formats, too:
@@ -124,7 +124,7 @@ Explicitly limit the time the candidate can work on the exercise. In the past, I
 
 ### Step 3: Review
 
-How do you conduct design reviews with your team?[^4] Run the same process with the candidate. Invite team members to participate, and use this review time as an opportunity to share your process with the candidate.
+How do you conduct design reviews with your team?[^3] Run the same process with the candidate. Invite team members to participate, and use this review time as an opportunity to share your process with the candidate.
 
 ### Step ∞: Have Fun, Embrace the Bad
 
