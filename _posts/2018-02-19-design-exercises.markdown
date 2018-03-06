@@ -5,6 +5,8 @@ og:
   title: How to Run a Really Bad Design Exercise
   description: Design exercises are awful. I have some ideas about making them awful-er.
   image: /images/exercise-0.png
+  image_width: 1400
+  image_height: 700
 ---
 
 {% include image.html src="/images/exercise-0.png" %}
