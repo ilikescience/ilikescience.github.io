@@ -18,7 +18,7 @@ email: matthew.h.strom@gmail.com
 description: >
   The personal website & blog of Matthew Ström, a designer and developer living in Brooklyn, New York.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "matthewstrom.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://matthewstrom.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ilikescience
 github_username:  ilikescience
 permalink: none
