@@ -8,6 +8,15 @@
     {% feed_meta %}
     <link rel="stylesheet" href="https://use.typekit.net/tkr0tkw.css">
     <link rel="stylesheet" href="/css/main.css">
+    {% if page.og %}
+        <meta property="og:title" content="{{ page.og.title }}" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="{{ page.url | absolute_url }}" />
+        <meta property="og:image" content="{{ page.og.image | absolute_url }}" />
+        <meta property="og:description" content="{{ page.og.description | absolute_url }}" />
+        <meta property="og:article:published_time" content="{{ page.date }}" />
+        <meta property="og:article:author" content="Matthew Ström" />
+    {% endif %}
 </head>
 
 {% assign path = page.id | split: '/' %}

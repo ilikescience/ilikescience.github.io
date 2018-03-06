@@ -1,6 +1,10 @@
 ---
-title:  "Really Bad Design Exercises"
+title:  Really Bad Design Exercises
 categories: writing
+og:
+  title: How to Run a Really Bad Design Exercise
+  description: Design exercises are awful. I have some ideas about making them awful-er.
+  image: /images/exercise-0.png
 ---
 
 {% include image.html src="/images/exercise-0.png" %}
