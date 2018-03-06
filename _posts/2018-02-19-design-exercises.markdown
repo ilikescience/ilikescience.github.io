@@ -71,7 +71,7 @@ By looking at some real-life "bad" Rubik's Cubes, we can learn a lot about the d
 
 {% include image.html src="/images/exercise-3.jpg" caption="7x7 cube from <a href='https://albacube.com/products/7x7-rubiks-cube-linglong-69mm-shengshou-albacube'>Alacube</a>" %}
 
-I can't solve a regular Rubik's Cube. To me, this Rubik's Cubeputs the allure of success even further out of reach.
+I can't solve a regular Rubik's Cube. To me, this Rubik's Cube puts the allure of success even further out of reach.
 
 **Why is it bad?** If all Rubik's Cubes were this complicated, very few people would ever pick one up.
 
