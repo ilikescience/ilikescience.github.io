@@ -17,7 +17,7 @@ I have generalized anxiety:[^1] I constantly feel that _something_ will go wrong
 
 Work is a significant contributor to my anxiety. When I’m at work (and often when I’m not), I enumerate my fears: stakeholder pressure, user feedback, organizational tensions, the list can go on forever.
 
-Lately, I’ve been exploring how designers can work more closely agile software development teams, and I’ve found something fascinating: agile methodologies mirror strategies for managing anxiety. I’d like to share some of my observations, as well as advice for others who deal with generalized anxiety at work.
+Lately, I’ve been exploring how designers can work more closely with agile software development teams, and I’ve found something fascinating: agile methodologies mirror strategies for managing anxiety. I’d like to share some of my observations, as well as advice for others who deal with generalized anxiety at work.
 
 #### Side note: isn’t agile for engineers?
 
@@ -25,31 +25,32 @@ If you’re reading this, you’ve probably heard of agile software development.
 
 To make our product development process more efficient, I encourage designers to get embedded with engineering teams: attending planning, standup, and retro enables tighter collaboration.
 
-Based on this close embedding, we’ve also started applying agile principles to our day-to-day design process: continuous delivery, self-organization, and reflection, to name a few. I’m really optimistic about what it will do for our impact on product outcomes.
+Based on this close embedding, we’ve also started applying agile principles to our day-to-day design process: continuous delivery, self-organization, and reflection, to name a few. I’m really optimistic about what it will do for our impact on product outcomes.
 
 So how have agile principles helped me manage my anxiety?
 
 ### Agile reduces work in progress
 
-A Work-In-Progress Limit is often used in agile software development[^3]. By enforcing a ceiling on the responsibilities any member of your team has, you reduce multi-tasking, and increase productivity.
+A work-in-progress limit is often used in agile software development.[^3] By enforcing a ceiling on the responsibilities any member of your team has, you reduce multitasking, and increase productivity.
 
-Limiting multi-tasking and context-switching has had other benefits, too. The less I am accountable for at any given moment, the easier it is for me to manage my anxiety. I can quickly check in to all of my responsibilities, and remind myself that everything’s ok.
+Limiting multitasking and context-switching has had other benefits, too. The less I am accountable for at any given moment, the easier it is for me to manage my anxiety. I can quickly check in to all of my responsibilities, and remind myself that everything’s ok.
 
-Additionally, WIP limits make it easier to do deep, focused work. This is kind of like the runner’s high of product design — I do my best work when I’m “in the zone.”
+Additionally, WIP limits make it easier to do deep, focused work. This is kind of like the runner’s high of product design — I do my best work when I’m “in the zone.”
 
 ### Agile values transparency
 
-Although the original [Agile Manifesto](http://agilemanifesto.org/) and [supporting principles](http://agilemanifesto.org/principles.html) doesn’t specifically use the word “transparency,” they get close on this specific note:
+Although the original [Agile Manifesto](http://agilemanifesto.org/) and [supporting principles](http://agilemanifesto.org/principles.html) don't specifically use the word “transparency,” they get close on this specific note:
 
 > Business people and developers must work together daily throughout the project.
 
-**Standups** — daily check-ins between the working team — provide opportunities to share progress and ask for help. **Sprint reviews** — celebrations of the team’s accomplishments — shine a light on what’s been done. **Retrospectives** — regular conversations around how to improve working processes — are a safe forum for introspection.
+**Standups** (daily check-ins between the working team) provide opportunities to share progress and ask for help. **Sprint reviews** (celebrations of the team’s accomplishments) shine a light on what’s been done. **Retrospectives** (regular conversations around how to improve working processes) are a safe forum for introspection.
 
 All of these things together comprise a support network for the team: anxiety is much easier to manage when you can ask for help when you’re feeling overwhelmed.
 
+
 ### Agile focuses on the present
 
-One of the biggest sources of my anxiety is the vast expanse of the future. Given enough time, _anything_ can go wrong. This is one of the places agile methods excel: they focus work only on the near future, and embrace the uncertainty of the future.
+One of the biggest sources of my anxiety is the vast expanse of the future. Given enough time, _anything_ can go wrong. This is one of the places where agile methods excel: they focus work only on the present challenges, and embrace the uncertainty of the future.
 
 Our teams work in two-week sprints. Because we’re only focused on delivering within the next few weeks, long-term projects must be broken down into smaller tasks. The “but what if” is handled in one of the principles of agile:
 
@@ -59,13 +60,13 @@ _Accepting & acknowledging_ uncertainty is a big part of managing anxiety. Havin
 
 ## Agile for the anxious
 
-Agile software development creates an supportive environment for people with anxiety. How do we take advantage of this?
+Agile software development creates a supportive environment for people with anxiety. How do we take advantage of this?
 
 ### Go to Standup
 
-In some ways, standup is like micro-group-therapy. If well facilitated, it’s an opportunity to check in with responsibilities. A good standup enables me to safely raise concerns, and the team acknowledges helps resolve conflicts.
+In some ways, standup is like micro-group-therapy. If well-facilitated, it’s an opportunity to check in with responsibilities. Good standups enable me to safely raise concerns, and encourage the team to acknowledge and resolve conflicts.
 
-The practice of standup reduces interruptions and distractions later in the day, too. It focuses team, making the management of uncertainty a group exercise instead of a solo sport.
+Standup is sort like meditation for your whole team: regular practice provides focus, making the management of uncertainty a group exercise instead of a solo sport.
 
 ### Turn off notifications
 
@@ -81,9 +82,9 @@ Agile software development works best when everyone adopts the distributive appr
 
 #### How does your process help with anxiety?
 
-I’d love to hear you: have you found processes or workflows that help you manage anxiety? Has your team had any discussions about how you work together to handle uncertainty?
+Have you found processes or workflows that help you manage anxiety? Has your team had any discussions about how you work together to handle uncertainty?
 
-You can reach out on twitter, or email me at matthew.strom@wsj.com.
+You can reach out on [twitter](https://twitter.com/ilikescience), or email me at matthew.strom@wsj.com.
 
 [^1]: [18% of Americans have Generalized Anxiety Disorder](https://adaa.org/about-adaa/press-room/facts-statistics), so it’s highly likely that some of you can relate.
 [^2]: If you haven’t, there’s plenty of [great introductions](https://www.agilealliance.org/agile101/) to the framework.
