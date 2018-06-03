@@ -1,9 +1,9 @@
 ---
-title:  Making WSJ.com more accessible, one page at a time
+title:  Making WSJ.com more accessible
 categories: writing
 og:
   title: Making WSJ.com more accessible
-  description: How we're advocating for more accessible products
+  description: How we're building and advocating for more accessible products
   image: /images/accessibility-2.jpg
   image_width: 1400 
   image_height: 933
@@ -75,7 +75,7 @@ At this moment, our new mobile homepage is at an **82** 🎉 [^3]
 
 {% include image.html src="/images/accessibility-4.png" caption="Google Lighthouse accessibility audit on June 3rd, 2018"%}
 
-We still have some work to do on this page to push the score even higher. However, getting a score of 100 isn’t our goal. We’ll never be able to ace every metric we can measure. Instead, as we continue on to other parts of WSJ.com, I’m keeping my simple definition of accessibility in mind: make our products easy to use for everybody.
+We still have some work to do on this page to push the score even higher. Getting a score of 100 isn’t our goal, however, and we’ll never be able to ace every metric of accessibility. Instead, as we continue on to other parts of WSJ.com, I’m keeping a simpler mission in mind: make our products easy to use for everybody.
 
 #### Acknowledgements
 
