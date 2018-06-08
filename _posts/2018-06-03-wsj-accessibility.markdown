@@ -43,7 +43,7 @@ However, **accessibility is for everybody.** Here are some examples of _situatio
 By adhering to and maintaining these principles and guidelines, we can make our products better for all our users.
 </div>
 
-Defining accessibility this way helps us understand just how vital it is to our products. You can read a public version of our guidelines [here](https://docs.google.com/a/wsj.com/document/d/e/2PACX-1vQXo8Npu3KYgZz65OdUZW72Ti9zEK1wIbskHhSeoRsC0tsDd-sz0yamjpCYGe4kNxA2c-3fIZanmOqx/pub).
+Defining accessibility this way helps us understand just how vital it is to our products. You can read a public version of our guidelines [here](/pages/wsj-accessibility-guidelines).
 
 ## Partnering with engineering
 
