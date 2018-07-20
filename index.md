@@ -7,7 +7,7 @@
 Hi, my name is Matthew Ström.
     </h1>
     <h2 class="t--size-xl t--family-display">
-I'm a design director at the Wall Street Journal.
+I'm a design director at <a href="https://wsj.com" target="_blank">The Wall Street Journal</a>.
     </h2>
 
 
@@ -22,6 +22,16 @@ I'm a design director at the Wall Street Journal.
 </div>
 </header>
 
+〰
+
+**Other products I've worked on:**
+
+[SoundCloud Go](https://soundcloud.com/go), SoundCloud's premium subscription offering.   
+[Spacetime](/projects/spacetime), an app for remote teams.  
+[Argos](/projects/argos), a content marketing analytics platform.  
+[SAP Fiori](/projects/sap), software powering large-scale commercial operations.  
+[The Architect's Newspaper](/projects/archpaper), a redesign and rearchitecture of an online publication.  
+	
 〰
 
 **Things I've written:**
