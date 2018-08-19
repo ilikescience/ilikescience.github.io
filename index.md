@@ -3,10 +3,10 @@
 ---
 
 <header class="l--mar-btm-m">
-    <h1 class="t--size-xxl c--blue t--family-display t--leading-small t--tracking-tight t--weight-bold">
+    <h1 class="t--size-xxl t--family-serif t--leading-small t--tracking-tight t--weight-bold">
 Hi, my name is Matthew Ström.
     </h1>
-    <h2 class="t--size-xl t--family-display">
+    <h2 class="t--size-xl t--tracking-tight t--family-serif">
 I'm a design director at <a href="https://wsj.com" target="_blank">The Wall Street Journal</a>.
     </h2>
 

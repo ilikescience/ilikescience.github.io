@@ -1,4 +1,13 @@
+{% if include.linkTo %}
+<figure class="l--mar-top-m l--mar-btm-m {{ include.size }}">
+    <a href="{{include.linkTo}}">
+        <img src="{{ include.src }}" alt="{{ include.caption }}"/>
+    </a>
+    <figcaption class="c--gray">{{ include.caption }}</figcaption>
+</figure>
+{% else %}
 <figure class="l--mar-top-m l--mar-btm-m {{ include.size }}">
     <img src="{{ include.src }}" alt="{{ include.caption }}"/>
     <figcaption class="c--gray">{{ include.caption }}</figcaption>
 </figure>
+{% endif %}
