@@ -35,26 +35,6 @@ $t--family-serif:
     Georgia,
     serif;
 
-$t--family-display:
-    'jaf-lapture-display',
-    'Palatino Linotype',
-    Palatino,
-    Palladio,
-    'URW Palladio L',
-    'Book Antiqua',
-    Baskerville,
-    'Bookman Old Style',
-    'Bitstream Charter',
-    'Nimbus Roman No9 L',
-    Garamond,
-    'Apple Garamond',
-    'ITC Garamond Narrow',
-    'New Century Schoolbook',
-    'Century Schoolbook',
-    'Century Schoolbook L',
-    Georgia,
-    serif;
-
 $t--family-mono:
     menlo,
     monaco,
@@ -102,7 +82,6 @@ p {
 
 .t--family-sans { font-family: $t--family-sans; }
 .t--family-serif { font-family: $t--family-serif; }
-.t--family-display { font-family: $t--family-display; }
 .t--family-mono { font-family: $t--family-mono; }
 
 .t--size-xxl { font-size: $t--size-xxl; }
