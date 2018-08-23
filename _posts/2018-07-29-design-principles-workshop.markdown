@@ -80,7 +80,7 @@ There are two assigned roles for this workshop:
 
 ### 4. Get prepared
 
-Before the workshop, the facilitator should put prepare an overview of the task at hand. Be prepared to answer questions like, “What is a design principle,” “Who uses design principles,” and “What makes a good design principle.”
+Before the workshop, the facilitator should prepare an overview of the task at hand. Be prepared to answer questions like, “What is a design principle,” “Who uses design principles,” and “What makes a good design principle.”
 
 I have my own set of guidelines, but I encourage you to find the right guidelines for your team: some do better with little guidance, some thrive with constraints. Here's the template of the presentation I've given during the "align" phase of the workshop:
 
