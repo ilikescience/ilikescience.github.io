@@ -12,13 +12,13 @@ updated: 2018-08-31
 
 {% include image.html src="/images/code-0.jpg" %}
 
-We're in the middle of a design tool renaissance. In the 8 years since Sketch 1.0 was released, there's been a wave of competition among traditional design tools. And as the number of tools available to designers grows exponentially, ideas that were once considered fringe are finding a broader audience. One such idea is not new, but still far from mainstream: integrating design and code at a deep level.
+We're in the middle of a design tool renaissance. In the 8 years since Sketch 1.0 was released, there's been a wave of competition among traditional design tools. And as the number of tools available to designers grows exponentially, ideas that were once considered fringe are finding a broader audience. 
 
-The integration of design and code enables new ways of working: Figma can update a React code base in real time; InVision, Abstract, and Zeplin have done away with design-developer handoff documents; Framer's new Framer X can render interactive React components directly into its workspace.
+I believe that one of these ideas will significantly change the way digital products are designed: integrating design and code at a deep level. Some tools are giving us a hint of what's to come: Figma can update a React code base in real time; InVision, Abstract, and Zeplin have done away with design-developer handoff documents; Framer's new Framer X can render interactive React components directly into its workspace.
 
-For designers like me who enjoy coding, this revolution was  inevitable. My own designs are informed by my knowledge of CSS, HTML, and Javascript. But for me and many other designers, design comes before code. 
+For designers like me who enjoy coding, this revolution was inevitable. My own designs are informed by my knowledge of CSS, HTML, and Javascript. But for me and many other designers, design usually informs code. Rarely (if ever) does it happen the other way around.
 
-Recently I've been turning that relationship around, and using code to create design. In two of my bigger projects at The Wall Street Journal, writing code has led to new ideas. Problems that typically plague early designs — “how does this look with real content?” — are easy to solve.
+Recently I've had a few opportunities to use code to create design. In two of my bigger projects at The Wall Street Journal, writing code has led to new ideas. Problems that typically plague early designs — “how does this look with real content?” — are easy to solve. My experiments with this way of working — exploring visual ideas in the me
 
 # Case 1: WSJ. Magazine
 
