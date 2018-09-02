@@ -18,17 +18,17 @@ I believe that one of these ideas will significantly change the way digital prod
 
 For designers like me who enjoy coding, this revolution was inevitable. My own designs are informed by my knowledge of CSS, HTML, and Javascript. But for me and many other designers, design usually informs code. Rarely (if ever) does it happen the other way around.
 
-Recently I've had a few opportunities to use code to create design. In two of my bigger projects at The Wall Street Journal, writing code has led to new ideas. Problems that typically plague early designs — “how does this look with real content?” — are easy to solve. My experiments with this way of working — exploring visual ideas in the me
+Recently I've had a few opportunities to use code to create design. In two of my bigger projects at The Wall Street Journal, writing code has led to new ideas. Problems that typically plague early designs — “how does this look with real content?” — are easy to solve. My experiments with this way of working — exploring visual ideas in the medium they'll ulitmately exit in — have given me even more confidence in the future of code as a design tool.
 
 # Case 1: WSJ. Magazine
 
 I started at The Wall Street Journal in August of 2017. One of the first projects I began was the re-design of the WSJ. Magazine homepage.
 
-WSJ. Magazine is an impressive publication. The content is first-rate: regular features on film and tv celebrities, the biggest names in fashion and art, and trend-setting food and culture. Until this re-design, the magazine had no presence of its own online.
+WSJ. Magazine is a premium fashion, art, and lifestyle magazine. The content is first-rate: regular features on film and tv celebrities, the biggest names in fashion and art, and trend-setting food and culture. Until this re-design, the magazine had no presence of its own online.
 
 ## Designing, the old way
 
-In Sketch, I used a mouse pointer to draw my initial ideas with rectangles full of text and images. Pixel perfection was easy and rewarding, and I had the luxury of millions of tiny adjustments. I fussed over whether 10 pixels is too much space for a gutter, or if 14-point type is too small for a byline. I did designer stuff.
+As my initial ideas took shape in Sketch, I was using a mouse pointer to draw rectangles full of text and images. Pixel perfection was easy and rewarding, and I had the luxury of millions of tiny adjustments. I fussed over whether 10 pixels is too much space for a gutter, or if 14-point type is too small for a byline. I did designer stuff.
 
 {% include image.html src="/images/code-1.jpg" caption="My first pass at the WSJ. Magazine Homepage" %}
 
@@ -36,15 +36,17 @@ I filled the whole page with these small, rectangular pieces. Everything was ali
 
 {% include image.html src="/images/code-2.jpg" caption="While still progressing, my design was stuck in rectangles " %}
 
+This way of designing should be familiar to anyone who's used Sketch, Adobe Illustrator, Photoshop, or even newer products like Inivision Studio or Framer. It's the status quo of product design.
+
 ## Breaking the grid
 
-One weekend, I decided it'd be fun to prototype my design ideas in code. The symbol system I'd set up in Sketch was starting to slow under the weight of all the content, and I figured a browser might perform better. Also, I’d been wanting to try out the new css grid specifications, and hone my growing experience with flex box layouts.
+One weekend, I decided it'd be fun to prototype my design ideas in code (and it was!). The symbol system I'd set up in Sketch was starting to slow under the weight of all the content, and I figured a browser might perform better. Also, I’d been wanting to try out the new css grid specifications, and hone my growing experience with flexbox.
 
-After a few coding sessions, things were _almost_ perfect. I put my computer down, intending to come back later to put the finishing touches on the prototype.
+After a few hours, things were _almost_ perfect. I put my computer down, intending to come back later to put the finishing touches on the prototype.
 
 {% include image.html src="/images/code-3.jpg" caption="My imperfect, but ultimately more unique, prototype" %}
 
-When I finally did return, I was struck by how much better the page looked in its unfinished state. At least, that's what I thought at the time: because it didn't match the Sketch file, it was incomplete.
+The next time I opened the project, I was struck by how much better the page looked in its unfinished state. I was seeing it through a traditional design lens: because it didn't match the Sketch file, it was incomplete.
 
 The areas for the stories didn't adhere to a strict grid. There was asymmetrical and unusual space around the elements, and a ragged edge was drawing my focus. But the more time I spent with the code, the more ways I found to experiment. Eventually, rather than fiddling with the exact pixels, I was taking screen shots from my browser and pasting them back into Sketch.
 
@@ -52,7 +54,9 @@ The areas for the stories didn't adhere to a strict grid. There was asymmetrical
 
 ## Happy accidents
 
-Bob Ross was right: we don't make mistakes, we have happy accidents. As an example, I accidentally glossed over how rows of stories adapted to small touchscreen devices. As a result, stories overflowed the screen, requiring a user to swipe across the page to see more content.
+In my inexperience, I neglected to write media queries to indicate how the page should adapt to small screens. As a result, stories overflowed the edge of the browser, requiring a user to swipe across the page to see more content.
+
+Bob Ross was right: we don't make mistakes, we have happy accidents.
 
 {% include image.html src="/images/code-5.gif" caption="Scrolling elements that overflow the page" %}
 
@@ -60,7 +64,9 @@ This “accident” felt exciting and new. In Sketch, I work with static screens
 
 # Case 2: A new homepage for WSJ.com
 
-In an average month, the WSJ.com homepage is seen tens of millions of times. To say that it's an important part of our product is a huge understatement. Over the summer of 2018, I kicked off am ambitious project to completely re-build the design language of the WSJ.com homepage, and the first problem I focused on was the fundamental unit of the page: the story.
+The homepage of WSJ.com is one of the most important parts of the Wall Street Journal's web product. It's hard to overstate this: in an average month, the WSJ.com homepage is seen tens of millions of times by millions of people. Over the summer of 2018, I began to completely re-build the design language of the WSJ.com homepage. Naturally, I felt overwhelmed. Where should I start? 
+
+In taking stock of the work to be done, I realized that one component — the story card that links to each article — accounts for 80% of the page. With that in mind, I set out to create a simple, flexible system that could unify the 100+ stories on the homepage.
 
 ## Background: Story cards
 
@@ -72,17 +78,17 @@ As new card configurations were designed and developed, they were named and cate
 
 {% include image.html src="/images/code-7.jpg" caption="A layout variation of the current home page" %}
 
-As more layers were built up on top of the story cards, the low-level concepts — headline size, media position — were abstracted away in favor of courser, bigger-picture changes. Editors can make major changes to the layout of the page by updating 1 value instead of 100.
+As more layers were built up on top of the story cards, the low-level concepts — headline size, media position, timestamps and related stories — were abstracted away in favor of courser, bigger-picture changes. Editors cold make major changes to the layout of the page by updating 1 value instead of 100.
 
 ## Taking it down to the studs
 
-As a part of a recent user testing session, I again found Sketch to be lacking when it came to quickly updating content. I wanted to provide a list of stories to my designs, and have the page rendered with the content of those stories, with as little tweaking as possible.
+Right away, I again found Sketch to be lacking. In preparing for user testing, I spent more time copying and pasting content than actually designing. Ideally, I wanted to provide a list of stories to my designs, and have the page rendered with the content of those stories, with as little tweaking as possible.
 
-I rolled up my sleeves, and built (from scratch!) a terribly inefficient application that would render a version of the WSJ homepage in HTML and CSS.
+So again, one weekend, I rolled up my sleeves and built (from scratch!) a terribly inefficient application that would render a version of the WSJ homepage in HTML and CSS.
 
 {% include image.html src="/images/code-8.jpg" caption="An updated homepage layout using my new card component system" %}
 
-In the process, I dusted off those low-level configurations of individual story cards. Tweaking them was **fun.** It was **unpredictable.** It was everything that pixel perfection in Sketch was not.
+In the process, I exposed the low-level configurations of individual story cards. Tweaking them was **fun.** It was **unpredictable.** It was everything that pixel perfection in Sketch was not.
 
 I could send a story into a component with some options like this:
 
@@ -111,11 +117,11 @@ In my simple prototype, there are **26 configurable features** for each article 
 
 {% include image.html src="/images/code-11.jpg" caption="Ten of the possible millions of variations of a single card" %}
 
-The code that powers these card components is roughly 300 lines between CSS and HTML, along with a tiny bit of NodeJS to fill in the data. I can make small changes to parts of the component and see how the system reacts in a matter of seconds. This multiplicative process means that small changes have a huge output, making my designs much more comprehensive in the process.[^1]
+But in code, this component is roughly 300 lines between CSS and HTML. A tiny bit of NodeJS fills in the cards with live data from the WSJ.com home page. I can make small changes to parts of the component and see how the system reacts in a matter of seconds. This multiplicative process means that small changes have a huge output, making my designs much more comprehensive in the process.[^1]
 
 # Conclusion
 
-CSS, HTML, and Javascript open up new ways of creating. As new design software begins to emerge, code will undoubtedly be a central part of the tools available to designers. But don't wait for a Framer X invite — or whatever new beta program comes next. You can get started using code as a design tool now. Here's some recommendations for ways to start exploring:
+As new design software begins to emerge, code will be a central part of the tools available to designers. But don't wait for a Framer X invite — or whatever new beta program comes next. You can get started using code as a design tool now. Here's some recommendations for ways to start exploring:
 
 - Wes Bos has some [fantastic courses](https://wesbos.com/courses/) on CSS and Javascript, including an intro to React and Node. His classes revolve around fun projects, and his style of teaching is highly entertaining.
 - Daniel Schiffman has a [ton of great videos](https://shiffman.net/videos/) on creative coding. The way he demonstrates his process — thinking through problems and working out solutions — and revels in what he makes is earnest and delightful.
