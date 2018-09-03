@@ -12,13 +12,13 @@ I'm a design director at <a href="https://wsj.com" target="_blank">The Wall Stre
 
 
 <div class="l--mar-top-s">
-    <a href="https://twitter.com/ilikescience" target="_blank">Twitter</a>
+    <a href="https://twitter.com/ilikescience" rel="me" target="_blank">Twitter</a>
     <span>&nbsp;·&nbsp;</span>
-    <a href="https://github.com/ilikescience" target="_blank">Github</a>
+    <a href="https://github.com/ilikescience" rel="me" target="_blank">Github</a>
     <span>&nbsp;·&nbsp;</span>
-    <a href="https://instagram.com/ilikescience" target="_blank">Instagram</a>
+    <a href="https://instagram.com/ilikescience" rel="me" target="_blank">Instagram</a>
     <span>&nbsp;·&nbsp;</span>
-    <a href="https://medium.com/@ilikescience" target="_blank">Medium</a>
+    <a href="https://medium.com/@ilikescience" rel="me" target="_blank">Medium</a>
 </div>
 </header>
 
