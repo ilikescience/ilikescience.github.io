@@ -80,6 +80,12 @@ p {
     margin-bottom: 1rem;
 }
 
+pre {
+    font-family: $t--family-mono;
+    font-size: 0.9em;
+    line-height: 1.35;
+}
+
 .t--family-sans { font-family: $t--family-sans; }
 .t--family-serif { font-family: $t--family-serif; }
 .t--family-mono { font-family: $t--family-mono; }

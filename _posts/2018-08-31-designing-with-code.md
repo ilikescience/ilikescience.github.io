@@ -92,14 +92,14 @@ In the process, I exposed the low-level configurations of individual story cards
 
 I could send a story into a component with some options like this:
 
-```js
+```json
 {
-    headline: {
-        size: 'l',
-    },
-    byline: false,
-    media: false,
-    bullets: false
+  "headline": {
+    "size": "l"
+  },
+  "byline": false,
+  "media": false,
+  "bullets": false
 }
 ```
 
