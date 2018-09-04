@@ -4,7 +4,7 @@
 
 <header class="l--mar-btm-m">
     <h1 class="t--size-xxl t--family-serif t--leading-small t--tracking-tight t--weight-bold">
-Hi, my name is Matthew Ström.
+Hi, my name is <a href="https://matthewstrom.com" class="h-card">Matthew Ström</a>.
     </h1>
     <h2 class="t--size-xl t--tracking-tight t--family-serif">
 I'm a design director at <a href="https://wsj.com" target="_blank">The Wall Street Journal</a>.
