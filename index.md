@@ -2,23 +2,21 @@
 
 ---
 
-<header class="l--mar-btm-m">
+<header class="l--mar-btm-m h-card">
     <h1 class="t--size-xxl t--family-serif t--leading-small t--tracking-tight t--weight-bold">
-Hi, my name is <a href="https://matthewstrom.com" class="h-card">Matthew Ström</a>.
+Hi, my name is <a href="https://matthewstrom.com" class="u-url" rel="me">Matthew Ström</a>.
     </h1>
-    <h2 class="t--size-xl t--tracking-tight t--family-serif">
+    <h2 class="t--size-xl t--tracking-tight t--family-serif p-note">
 I'm a design director at <a href="https://wsj.com" target="_blank">The Wall Street Journal</a>.
     </h2>
-
-
 <div class="l--mar-top-s">
-    <a href="https://twitter.com/ilikescience" rel="me" target="_blank">Twitter</a>
-    <span>&nbsp;·&nbsp;</span>
-    <a href="https://github.com/ilikescience" rel="me" target="_blank">Github</a>
-    <span>&nbsp;·&nbsp;</span>
-    <a href="https://instagram.com/ilikescience" rel="me" target="_blank">Instagram</a>
-    <span>&nbsp;·&nbsp;</span>
-    <a href="https://medium.com/@ilikescience" rel="me" target="_blank">Medium</a>
+<a class="href=https://twitter.com/ilikescience" rel="me" target="_blank">Twitter</a>
+<span>&nbsp;·&nbsp;</span>
+<a href="https://github.com/ilikescience" rel="me" target="_blank">Github</a>
+<span>&nbsp;·&nbsp;</span>
+<a href="https://instagram.com/ilikescience" rel="me" target="_blank">Instagram</a>
+<span>&nbsp;·&nbsp;</span>
+<a href="https://medium.com/@ilikescience" rel="me" target="_blank">Medium</a>
 </div>
 </header>
 
