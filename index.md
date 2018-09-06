@@ -10,7 +10,7 @@ Hi, my name is <a href="https://matthewstrom.com" class="u-url" rel="me">Matthew
 I'm a design director at <a href="https://wsj.com" target="_blank">The Wall Street Journal</a>.
     </h2>
 <div class="l--mar-top-s">
-<a class="href=https://twitter.com/ilikescience" rel="me" target="_blank">Twitter</a>
+<a href="https://twitter.com/ilikescience" rel="me" target="_blank">Twitter</a>
 <span>&nbsp;·&nbsp;</span>
 <a href="https://github.com/ilikescience" rel="me" target="_blank">Github</a>
 <span>&nbsp;·&nbsp;</span>
