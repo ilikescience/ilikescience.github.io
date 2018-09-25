@@ -7,7 +7,7 @@
 Hi, my name is <a href="https://matthewstrom.com" class="u-url" rel="me">Matthew Ström</a>.
     </h1>
     <h2 class="t--size-xl t--tracking-tight t--family-serif p-note">
-I'm a design director at <a href="https://wsj.com" target="_blank">The Wall Street Journal</a>.
+I'm a design lead at <a href="https://bit.ly" target="_blank">Bitly</a>.
     </h2>
 <div class="l--mar-top-s">
 <a href="https://twitter.com/ilikescience" rel="me" target="_blank">Twitter</a>
