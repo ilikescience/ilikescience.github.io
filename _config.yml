@@ -32,3 +32,5 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
+kramdown:
+  footnote_backlink: ↩&#xFE0E;

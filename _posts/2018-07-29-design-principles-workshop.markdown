@@ -94,14 +94,40 @@ If you have a co-located team, make sure to book a quiet conference room with lo
 
 ## The Workshop
 
-| Activity | Time (in minutes) |
-| --- | --- |
-| Check-in | 5 |
-| Align | 10 |
-| Diverge & Write | 15 |
-| Converge & Theme | 15 |
-| Vote | 10 |
-| Check-out | 5 |
+<table class="table--responsive">
+  <thead>
+    <tr>
+      <th>Activity</th>
+      <th>Time (in minutes)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Activity">Check-in</td>
+      <td data-label="Time (in minutes)">5</td>
+    </tr>
+    <tr>
+      <td data-label="Activity">Align</td>
+      <td data-label="Time (in minutes)">10</td>
+    </tr>
+    <tr>
+      <td data-label="Activity">Diverge & Write</td>
+      <td data-label="Time (in minutes)">15</td>
+    </tr>
+    <tr>
+      <td data-label="Activity">Converge & Theme</td>
+      <td data-label="Time (in minutes)">15</td>
+    </tr>
+    <tr>
+      <td data-label="Activity">Vote</td>
+      <td data-label="Time (in minutes)">10</td>
+    </tr>
+    <tr>
+      <td data-label="Activity">Check Out</td>
+      <td data-label="Time (in minutes)">5</td>
+    </tr>
+  </tbody>
+</table>
 
 When the team arrives, quickly review the agenda and nicely ask insist that everyone put their phones and/or laptops out of sight.[^4] Then, kick of the check-in round.
 
