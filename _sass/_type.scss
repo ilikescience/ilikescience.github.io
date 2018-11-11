@@ -3,18 +3,7 @@ $t--base-leading: 1.45;
 
 $t--leading-small: 1;
 
-$t--family-sans: -apple-system,
-    blinkmacsystemfont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    arial,
-    sans-serif;
+$t--family-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $t--family-serif:
     'source-serif-pro',
     'Palatino Linotype',
@@ -130,6 +119,7 @@ pre {
 
         @media (max-width: 1024px) {
             font-size: 1rem;
+            line-height: 1.35;
         }
     }
     p + h1,

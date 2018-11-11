@@ -78,7 +78,7 @@ As new card configurations were designed and developed, they were named and cate
 
 {% include image.html src="/images/code-7.jpg" caption="A layout variation of the current home page" %}
 
-As more layers were built up on top of the story cards, the low-level concepts — headline size, media position, timestamps and related stories — were abstracted away in favor of courser, bigger-picture changes. Editors cold make major changes to the layout of the page by updating 1 value instead of 100.
+As more layers were built up on top of the story cards, the low-level concepts — headline size, media position, timestamps and related stories — were abstracted away in favor of coarser, bigger-picture changes. Editors could make major changes to the layout of the page by updating 1 value instead of 100.
 
 ## Taking it down to the studs
 

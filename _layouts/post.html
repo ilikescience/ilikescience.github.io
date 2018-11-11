@@ -69,7 +69,7 @@
             {% assign maxRelatedCounter = 0 %}
             {% for post in site.posts %}
                 {% unless post.title == page.title %}
-                    <h2 class="t--size-xl c--blue t--family-display t--leading-small t--tracking-tight t--weight-bold">
+                    <h2 class="t--size-xl t--family-serif t--leading-small t--tracking-tight t--weight-bold l--mar-btm-s">
                         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
                     </h2>
                     <div class="c--gray">Published {{ post.date | date: "%m/%d/%y" }}</div>
