@@ -18,17 +18,17 @@ Three factors contribute to this disconnect:
 
 1. **Products get shipped faster every day**. DevOps teams automate huge amounts of the delivery process, enabling engineering teams to ship code many times every day.
 2. **Designers have access to more information than ever before**. UX research, product analytics, and tight-knit product teams provide torrents of data. Designers are always learning, and their designs evolve to reflect their understanding.
-3. **Implementing a design hasn't changed much.** The design implementation process hasn't changed much since the days of slicing PSDs. Design systems are beginning to automate some of the work, but implementation is still slow. Waterfall (an older way of one-step-at-a-time development) still creeps into the picture.
+3. **Implementing a design hasn't changed much.** The design implementation process hasn't changed much since the days of slicing PSDs. Design systems are beginning to automate some of the work, but turning mockups into code is slow. Waterfall (or other forms of one-step-at-a-time development) is still the standard practice for this transition.
 
-In response to this disconnect, designers are often working at least one sprint ahead of engineers. While one sprint might not seem like much of a lag, the team often learns a lot only *after* handing off the design.
+In response to this disconnect, designers are often working at least one sprint ahead of engineers. While one sprint might not seem like much of a lag, a typical product team learns a lot afterr the design hand-off.
 
 {% include image.html src="/images/jit-1.jpg" caption="The traditional process of delivering design" %}
 
 After seeing the final designs:
 
-- The engineering team is discussing the work every day in stand-ups.
-- The product team is providing feedback and refining metrics and goals.
-- UX research is providing insight into user's real-world experience.
+- The engineering team discusses the work every day in stand-ups.
+- The product team provides feedback and refines metrics and goals.
+- UX research shares insights into user's real-world experience.
 
 To stay one sprint ahead, design can't deliver on this knowledge until the next sprint. It all starts to be reminiscent of the ["Pre-taped Call-in Show](https://www.youtube.com/watch?v=mhVbLJvYP8s)" from Mr. Show.
 
@@ -53,7 +53,7 @@ We can apply JIT to design by following some of the key principles outlined by M
 
 ### Lot sizes of one: the ultimate lot size and flexibility
 
-**Ship in the smallest increment possible.** The "lot size" in manufacturing refers to the number of parts that get delivered as a group. For just-in-time design, in smaller batches make it much easier to see the impact of each change.
+**Ship in the smallest increment possible.** The "lot size" in manufacturing refers to the number of parts that get delivered as a group. For just-in-time design, delivering in smaller batches make it much easier to see the impact of each change.
 
 Delivering in smaller increments also makes the feedback loops more forgiving. If one design doesn't achieve the desired outcome, the next design is adjusted and improved.
 
