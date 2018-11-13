@@ -4,7 +4,7 @@ categories: writing
 og:
   title: Just-in-time Design
   description: Connecting design to modern product development
-  image: /images/recipe-0.jpg
+  image: /images/jit-0.jpg
   image_width: 1400 
   image_height: 1050
 updated: 2018-10-17
@@ -30,7 +30,7 @@ After seeing the final designs:
 - The product team provides feedback and refines metrics and goals.
 - UX research shares insights into user's real-world experience.
 
-To stay one sprint ahead, design can't deliver on this knowledge until the next sprint. It all starts to be reminiscent of the ["Pre-taped Call-in Show](https://www.youtube.com/watch?v=mhVbLJvYP8s)" from Mr. Show.
+To stay one sprint ahead, design can't deliver on this knowledge until the next sprint. It all starts to be reminiscent of the ["Pre-taped Call-in Show](https://www.youtube.com/watch?v=mhVbLJvYP8s){:target="_blank"}" from Mr. Show.
 
 Instead of working ahead, we should finish designing as close to the end of a sprint as possible: just-in-time design.
 
@@ -38,11 +38,11 @@ Instead of working ahead, we should finish designing as close to the end of a sp
 
 ## Just-in-time manufacturing
 
-Just-in-time design takes its name from [Just-in-time manufacturing](https://en.wikipedia.org/wiki/Just-in-time_manufacturing) (abbreviated JIT). JIT is a way of moving materials through a production process in which each step starts as soon as the necessary components arrive. Parts continue down the line only when needed. Extra inventory is wasteful, and workers put an extreme focus on quality.
+Just-in-time design takes its name from [Just-in-time manufacturing](https://en.wikipedia.org/wiki/Just-in-time_manufacturing){:target="_blank"} (abbreviated JIT). JIT is a way of moving materials through a production process in which each step starts as soon as the necessary components arrive. Parts continue down the line only when needed. Extra inventory is wasteful, and workers put an extreme focus on quality.
 
-JIT originated in Japan to maximize the output of a small amount of factories and resources. Along with then-novel practices like [kanban](https://en.wikipedia.org/wiki/Kanban) and [kaizen](https://en.wikipedia.org/wiki/Kaizen), JIT helped Japan rebuild their industrial manufacturing capacity after World War II. This method has gone on to influence American companies like Dell, Harley Davidson, and General Electric.
+JIT originated in Japan to maximize the output of a small amount of factories and resources. Along with then-novel practices like [kanban](https://en.wikipedia.org/wiki/Kanban){:target="_blank"} and [kaizen](https://en.wikipedia.org/wiki/Kaizen){:target="_blank"}, JIT helped Japan rebuild their industrial manufacturing capacity after World War II. This method has gone on to influence American companies like Dell, Harley Davidson, and General Electric.
 
-We can apply JIT to design by following some of the key principles outlined by Mehran Sepehri in *[Just in Time, Not Just in Japan](https://www.amazon.com/Just-Time-Not-Japan-Implementation/dp/0935406786/ref=sr_1_2?s=books&ie=UTF8&qid=1542072278&sr=1-2&keywords=Just-in-time%2C+not+just+Japan).*
+We can apply JIT to design by following some of the key principles outlined by Mehran Sepehri in *[Just in Time, Not Just in Japan](https://www.amazon.com/Just-Time-Not-Japan-Implementation/dp/0935406786/ref=sr_1_2?s=books&ie=UTF8&qid=1542072278&sr=1-2&keywords=Just-in-time%2C+not+just+Japan){:target="_blank"}.*
 
 ### Housekeeping: physical organization and discipline
 
@@ -63,7 +63,7 @@ Faster feedback cycles provide real-world insights on a regular basis. For insta
 
 **Get embedded in the team.** Designers should use sprint planning, grooming, standup, and retro as opportunities to provide design to engineers. Designs can take the form of written or verbal descriptions, not just wireframes and high-fidelity mockups.
 
-**Use a handoff tool.** Tools like Zeplin, Abstract, or Invision Inspect make it much easier for designs to flow from designers to engineers — no matter what [Dan Mall says](https://twitter.com/brad_frost/status/1049765406150483969).
+**Use a handoff tool.** Tools like Zeplin, Abstract, or Invision Inspect make it much easier for designs to flow from designers to engineers — no matter what [Dan Mall says](https://twitter.com/brad_frost/status/1049765406150483969){:target="_blank"}.
 
 ### Pull system — signal [kanban] replenishment/resupply systems.
 
