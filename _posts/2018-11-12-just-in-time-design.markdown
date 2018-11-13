@@ -61,7 +61,7 @@ Faster feedback cycles provide real-world insights on a regular basis. For insta
 
 ### Streamlining movements: smoothing materials handling
 
-**Get embedded in the team.** Designers should use sprint planning, grooming, standup, and retro as opportunities to provide design to engineers. Designs can take the form of written or verbal descriptions, not just wireframes and high-fidelity mockups.
+**Get embedded in the team.** Designers should use sprint planning, grooming, standup, and retro as opportunities to provide design to — and recieve feedback from — the rest of the team. Designs can take the form of written or verbal descriptions, not just wireframes and high-fidelity mockups.
 
 **Use a handoff tool.** Tools like Zeplin, Abstract, or Invision Inspect make it much easier for designs to flow from designers to engineers — no matter what [Dan Mall says](https://twitter.com/brad_frost/status/1049765406150483969){:target="_blank"}.
 
@@ -76,3 +76,7 @@ Faster feedback cycles provide real-world insights on a regular basis. For insta
 The disconnect between designers and engineers is a common source of frustration in any product-focused company.
 
 Continuously delivering small iterations based on the team's needs can transform the product development process. This approach shifts the focus away from highly-produced, out-of-date, difficult-to-maintain design, opening up the process to tighter collaboration and a higher standard of quality.
+
+---
+
+Special thanks to [Dan Alcalde](https://www.linkedin.com/in/danalcalde){:target="_blank"} and [Adelle Charles](https://mobile.twitter.com/adellecharles){:target="_blank"} for contributing to this essay.
