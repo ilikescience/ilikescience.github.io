@@ -20,7 +20,7 @@ Three factors contribute to this disconnect:
 2. **Designers have access to more information than ever before**. UX research, product analytics, and tight-knit product teams provide torrents of data. Designers are always learning, and their designs evolve to reflect their understanding.
 3. **Implementing a design hasn't changed much.** The design implementation process hasn't changed much since the days of slicing PSDs. Design systems are beginning to automate some of the work, but turning mockups into code is slow. Waterfall (or other forms of one-step-at-a-time development) is still the standard practice for this transition.
 
-In response to this disconnect, designers are often working at least one sprint ahead of engineers. While one sprint might not seem like much of a lag, a typical product team learns a lot afterr the design hand-off.
+In response to this disconnect, designers are often working at least one sprint ahead of engineers. While one sprint might not seem like much of a lag, a typical product team learns a lot after the design hand-off.
 
 {% include image.html src="/images/jit-1.jpg" caption="The traditional process of delivering design" %}
 
