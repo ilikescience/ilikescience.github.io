@@ -57,6 +57,10 @@ I'm a designer at <a href="https://bit.ly" target="_blank">Bitly</a>.</h2>
 **Talks I've given:**
 
 |-|-|
+|<span class="c--gray l--mar-right-s">10/15/18</span> | Tech Inclusion SF |
+|<span class="c--gray l--mar-right-s">09/18/18</span> | Design Driven NYC [(video)](https://www.youtube.com/watch?v=Av8GXFcqOqc) |
+|<span class="c--gray l--mar-right-s">05/27/18</span> | Tech Inclusion NYC |
+|<span class="c--gray l--mar-right-s">08/15/17</span> | Data Storytelling NY |
 |<span class="c--gray l--mar-right-s">11/02/16</span> | Graphical Web 2016: Tiny Data Visualizations [(slides)](slides.com/matthewstrom/tinycharts) |
 |<span class="c--gray l--mar-right-s">10/09/16</span> | OpenCamp 2016: Datum Ipsum [(slides)](http://slides.com/matthewstrom/datumipsum) |
 |<span class="c--gray l--mar-right-s">07/21/16</span> | Brooklyn.JS: WebVR with aframe.js |
