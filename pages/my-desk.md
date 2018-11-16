@@ -29,6 +29,8 @@ Being able to plug and unplug a single cable feels. so. good.
 
 **Mouse** - [Logitech MX Vertical Mouse](https://amzn.to/2ThKUqx){:target="_blank"}. Also in the nutty ergonomic camp, a vertical mouse is a huge upgrade from the torture device that is a traditional mouse. The Logitech version works via Bluetooth or dongle, has a nice clean look, and is generally a great conversation piece.
 
+**Mousepad** - [Ugmonk Leater Mousepad](https://shop.ugmonk.com/products/premium-leather-mousepad-black){:target="_blank"}. I don't really need the mousepad for the mouse to work properly — instead, it serves as a comfy resting spot for my wrist.
+
 **Phone charger** - [Anker Wireless Charger](https://amzn.to/2Thlidj){:target="_blank"}. This was the last piece to the cordless puzzle. While it's not the prettiest thing on my desk, it's so nice to be able to pick up and put down my phone without plugging/unplugging.
 
 **Headphones (not pictured)** - [Urbanears Plattan 2](https://amzn.to/2Tj06nh){:target="_blank"}. I have a long headphone extension cable running from the USB hub, under my desk, to a hook where my headphones live. The Urbanears are a good pair of $40 headphones, but they get a little uncomfortable after a few hours of wear.
