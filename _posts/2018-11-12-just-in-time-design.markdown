@@ -7,7 +7,7 @@ og:
   image: /images/jit-0.jpg
   image_width: 1400 
   image_height: 1050
-updated: 2018-10-17
+updated: 2018-11-12
 ---
 
 {% include image.html src="/images/jit-0.jpg" caption="photo by <a href='https://unsplash.com/photos/dcSLXvvaLXM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText' target='_blank' rel='noopener'>Tools for motivation</a>" %}
@@ -30,7 +30,7 @@ After seeing the final designs:
 - The product team provides feedback and refines metrics and goals.
 - UX research shares insights into user's real-world experience.
 
-To stay one sprint ahead, design can't deliver on this knowledge until the next sprint. It all starts to be reminiscent of the ["Pre-taped Call-in Show](https://www.youtube.com/watch?v=mhVbLJvYP8s){:target="_blank"}" from Mr. Show.
+To stay one sprint ahead, design can't deliver on this knowledge until the next sprint. It all starts to be reminiscent of the ["Pre-taped Call-in Show"](https://www.youtube.com/watch?v=mhVbLJvYP8s){:target="_blank"} from Mr. Show.
 
 Instead of working ahead, we should finish designing as close to the end of a sprint as possible: just-in-time design.
 
