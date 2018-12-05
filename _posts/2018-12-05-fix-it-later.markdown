@@ -16,7 +16,7 @@ I recently read a fantastic essay by [Alexis Lloyd](https://twitter.com/alexisll
 
 This approach — being mindful about the flexible standards of 'ready to ship' — is one I champion. But in many teams, it's met with resignation. Product managers, stakeholders, designers, and engineers are skeptical. The most common response to "We'll fix it later" is "We probably won't."
 
-I have a hard time overcoming these doubt. Why do teams (especially long-tenured ones) bristle at the ship-then-improve approach? Why don't stakeholders believe us when we say that this is the right way to build?
+I have a hard time overcoming these doubts. Why do teams (especially long-tenured ones) bristle at the ship-then-improve approach? Why don't stakeholders believe us when we say that this is the right way to build?
 
 {% include image.html src="/images/fix-0.jpg" caption="A bowl in the wabi-sabi style, celebrating imperfection" %}
 
