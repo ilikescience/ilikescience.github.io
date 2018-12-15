@@ -55,7 +55,7 @@ Another picture from [Adekunle Oduye](https://twitter.com/adekunleoduye){:target
 
 [Julie Horvath](https://twitter.com/nrrrdcore){:target="_blank"} takes this one step further:
 
-> "A design system doesn't exist until it's in production."
+> "A design system doesn't exist until it's in production."[^2]
 
 Ultimately, the users of our applications are the ones who decide whether our design system is a success or a failure. All of the design consistency and developer efficiency in the world doesn't matter if the end product can't keep you employed.
 
@@ -78,3 +78,5 @@ ODB said it best.
 To end on a serious note: design systems often fail to include many of the people who would benefit from them. When working on design systems, thinking about design systems, or writing about design systems, try to expand your understand of who will benefit. Consider the end users first, and figure out the rest as you go.
 
 [^1]: Material design has taken top billing in recent years, but Bootstrap has probably been used by more engineers.
+
+[^2]: <https://twitter.com/keymholio/status/1073051533644890113>
