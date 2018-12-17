@@ -33,4 +33,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
 kramdown:
-  footnote_backlink: ↩&#xFE0E;
+  footnote_backlink: '&#8617;&#xFE0E;'
