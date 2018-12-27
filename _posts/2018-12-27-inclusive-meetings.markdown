@@ -120,7 +120,7 @@ Questions can help you split the difference between being an over-active partici
 
 ### Give feedback
 
-Most people who run bad meetings don’t know they’re bad meetings. Unfortunatlely, those who run bad meetings are also probably not going to ask for feedback. Therefore, if you want to provide suggestions for improvement, you’re in a bit of a bind.
+Most people who run bad meetings don’t know they’re running bad meetings. Unfortunatlely, those who run bad meetings are also probably not going to ask for feedback. Therefore, if you want to provide suggestions for improvement, you’re in a bit of a bind.
 
 If you’d like to encourage a colleague to make their meetings more inclusive, ask them if they have 5 minutes to talk. Then:
 
