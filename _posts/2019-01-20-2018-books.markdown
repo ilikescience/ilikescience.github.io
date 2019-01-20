@@ -4,7 +4,7 @@ categories: writing
 og:
   title: All the books I read in 2018
   description: Mostly historical non-fiction, sci-fi, and pop psychology
-  image: /images/book-cover .png
+  image: /images/book-cover.png
   image_width: 1024 
   image_height: 768
 updated: 2019-01-20
