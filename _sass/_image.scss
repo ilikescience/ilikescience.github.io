@@ -1,0 +1,14 @@
+figure {
+    &.float-left {
+        max-width: 25%;
+        float: left;
+        margin: 0 $l--space-m $l--space-s 0;
+
+        @media (max-width: 1024px) {
+            max-width: 100%;
+            float: none;
+            margin: $l--space-m 0;
+        }
+    }
+}
+
