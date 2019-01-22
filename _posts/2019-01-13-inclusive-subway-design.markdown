@@ -92,7 +92,7 @@ Compare to the address of the Park Hyatt in New York:
 
 This means that the building is one block west of 6th Avenue on 57th Street.
 
-Streets in New York work much line the Tokyo subway stops: 58th Street is north of 57th, 7th Avenue is west of 6th Avenue, and if you know this you can navigate by coordinates without needing to know much else.
+Streets in New York work much like the Tokyo subway stops: 58th Street is north of 57th, 7th Avenue is west of 6th Avenue, and if you know this you can navigate by coordinates without needing to know much else.
 
 This is to say: inclusive design matters at every layer of a system. Whether it's the literal layers of a city's streets and subways, or the figurative layers of software's code and design, inclusion isn't a given. Creators have to make inclusion a deliberate priority in order for users to benefit.
 
