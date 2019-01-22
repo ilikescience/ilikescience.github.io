@@ -101,6 +101,8 @@ pre {
 
 .t--decoration-none { text-decoration: none; }
 
+.t--numbers-tabular { font-feature-settings: 'tnum'; }
+
 @media (max-width: 1024px) {
     .t--size-xxl { font-size: $t--size-xxl * 0.75; }
     .t--size-xl { font-size: $t--size-xl * 0.75; }
