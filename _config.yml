@@ -34,4 +34,3 @@ exclude:
   - Gemfile.lock
 kramdown:
   footnote_backlink: '&#8617;&#xFE0E;'
-  parse_block_html: true
