@@ -3,22 +3,21 @@ title: How to take your team's creative pulse
 categories: writing
 og:
   title: How to take your team's creative pulse
-  description: A short exercise to find creative alignment
+  description: A short exercise to increase creative alignment
   image: /images/book-cover.png
   image_width: 1024 
   image_height: 768
 updated: 2019-01-21
 ---
-
-Here's a scenario that frequently catches me off guard — it might sound familiar to you: I'm preparing for a design review, excited to share my work. I think I've really nailed it. But when I present to my stakeholders, and the response is brief: 
-
 "Could we explore other options?" 
 
-My head spins. I was _sure_ I had everything right. What did I miss?
+If you've been a part of design reviews, you've heard this question.
 
-This stings. It's hard enough to hear a challenging response that you expected; to be caught off-guard is infinitely worse.
+When I hear it, my heart breaks. It tells me that my team is out of alignment. It means that the work I'm sharing isn't meeting everyone's expectations.
 
-I'd like to share a workshop I've designed to prevent these surprises on my own team. Using this format, I recently had 7 teammates share their thoughts on 25 different pieces of design. The results — both quantitative and qualitative — are helping us find the areas we are most aligned on, as well as those we need to find better common ground.
+To prevent . Using this format, I recently had 7 teammates share their thoughts on 25 different pieces of design. The results, both quantitative and qualitative, tell us a lot. We're learning we're we're aligned, andwhere we need to find better common ground.
+
+I hope that this format helps your team avoid the friction of creative imbalance, too.
 
 {% include toc.html %}
 
@@ -26,7 +25,27 @@ I'd like to share a workshop I've designed to prevent these surprises on my own 
 
 ### Decide who should attend
 
+Invite at least five teammates to the workshop. If you feel comfortable as a facilitator, invite as many as ten. Larger groups are less likely to be aligned, but the more participants there are, the more the group will learn.
+
+Be inclusive of all roles and responsibilities. Invite collaborators and colleagues that you interact with every day, regardless of their contributions to the team's creative output.
+
+### Decide what you need to align on
+
+During the exercise, you'll poll the group using a **Likert Scale.** You've probably seen a Likert Scale before: it consists of a statement, followed by a 1-to-5 rating. A 1 means 'I strongly disagree with this statement," a 5 means "I strongly agree with this statement," and 2 to 4 correspond with the degrees between.
+
+Pick one to three statements that address your team's needs. Are you working on a marketing team? Choose statements about the company's brand. A product team? Your statements might be about accessibility, complexity, or usability.
+
+In Bitly's most recent pulse check, we responded to the following statements:
+
+1. I like this image.
+2. This image reflects Bitly's current brand.
+3. This image is what Bitly should look like in the future.
+
 ### Gather your materials
+
+A week before the workshop, ask everyone to send you a few images they like. Here's what I include in my email to participants:
+
+> **What I need from you:** Please send me (don’t reply all!) what you’d like the group to see. Take a screenshot — it can be a picture of software, of a website, a doodle of your own, or just a picture of words you like. The more varied, the better.
 
 #### A note about remote teams
 {:.no_toc}
