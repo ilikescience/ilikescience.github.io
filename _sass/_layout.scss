@@ -114,14 +114,14 @@ $l--space-s: 1rem;
 .l--mar-left-s { margin-left: $l--space-s; }
 
 img {
-    max-width: 100%;
     height: auto;
+    max-width: 100%;
 }
 
 @media (max-width: 1024px) {
     .l--container {
-        max-width: 100%;
         margin: 0;
+        max-width: 100%;
         padding: 0 1rem;
     }
 
@@ -132,29 +132,5 @@ img {
     td {
         display: table-row;
         width: 100%;
-    }
-
-    .table--responsive {
-        thead {
-            display: none;
-        }
-
-        tr {
-            display: block;
-            margin-bottom: 0.5em;
-            padding-bottom: 0.5em;
-            border-bottom: 1px solid $c--gray-lighter;
-        }
-
-        td {
-            display: block;
-            text-align: right;
-        }
-
-        td:before {
-            content: attr(data-label);
-            float: left;
-            color: $c--gray;
-        }
     }
 }

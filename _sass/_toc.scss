@@ -1,0 +1,22 @@
+.toc {
+    background: $c--gray-lightest;
+    padding: $l--space-s 2rem 2rem;
+    margin: $l--space-m 0;
+
+    ol {
+        margin: 0;
+
+        ol {
+            list-style-type: lower-alpha;
+
+            ol {
+                list-style-type: lower-roman;
+            }
+        }
+    }
+
+    a {
+        text-decoration: none;
+        border-bottom: 1px solid $c--gray-light;
+    }
+}

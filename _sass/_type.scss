@@ -196,23 +196,6 @@ pre {
     sup {
         line-height: 1;
     }
-    table {
-        width: 100%;
-        table-layout: auto;
-        margin: 1.5em 0;
-    }
-    thead {
-        border-bottom: 1px solid $c--gray-light;
-    }
-    th {
-        font-weight: $t--weight-normal;
-        color: $c--gray;
-        text-align: left;
-    }
-    td,
-    th {
-        padding: 0;
-    }
 }
 
 .footnote {
