@@ -1,6 +1,8 @@
 ---
 title: Compounding design
-categories: writing
+categories: 
+- writing
+- design
 og:
   title: Compounding design
   description: How to design things that grow
@@ -24,13 +26,13 @@ I think the same concept can be applied to design.
 
 ## What is compounding design?
 
-Compounding design, like compounding knowledge, stays relevant over a long period of time. It might be domain-specific, but it isn't limited to a single application. Compounding design often is more about the process than the results.
+Compounding design, like compounding knowledge, stays relevant over a long period of time. It might be domain-specific, but it isn't limited to a single application. Compounding design often is more about the process than the results. Compounding design benefits both the designer and the audience.
 
 {% include image.html src="/images/compounding-1.png" caption="Extreme programming planning/feedback loops, from Hugh Dubberly's 'How Do You Design?'"%}
 
-[Design principles](/writing/principles) are compounding design. Compounding design creates positive feedback loops, improving design that comes after it. Compounding design benefits both the designer and the audience.
+[Design principles](/writing/principles) are an example compounding design. Design principles create positive feedback loops, improving the design that follows them. The process of writing design principles improves the team that writes them.
 
-Design systems are an example of compounding design. They help designers, engineers, and end users by creating a consistent foundation for rapid iteration and improvement. Well-built and -maintained design systems can influence a product for years, even influencing similar products. [Material Design](https://material.io/), love it or hate it, is a great instance of compounding design.
+Design systems are another example of compounding design. They help designers, engineers, and end users by creating a consistent foundation for rapid iteration and improvement. Well-built and well-maintained design systems can influence a product for years, even influencing similar products. [Material Design](https://material.io/), love it or hate it, is a great example of compounding design.
 
 ## What is expiring design?
 
@@ -38,3 +40,4 @@ Expiring design is immediately useful, but quickly becomes useless. It captures 
 
 You can recognize expiring design by its filename. 'Layout2_revision3_final' is an expiring design.
 
+Expiring design benefits the designer or the audience, but seldom both. Detailed static mockups help a designer communicate with engineers, but don't reflect the dynamic and interactive state of software.
