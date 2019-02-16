@@ -436,7 +436,7 @@ I also like to turn my analysis email into a google doc, so that it is easier to
 
 ## Conclusion
 
-I've run this workshop dozens of times in various iterations with different teams on different projects. It turns a difficult conversation about group dynamics into a simple exercise with a low barrier to entry. Since the workshop itself takes only about 30 minutes, it can easily be run on a regular, reoccuring basis.s
+I've run this workshop dozens of times in various iterations with different teams on different projects. It turns a difficult conversation about group dynamics into a simple exercise with a low barrier to entry. Since the workshop itself takes only about 30 minutes, it can easily be run on a regular, reoccuring basis.
 
 These quick exercises are invaluable. They add up quickly, compounding and supporting overall culture. You can use them to bring together diverse, cross-functional, and broadly-defined teams. 
 
