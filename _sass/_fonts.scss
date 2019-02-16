@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'source serif';
+    src: url('/fonts/SourceSerifVariable-Roman.woff2') format('woff2-variations');
+    font-weight: 200 900;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'source serif';
+    src: url('/fonts/SourceSerifVariable-Italic.woff2') format('woff2-variations');
+    font-weight: 200 900;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'inter';
+    src: url('/fonts/Inter.var.woff2') format('woff2-variations');
+    font-weight: 200 900;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'inter';
+    src: url('/fonts/Inter.var.woff2') format('woff2-variations');
+    font-weight: 200 900;
+    font-style: italic;
+  }
