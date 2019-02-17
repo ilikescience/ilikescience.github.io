@@ -10,15 +10,15 @@ og:
 updated: 2019-02-10
 ---
 
-I recently read [an essay on 'compounding knowledge.'](https://fs.blog/2019/02/compounding-knowledge/). Compounding knowledge creates a snowball effect, one that Warren Buffet has used to become the most successful investor of all time:
+I recently read [an essay on 'compounding knowledge.'](https://fs.blog/2019/02/compounding-knowledge/){:target="_blank"}. Warren Buffet has used compounding knowledge to become the most successful investor of all time:
 
 > While most of us focus on consuming information that we won’t care about next month, let alone next year, Buffett focused on knowledge and companies that change very, very slowly or not at all. 
 
-Compounding knowledge builds on itself, and doesn't become irrelevant over time.
+Compounding knowledge builds on itself, like a snowball rolling downhill. Most importantly, compounding knowledge becomes more useful over time.
 
-The opposite of compounding knowledge is 'expiring knowledge.' Expiring knowledge has three markers:
+The opposite of compounding knowledge is 'expiring knowledge':
 
->  First, it’s marketed to you. Second, lacking details and nuance, it’s easily digestible ... it’s commonly telling you what happened, not why it happened or under what conditions it might happen again. Third, it won’t be relevant in a month or a year.
+>  ...lacking details and nuance, it’s easily digestible ... it’s commonly telling you what happened, not why it happened or under what conditions it might happen again ... it won’t be relevant in a month or a year.
 
 I think the same concept can be applied to design.
 
@@ -28,13 +28,36 @@ Compounding design, like compounding knowledge, stays relevant over a long perio
 
 {% include image.html src="/images/compounding-1.png" caption="Extreme programming planning/feedback loops, from Hugh Dubberly's 'How Do You Design?'"%}
 
-[Design principles](/writing/principles) are compounding design. Compounding design creates positive feedback loops, improving design that comes after it. Compounding design benefits both the designer and the audience.
+[Design principles](/writing/principles){:target="_blank"} are compounding design. Design principles create positive feedback loops, improving design that comes after them. They benefit both the designer (providing constraints to speed up decision-making) and the audience (providing consistency).
 
-Design systems are an example of compounding design. They help designers, engineers, and end users by creating a consistent foundation for rapid iteration and improvement. Well-built and -maintained design systems can influence a product for years, even influencing similar products. [Material Design](https://material.io/), love it or hate it, is a great instance of compounding design.
+Design systems are another example of compounding design. They help designers, engineers, and end users by creating a consistent foundation for rapid iteration and improvement. Well built and carefully maintained design systems can influence a product for years. [Material Design](https://material.io/){:target="_blank"}, love it or hate it, is a great instance of compounding design.
 
 ## What is expiring design?
 
-Expiring design is immediately useful, but quickly becomes useless. It captures the state of a problem at a moment in time. Expiring design, unlike expiring knowledge, is very detailed. It is single-use.
+Expiring design is immediately useful, but quickly loses value. It captures the state of a problem at a precise moment in time. Expiring design, unlike expiring knowledge, is very detailed. It is single-use.
 
 You can recognize expiring design by its filename. 'Layout2_revision3_final' is an expiring design.
 
+{% include image.html src="/images/compounding-2.png" caption="Redlines, by <a href='https://www.behance.net/gallery/53174717/UX-Redline-website-compenents' target='_blank' rel='noopener'>Jazzmenn M</a>"%}
+
+Redline mockups are an example of expiring design. Redlines are used to communicate specifications to a developer. They pack a lot of information into a single piece of design, but they are time and labor intensive. A redline mockup expires every time a change is made.
+
+## The expiring ↔ compounding spectrum
+
+Expiring and compounding design aren't yin and yang. All design falls somewhere on the spectrum. Most design is in the middle.
+
+{% include image.html src="/images/compounding-3.jpg" caption="All of design falls somewhere in this spectrum"%}
+
+Just because a design is compounding instead of expiring doesn't mean it's fundamentally better or more useful. Sometimes it is best to design something you know will be quickly out-of-date.
+
+{% include image.html src="/images/compounding-4.jpg" caption="The value of design changes over time depending on whether it is expiring or compounding"%}
+
+I'll give you and example: redline mockups are expiring design, since they lose their value over time. A tool like [Zeplin](https://zeplin.io/){:target="_blank"}, on the other hand, enables compounding design. Zeplin empowers engineers to get the information they need without a designer creating redline mockups. Zeplin syncs design files automatically, and is always up-to-date.
+
+If you only need to tell a developer the size of one button on one screen, and if the developer is working on the button right now, an redline mockup is the right choice.
+
+If you are planning an upcoming project and know you'll need a tight communication loop between designers and developers around visual specifications, Zeplin is a better fit.
+
+## Know thyself
+
+The key takeaway: all design is somewhere on the expiring ↔ compounding spectrum. [There are advantages to both](https://www.youtube.com/watch?v=nRSYU4YSISA){:target="_blank"}. When making decisions, it's only important to know what kind of design fits your needs. Avoid choosing an expiring design when a compounding one is a better fit, and vice versa.

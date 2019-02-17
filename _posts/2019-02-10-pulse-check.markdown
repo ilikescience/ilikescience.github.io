@@ -200,7 +200,7 @@ Vulnerability doesn’t come after trust — it precedes it. Leaping into the un
 
 A good check-in round establishes a baseline of trust, and enables the kind of candor required to write great design principles.
 
-### Align: 10 miniutes
+### Align: 10 minutes
 
 Now’s the time for the facilitator to give their overview of the desired outcome. The group reviews the rules, asking any process questions. The facilitator should also make sure everyone knows how to use the scorecards.
 
@@ -208,7 +208,7 @@ The goal of this phase is to make sure everybody is working towards the same out
 
 ### React: 20 seconds per image
 
-The facilitator then moves through each image, giving the group 20 seconds to silently vote on each image. It's important to move as quickly as possible. This exercise is meant to be a guage of the group's initial reactions, so the faster they vote the better.
+The facilitator then moves through each image, giving the group 20 seconds to silently vote on each image. It's important to move as quickly as possible. This exercise is meant to be a gauge of the group's initial reactions, so the faster they vote the better.
 
 ### Discuss: 10 minutes
 
@@ -428,7 +428,7 @@ And here's part of the analysis I wrote to accompany the data:
 **We can agree on important things.** We ranked four images very similarly for "this aligns with bitly's brand" and three for "this is what Bitly should be in the future." This means that while we might have different personal tastes, we can align around the Bitly brand.
 </div>
 
-If you're the facilitator, be mindful of bias: try to be as informative as possible without judging the team. Teams that aren't very aligned need as much information as possible to guide them. Teams that are highly aligned need to pay more attention to the details to avoid complacancy.
+If you're the facilitator, be mindful of bias: try to be as informative as possible without judging the team. Teams that aren't very aligned need as much information as possible to guide them. Teams that are highly aligned need to pay more attention to the details to avoid complacency.
 
 I also like to turn my analysis email into a google doc, so that it is easier to find at a later date.
 
@@ -436,7 +436,7 @@ I also like to turn my analysis email into a google doc, so that it is easier to
 
 ## Conclusion
 
-I've run this workshop dozens of times in various iterations with different teams on different projects. It turns a difficult conversation about group dynamics into a simple exercise with a low barrier to entry. Since the workshop itself takes only about 30 minutes, it can easily be run on a regular, reoccuring basis.
+I've run this workshop dozens of times in various iterations with different teams on different projects. It turns a difficult conversation about group dynamics into a simple exercise with a low barrier to entry. Since the workshop itself takes only about 30 minutes, it can easily be run on a regular, reoccurring basis.
 
 These quick exercises are invaluable. They add up quickly, compounding and supporting overall culture. You can use them to bring together diverse, cross-functional, and broadly-defined teams. 
 
