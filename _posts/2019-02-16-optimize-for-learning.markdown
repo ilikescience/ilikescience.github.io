@@ -12,29 +12,23 @@ updated: 2019-02-16
 
 {% include image.html src="/images/learning-0.jpg" %}
 
-I'm a designer. My team expects me to know the right way to design things.
+Modern software development encourages us to build without learning.
 
-But I don’t always know the right way to design things.
+Here's an example: I'm a designer. My team expects me to know the right way to design things. But I don’t always know the right way to design things.
 
-It's hard for me to say “I don’t know the right way to design this.” It makes me vulnerable. It feels bad. So I often say “I know the right way to design this” when I don't know. I make my best guess at the right design.
+It's hard for me to say “I don’t know the right way to design this” because it makes me vulnerable. It feels bad, like I'm saying "I don't know how to do my job." So I often say “I know the right way to design this” when I don't know.
 
-The team builds what I design. The team doesn't know that I'm just guessing. Maybe I was right, maybe I was wrong. The team moves fast, so there wasn't time to discuss the unknowns. There’s nothing to validate or invalidate. Nothing is recorded or reviewed.
+I make my best guess at the right design. The team builds what I design, but they don't know that I'm just guessing. Maybe I was right, maybe I was wrong. We move fast, so there isn't time to discuss the unknowns. There’s nothing to validate or invalidate. Nothing is recorded or reviewed. No new knowledge is gained.
 
-No new knowledge is gained.
-
-Can we do better?
+We build without learning because we are optimizing for speed. What if we reversed this? What if we optimize for learning?
 
 ---
-
-Most software teams are optimizing for something. Most optimize for speed. I still hear “move fast and break things,” despite the fact that Facebook moved fast and broke democracy.
-
-So what if instead of optimizing for speed or quantity or quality, a team optimized for learning?
 
 Here's how we can optimize for learning:
 
 1. If I don’t know the right way to design something, I say “I don’t know the right way to design this.”
 2. My team supports me: we commit to learning the right way to design it.
-3. We identify safe, incremental experiments to reduce the unknowns.
+3. We identify incremental experiments to reduce the unknowns.
 4. We write and validate or invalidate hypotheses as we go.
 5. We regularly record and share what we learn. We grow our knowledge base.
 6. Repeat × ∞
@@ -56,3 +50,7 @@ Optimizing for learning requires embracing unknowns. It forces exploration, and 
 Designers don't have to know the right way to design everything. When we don't know, we should openly commit to learning. Next time you don't know the answer, try this:
 
 “I don’t know. Let’s find out.”
+
+---
+
+Special thanks to [Josh Petersel](http://joshpetersel.com/){:target="_blank"}, [Laura Hahn](https://twitter.com/lauradhahn){:target="_blank"}, and [James Ayres](https://twitter.com/__J_A_M_E_S){:target="_blank"} for their feedback on early versions of this essay.
