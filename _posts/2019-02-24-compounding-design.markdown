@@ -1,13 +1,13 @@
 ---
-title: Compounding design
+title: Compounding design, expiring design
 categories: writing
 og:
-  title: Compounding design
-  description: How to design things that grow
-  image: /images/learning-0.jpg
-  image_width: 1600
-  image_height: 936
-updated: 2019-02-10
+  title: Compounding design, expiring design
+  description: When to design things that grow, when to design things that die
+  image: /images/compounding-4.jpg
+  image_width: 1400
+  image_height: 757
+updated: 2019-02-24
 ---
 
 I recently read [an essay on 'compounding knowledge.'](https://fs.blog/2019/02/compounding-knowledge/){:target="_blank"}. Warren Buffet has used compounding knowledge to become the most successful investor of all time:

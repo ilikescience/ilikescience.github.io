@@ -82,20 +82,20 @@ The rows of the [scorecard template](https://docs.google.com/spreadsheets/d/1bxu
   <thead>
     <tr>
       <th class="table--header-empty" rowspan="2"></th>
-      <th class="t--align-center" colspan="3" scope="colgroup">I1</th>
-      <th class="t--align-center" colspan="3" scope="colgroup">I2</th>
-      <th class="t--align-center" colspan="3" scope="colgroup">I3</th>
+      <th class="t--align-center table--group-start table--group-end" colspan="3" scope="colgroup">I1</th>
+      <th class="t--align-center table--group-start table--group-end" colspan="3" scope="colgroup">I2</th>
+      <th class="t--align-center table--group-start table--group-end" colspan="3" scope="colgroup">I3</th>
     </tr>
     <tr>
-      <th class="t--align-center" scope="col">a</th>
-      <th class="t--align-center" scope="col">b</th>
-      <th class="t--align-center" scope="col">c</th>
-      <th class="t--align-center" scope="col">a</th>
-      <th class="t--align-center" scope="col">b</th>
-      <th class="t--align-center" scope="col">c</th>
-      <th class="t--align-center" scope="col">a</th>
-      <th class="t--align-center" scope="col">b</th>
-      <th class="t--align-center" scope="col">c</th>
+      <th class="t--align-right t--numbers-tabular table--group-start" scope="col">a</th>
+      <th class="t--align-right t--numbers-tabular" scope="col">b</th>
+      <th class="t--align-right t--numbers-tabular table--group-end" scope="col">c</th>
+      <th class="t--align-right t--numbers-tabular table--group-start" scope="col">a</th>
+      <th class="t--align-right t--numbers-tabular" scope="col">b</th>
+      <th class="t--align-right t--numbers-tabular table--group-end" scope="col">c</th>
+      <th class="t--align-right t--numbers-tabular table--group-start" scope="col">a</th>
+      <th class="t--align-right t--numbers-tabular" scope="col">b</th>
+      <th class="t--align-right t--numbers-tabular table--group-end" scope="col">c</th>
     </tr>
   </thead>
   <tbody>
@@ -250,9 +250,9 @@ Here's a few results from Bitly's most recent pulse check. The statements we rat
   <thead>
     <tr>
       <th class="table--header-empty" rowspan="2"></th>
-      <th class="t--align-center" colspan="3" scope="colgroup">I1</th>
-      <th class="t--align-center" colspan="3" scope="colgroup">I2</th>
-      <th class="t--align-center" colspan="3" scope="colgroup">I3</th>
+      <th class="t--align-center table--group-start table--group-end" colspan="3" scope="colgroup">I1</th>
+      <th class="t--align-center table--group-start table--group-end" colspan="3" scope="colgroup">I2</th>
+      <th class="t--align-center table--group-start table--group-end" colspan="3" scope="colgroup">I3</th>
     </tr>
     <tr>
       <th class="t--align-right t--numbers-tabular table--group-start" scope="col">a</th>
