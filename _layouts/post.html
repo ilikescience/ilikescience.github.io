@@ -27,36 +27,45 @@
 
 <body>
     <main class="l--container">
-        <header class="row l--mar-top-m">
-            <p class="l--mar-btm-m">
-                <a class="t--decoration-none" href="/">Matthew Ström</a>
-            </p>
-            <h1 class="t--size-xxl c--gray-darker t--family-serif t--leading-small t--tracking-tight t--weight-bold">
-                {{ page.title }}
-            </h1>
-            {% if page.categories contains 'writing' %}
-                <p class="l--mar-top-s c--gray">Originally published {{ page.date | date: '%B %d, %Y'}}</p>
-            {% endif %}
-            {% if page.translations %}
-                <p class="c--gray">Translations for this page:&nbsp;
-                {% for translation in page.translations %}
-                    {% if page.categories contains 'translations' %}
-                        {% assign title = path[3] | split: '-' %}
-                        <span class="l--mar-r-sm">
-                            {% if translation == 'en' %}
-                                <a href="/{{path[1]}}/{{title[0]}}">{{translation}}</a>&nbsp;
-                            {% else %}
-                                <a href="/{{path[1]}}/translations/{{title[0]}}-{{translation}}">{{translation}}</a>&nbsp;
-                            {% endif %}
-                        </span>
-                    {% else %}
-                        <span>
-                            <a href="/{{path[1]}}/translations/{{path[2]}}-{{translation}}">{{translation}}</a>&nbsp;
-                        </span>
-                    {% endif %}
-                {% endfor %}
-                </p>
-            {% endif %}
+        <header class="l--mar-top-m">
+            <div class="l--row l--pad-none l--mar-btm-m">
+                <div class="l--col-auto l--mar-none">
+                    <a class="t--decoration-none" href="/">Matthew Ström</a>
+                </div>
+                <div class="l--col-auto t--align-right c--gray">
+                    <a href="/feed">RSS Feed</a>
+                </div>
+            </div>
+            <div class="row l--pad-none">
+                <div class="l--col-auto l--mar-none">
+                <h1 class="t--size-xl c--gray-darker t--family-serif t--leading-small t--tracking-tight t--weight-bold">
+                    {{ page.title }}
+                </h1>
+                {% if page.categories contains 'writing' %}
+                    <p class="l--mar-top-s c--gray">Originally published {{ page.date | date: '%B %d, %Y'}}</p>
+                {% endif %}
+                {% if page.translations %}
+                    <p class="c--gray">Translations for this page:&nbsp;
+                    {% for translation in page.translations %}
+                        {% if page.categories contains 'translations' %}
+                            {% assign title = path[3] | split: '-' %}
+                            <span class="l--mar-r-sm">
+                                {% if translation == 'en' %}
+                                    <a href="/{{path[1]}}/{{title[0]}}">{{translation}}</a>&nbsp;
+                                {% else %}
+                                    <a href="/{{path[1]}}/translations/{{title[0]}}-{{translation}}">{{translation}}</a>&nbsp;
+                                {% endif %}
+                            </span>
+                        {% else %}
+                            <span>
+                                <a href="/{{path[1]}}/translations/{{path[2]}}-{{translation}}">{{translation}}</a>&nbsp;
+                            </span>
+                        {% endif %}
+                    {% endfor %}
+                    </p>
+                {% endif %}
+                </div>
+            </div>
         </header>
         <div class="l--mar-top-s l--mar-btm-s">〰</div>
         <article class="post row l--mar-btm-l">

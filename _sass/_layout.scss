@@ -1,5 +1,5 @@
 /* Grid configuration */
-$l--grid-width: 43rem;
+$l--grid-width: 41rem;
 $l--gutter: 2%;
 
 /* Border radius */
@@ -29,7 +29,7 @@ $l--space-s: 1rem;
 }
 
 @mixin container {
-    margin: 0 $l--space-l;
+    margin: 0 auto;
     max-width: $l--grid-width;
     width: 100%;
 }
@@ -76,6 +76,7 @@ $l--space-s: 1rem;
 .l--pad-l { padding: $l--space-l; }
 .l--pad-m { padding: $l--space-m; }
 .l--pad-s { padding: $l--space-s; }
+.l--pad-none { padding: 0; }
 
 .l--pad-top-l { padding-top: $l--space-l; }
 .l--pad-top-m { padding-top: $l--space-m; }
@@ -96,6 +97,7 @@ $l--space-s: 1rem;
 .l--mar-l { margin: $l--space-l; }
 .l--mar-m { margin: $l--space-m; }
 .l--mar-s { margin: $l--space-s; }
+.l--mar-none { margin: 0; }
 
 .l--mar-top-l { margin-top: $l--space-l; }
 .l--mar-top-m { margin-top: $l--space-m; }
