@@ -3,10 +3,10 @@
 ---
 
 <header class="l--mar-btm-m h-card">
-<h1 class="t--size-xxl t--family-serif t--leading-small t--tracking-tight t--weight-bold">
+<h1 class="t--size-xl t--family-serif t--leading-small t--tracking-tight t--weight-bold">
 Hi, my name is <a href="https://matthewstrom.com" class="u-url" rel="me">Matthew Ström</a>.
 </h1>
-<h2 class="t--size-xl t--tracking-tight t--family-serif">
+<h2 class="t--size-l t--tracking-tight t--family-serif">
 I'm a designer at <a href="https://bit.ly" target="_blank">Bitly</a>.</h2>
 
 <div class="l--mar-top-s">
@@ -35,7 +35,7 @@ I'm a designer at <a href="https://bit.ly" target="_blank">Bitly</a>.</h2>
 **Things I've written:**
 {% assign posts = site.posts | where: "categories", "writing" %}
 
-<table>
+<table class="posts-table">
     {% for post in posts %}
         {% if post.categories contains "translations" %}
         {% else if %}
