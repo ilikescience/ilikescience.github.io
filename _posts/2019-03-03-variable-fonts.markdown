@@ -135,7 +135,7 @@ With the new subset fonts, my numbers were looking much better:
   </tbody>
 </table>
 
-Fanstastic! The upsides were fantastic:
+Fanstastic! The upsides were great:
 
 - **1 new font**, Inter (previously I was relying on system fonts for sans serif)
 - Access to the **full spectrum of font weights** (previously I only had regular and bold)
@@ -175,7 +175,59 @@ My question was almost immediately answered by the creator of Inter, [Rasmus And
 
 <blockquote class="twitter-tweet" data-conversation="none" data-dnt="true"><p lang="en" dir="ltr">Unless you need the intermediate italic grades, I’d recommend using the single-axis version of Inter. Should speed up your page loads in common cases as well (ie when no text is italic.)</p>&mdash; Rasmus Andersson (@rsms) <a href="https://twitter.com/rsms/status/1102267548530176000?ref_src=twsrc%5Etfw">March 3, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> <br/>
 
-And that's exactly what I did: I replaced the single Inter font file with two files: one for the italic variant and one for the normal variant. As predicted, this fixed the bug. Hooray! I'll post the performance metrics of this new approach once this update makes it to the edge cache.
+And that's exactly what I did: I replaced the single Inter font file with two files: one for the italic variant and one for the normal variant. As predicted, this fixed the bug. Hooray! Here's the performance breakdown on a page that uses the same fonts as before (ie no italic sans-serif):
+
+<table class="table--responsive l--mar-top-m l--mar-btm-m">
+  <colgroup></colgroup>
+  <colgroup span="5"></colgroup>
+  <thead>
+    <tr>
+      <th class="table--header-empty"></th>
+      <th class="t--align-right table--group-start">First Byte</th>
+      <th class="t--align-right">Start Render</th>
+      <th class="t--align-right">Requests</th>
+      <th class="t--align-right">Bytes In</th>
+      <th class="t--align-right table--group-end">Speed Index</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Typekit</th>
+      <td data-label="First Byte" class="t--align-right t--numbers-tabular table--group-start">0.21s</td>
+      <td data-label="Start Render" class="t--align-right t--numbers-tabular">0.80s</td>
+      <td data-label="Requests" class="t--align-right t--numbers-tabular">8</td>
+      <td data-label="Bytes In" class="t--align-right t--numbers-tabular">80 KB</td>
+      <td data-label="Speed Index" class="t--align-right t--numbers-tabular table--group-end">0.82s</td>
+    </tr>
+    <tr>
+      <th scope="row">Variable (subset)</th>
+      <td data-label="First Byte" class="t--align-right t--numbers-tabular table--group-start">0.21s</td>
+      <td data-label="Start Render" class="t--align-right t--numbers-tabular">
+        <span class="c--green t--size-s">(-0.2) </span>0.60s</td>
+      <td data-label="Requests" class="t--align-right t--numbers-tabular">
+        <span class="c--green  t--size-s">(-2) </span>6</td>
+      <td data-label="Bytes In" class="t--align-right t--numbers-tabular">
+        <span class="c--red  t--size-s">(+82) </span>162 KB</td>
+      <td data-label="Speed Index" class="t--align-right t--numbers-tabular table--group-end">
+        <span class="c--green  t--size-s">(-0.17) </span>0.65s</td>
+    </tr>
+     <tr>
+      <th scope="row">Variable (single-axis)</th>
+      <td data-label="First Byte" class="t--align-right t--numbers-tabular table--group-start">0.20s</td>
+      <td data-label="Start Render" class="t--align-right t--numbers-tabular">
+        <span class="c--green t--size-s">(-0.2) </span>0.60s</td>
+      <td data-label="Requests" class="t--align-right t--numbers-tabular">
+        <span class="c--green  t--size-s">(-2) </span>6</td>
+      <td data-label="Bytes In" class="t--align-right t--numbers-tabular">
+        <span class="c--red  t--size-s">(+97) </span>179 KB</td>
+      <td data-label="Speed Index" class="t--align-right t--numbers-tabular table--group-end">
+        <span class="c--green  t--size-s">(-0.22) </span>0.60s</td>
+    </tr>
+  </tbody>
+</table>
+
+I'm loading even more data than with the single-axis font (why? I honestly have no idea), but see a net decrease in speed index due to faster rendering. I'll be exploring this in more detail in the future, but for now, it's a great start.
+
 
 [^1]: To say that variable fonts are new is slightly misleading. The concept of variable fonts has been around since the [1970's](https://eyeondesign.aiga.org/parametric-and-variable-typeface-systems-shape-shifters-for-letterforms/), and the technology to implement variable fonts on the web is [at least three years old](https://medium.com/variable-fonts/https-medium-com-tiro-introducing-opentype-variable-fonts-12ba6cd2369). Until recently, browsers have been slow to support variable fonts. As of February 2019, however, [79% of internet users](https://caniuse.com/#search=variable%20fonts) benefit from websitses that use variable fonts.
 
