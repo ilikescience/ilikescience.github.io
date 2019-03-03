@@ -161,6 +161,10 @@ Next time you're booting up a project, give variable fonts a try.
 
 Astute readers will note that I chose not to implement fallback fonts for older browsers. The reason for this is twofold: first, I'm lazy. I wanted to ship this update without getting in the weeds. Second, I don't care if my site doesn't look identical in all browsers ever. I am confident that it'll look good in whatever fonts match my detailed [system font stacks](https://gist.github.com/don1138/5761014).
 
+#### One weird bug
+
+If you're reading this in Safari, you've probably noticed that all the sans-serif type is italic. I have no idea why this is happening. Do you have any ideas? [Say hi on twitter](https://twitter.com/ilikescience).
+
 
 [^1]: To say that variable fonts are new is slightly misleading. The concept of variable fonts has been around since the [1970's](https://eyeondesign.aiga.org/parametric-and-variable-typeface-systems-shape-shifters-for-letterforms/), and the technology to implement variable fonts on the web is [at least three years old](https://medium.com/variable-fonts/https-medium-com-tiro-introducing-opentype-variable-fonts-12ba6cd2369). Until recently, browsers have been slow to support variable fonts. As of February 2019, however, [79% of internet users](https://caniuse.com/#search=variable%20fonts) benefit from websitses that use variable fonts.
 
