@@ -161,10 +161,21 @@ Next time you're booting up a project, give variable fonts a try.
 
 Astute readers will note that I chose not to implement fallback fonts for older browsers. The reason for this is twofold: first, I'm lazy. I wanted to ship this update without getting in the weeds. Second, I don't care if my site doesn't look identical in all browsers ever. I am confident that it'll look good in whatever fonts match my detailed [system font stacks](https://gist.github.com/don1138/5761014).
 
-#### One weird bug
+---
 
-If you're reading this in Safari, you've probably noticed that all the sans-serif type is italic. I have no idea why this is happening. Do you have any ideas? [Say hi on twitter](https://twitter.com/ilikescience).
+## Update: Safari 12 bug
 
+When I originall published this post, I was experiencing a weird bug: in Safari, all instances of Inter were rendering in italic. No matter what I did, I couldn't force Safari to use the normal (upright) version of Inter. I reached out for help:
+
+<blockquote class="twitter-tweet" data-conversation="none" data-dnt="true"><p lang="en" dir="ltr">For some strange reason, Inter shows up in italic on Safari, despite specifying `font-style: normal` in the font-face declaration. Any ideas why? <a href="https://twitter.com/rsms?ref_src=twsrc%5Etfw">@rsms</a> (2/2)</p>&mdash; Matthew Ström (@ilikescience) <a href="https://twitter.com/ilikescience/status/1102259490576052225?ref_src=twsrc%5Etfw">March 3, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br/>
+
+My question was almost immediately answered by the creator of Inter, [Rasmus Andersson](https://rsms.me/):
+
+<blockquote class="twitter-tweet" data-conversation="none" data-dnt="true"><p lang="en" dir="ltr">This is a known bug in Safari with variable fonts. You either need to use the single-axis variable fonts with Safari, or explicitly set the “slnt” axis position to 0 for :root and 1 for em, i, etc.</p>&mdash; Rasmus Andersson (@rsms) <a href="https://twitter.com/rsms/status/1102265361360052224?ref_src=twsrc%5Etfw">March 3, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-conversation="none" data-dnt="true"><p lang="en" dir="ltr">Unless you need the intermediate italic grades, I’d recommend using the single-axis version of Inter. Should speed up your page loads in common cases as well (ie when no text is italic.)</p>&mdash; Rasmus Andersson (@rsms) <a href="https://twitter.com/rsms/status/1102267548530176000?ref_src=twsrc%5Etfw">March 3, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> <br/>
+
+And that's exactly what I did: I replaced the single Inter font file with two files: one for the italic variant and one for the normal variant. As predicted, this fixed the bug. Hooray! I'll post the performance metrics of this new approach once this update makes it to the edge cache.
 
 [^1]: To say that variable fonts are new is slightly misleading. The concept of variable fonts has been around since the [1970's](https://eyeondesign.aiga.org/parametric-and-variable-typeface-systems-shape-shifters-for-letterforms/), and the technology to implement variable fonts on the web is [at least three years old](https://medium.com/variable-fonts/https-medium-com-tiro-introducing-opentype-variable-fonts-12ba6cd2369). Until recently, browsers have been slow to support variable fonts. As of February 2019, however, [79% of internet users](https://caniuse.com/#search=variable%20fonts) benefit from websitses that use variable fonts.
 
