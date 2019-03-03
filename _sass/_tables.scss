@@ -97,7 +97,17 @@ th {
     text-align: left;
 }
 
+.posts-table {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
 @media (max-width: 1024px) {
+    .posts-table {
+        white-space: normal;
+        text-overflow: initial;
+    }
+
     .table--responsive {
         thead {
             display: none;
@@ -180,10 +190,4 @@ th {
             }
         }
     }
-}
-
-.posts-table {
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
 }
