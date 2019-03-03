@@ -12,9 +12,17 @@
     font-style: italic;
   }
 
-  @font-face {
+@font-face {
     font-family: 'inter';
-    src: url('/fonts/Inter.var.woff2') format('woff2-variations');
-    font-weight: 200 900;
+    font-weight: 100 900;
     font-style: normal;
+    font-named-instance: 'Regular';
+    src: url('/fonts/Inter-upright.woff2?v=3.3') format('woff2');
+  }
+@font-face {
+    font-family: 'inter';
+    font-weight: 100 900;
+    font-style: italic;
+    font-named-instance: 'Italic';
+    src: url('/fonts/Inter-italic.woff2?v=3.3') format('woff2');
   }
