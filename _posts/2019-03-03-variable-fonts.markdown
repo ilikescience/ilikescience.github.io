@@ -3,7 +3,7 @@ title: Switching to variable fonts
 categories: writing
 og:
   title: Switching to variable fonts
-  description: Pros, Ccns, and lessons learned along the way
+  description: Pros, Cons, and lessons learned along the way
   image: /images/variable-1.gif
   image_width: 800
   image_height: 424
