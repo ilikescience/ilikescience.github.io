@@ -20,17 +20,13 @@ I'm a design lead at <a href="https://bit.ly" target="_blank">Bitly</a>.</h2>
 </div>
 </header>
 
-〰
-
-**Other products I've worked on:**
+**Products I've worked on:**
 
 [WSJ.com](https://wsj.com), one of the world's most trusted news sources.  
 [SoundCloud Go](https://soundcloud.com/go), SoundCloud's premium subscription offering.  
 [Spacetime](/projects/spacetime), an app for remote teams.  
 [Argos](/projects/argos), a content marketing analytics platform.  
 [SAP Fiori](/projects/sap), software powering large-scale commercial operations.  
-	
-〰
 
 **Things I've written:**
 {% assign posts = site.posts | where: "categories", "writing" %}
@@ -52,8 +48,6 @@ I'm a design lead at <a href="https://bit.ly" target="_blank">Bitly</a>.</h2>
     {% endfor %}
 </table>
 
-〰
-
 **Talks I've given:**
 
 |-|-|
@@ -67,15 +61,11 @@ I'm a design lead at <a href="https://bit.ly" target="_blank">Bitly</a>.</h2>
 |<span class="c--gray l--mar-right-s t--numbers-tabular">01/25/16</span> | D3.js NYC: Tiny Data visualizations [(video)](https://www.youtube.com/watch?v=Gtlb8VIszrU) |
 |<span class="c--gray l--mar-right-s t--numbers-tabular">04/18/13</span> | Pecha Kucha: The Creatives Must Be Crazy [(video)](https://www.youtube.com/watch?v=xpb_0Tadu6g) |
 
-〰
-
 **Companies I've started:**
 
 [Eleven](/companies/eleven), a free monthly music magazine.<br/>
 [CTY](/companies/cty), a civic technology company.<br/>
 [Planetary](https://planetary.io), a digital product development agency.<br/>
-
-~
 
 **Side projects I maintain:**
 
