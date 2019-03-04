@@ -92,7 +92,7 @@ My initial attempt at including a variable version of Source Serif, along with i
 
 Looking into this, I realized that the variable font files were huge: Inter weighs in at 387kb, making up most of the difference. What happened? I thought variable fonts were supposed to be small?
 
-It turns out that the variable font files I was using include a _massive_ amoount of characters: Diacritics for many languages, Cyrillic characters, Greek characters, and so on. I didn't need most of those; I write in english, and system fonts can support automatic translations.
+It turns out that the variable font files I was using include a _massive_ amount of characters: Diacritics for many languages, Cyrillic characters, Greek characters, and so on. I didn't need most of those; I write in english, and system fonts can support automatic translations.
 
 So I used a tool called [glyphhanger](https://github.com/filamentgroup/glyphhanger) to subset my fonts to just latin characters, removing most of the characters I wouldn't need. In the case of Inter, this resulted in a 300kb reduction — that's a *78% reduction.*
 
