@@ -165,7 +165,7 @@ Astute readers will note that I chose not to implement fallback fonts for older 
 
 ## Update: Safari 12 bug
 
-When I originaly published this post, I was experiencing a weird bug: in Safari, all instances of Inter were rendering in italic. No matter what I did, I couldn't force Safari to use the normal (upright) version of Inter. I reached out for help:
+When I originally published this post, I was experiencing a weird bug: in Safari, all instances of Inter were rendering in italic. No matter what I did, I couldn't force Safari to use the normal (upright) version of Inter. I reached out for help:
 
 <blockquote class="twitter-tweet" data-conversation="none" data-dnt="true"><p lang="en" dir="ltr">For some strange reason, Inter shows up in italic on Safari, despite specifying `font-style: normal` in the font-face declaration. Any ideas why? <a href="https://twitter.com/rsms?ref_src=twsrc%5Etfw">@rsms</a> (2/2)</p>&mdash; Matthew Ström (@ilikescience) <a href="https://twitter.com/ilikescience/status/1102259490576052225?ref_src=twsrc%5Etfw">March 3, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br/>
 
